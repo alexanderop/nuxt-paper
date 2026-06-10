@@ -1,4 +1,8 @@
 import tailwindcss from "@tailwindcss/vite";
+import { joinURL } from "ufo";
+
+// e.g. "/nuxt-paper/" when deploying to GitHub Pages project sites
+const baseURL = process.env.NUXT_APP_BASE_URL || "/";
 
 // Inline FOUC-prevention script: sets data-theme on <html> before the
 // browser paints. Mirrors AstroPaper's inline theme script.
@@ -41,13 +45,17 @@ export default defineNuxtConfig({
         class: "overflow-y-scroll scroll-smooth",
       },
       link: [
-        { rel: "icon", type: "image/svg+xml", href: "/favicon.svg" },
-        { rel: "sitemap", href: "/sitemap.xml" },
+        {
+          rel: "icon",
+          type: "image/svg+xml",
+          href: joinURL(baseURL, "favicon.svg"),
+        },
+        { rel: "sitemap", href: joinURL(baseURL, "sitemap.xml") },
         {
           rel: "alternate",
           type: "application/rss+xml",
           title: "NuxtPaper",
-          href: "/rss.xml",
+          href: joinURL(baseURL, "rss.xml"),
         },
       ],
       meta: [{ name: "theme-color", content: "" }],

@@ -27,6 +27,7 @@
     "nuxt": "^4.0.3",
     "rehype-callouts": "^2.1.2",
     "remark-toc": "^9.0.0",
-    "tailwindcss": "^4.1.11"
+    "tailwindcss": "^4.1.11",
+    "ufo": "^1.6.4"
   }
 }

@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://nuxt-paper.example.com/sitemap.xml
+Sitemap: https://alexanderop.github.io/nuxt-paper/sitemap.xml

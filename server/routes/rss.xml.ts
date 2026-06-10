@@ -1,4 +1,5 @@
 import { queryCollection } from "@nuxt/content/server";
+import { joinURL } from "ufo";
 
 function escapeXml(value: string) {
   return value
@@ -24,7 +25,7 @@ export default defineEventHandler(async event => {
 
   const items = visible
     .map(post => {
-      const url = new URL(post.path, SITE.url).href;
+      const url = joinURL(SITE.url, post.path);
       return `    <item>
       <title>${escapeXml(post.title)}</title>
       <link>${url}</link>

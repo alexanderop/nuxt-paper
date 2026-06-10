@@ -1,5 +1,9 @@
 <script setup lang="ts">
+import { joinURL } from "ufo";
+
 usePageSeo();
+
+const rssHref = joinURL(useRuntimeConfig().app.baseURL, "rss.xml");
 
 const { data: posts } = await useAllPosts();
 
@@ -21,7 +25,7 @@ onMounted(() => {
         </h1>
         <a
           target="_blank"
-          href="/rss.xml"
+          :href="rssHref"
           class="inline-block"
           aria-label="RSS Feed"
           title="RSS Feed"

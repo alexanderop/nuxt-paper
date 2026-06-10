@@ -1,5 +1,5 @@
 export const SITE = {
-  url: "https://nuxt-paper.example.com",
+  url: "https://alexanderop.github.io/nuxt-paper",
   title: "NuxtPaper",
   description:
     "A minimal, responsive and SEO-friendly blog theme — AstroPaper ported to Nuxt 4 and Nuxt Content.",

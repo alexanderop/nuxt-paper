@@ -1,4 +1,5 @@
 import { queryCollection } from "@nuxt/content/server";
+import { joinURL } from "ufo";
 
 export default defineEventHandler(async event => {
   const posts = await queryCollection(event, "posts")
@@ -37,7 +38,7 @@ export default defineEventHandler(async event => {
   const body = urls
     .map(
       url => `  <url>
-    <loc>${new URL(url.path, SITE.url).href}</loc>${
+    <loc>${joinURL(SITE.url, url.path)}</loc>${
       "lastmod" in url && url.lastmod ? `\n    <lastmod>${url.lastmod}</lastmod>` : ""
     }
   </url>`

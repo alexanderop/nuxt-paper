@@ -1,3 +1,5 @@
+import { joinURL } from "ufo";
+
 interface PageSeoOptions {
   title?: string;
   description?: string;
@@ -14,10 +16,8 @@ export function usePageSeo(options: PageSeoOptions = {}) {
 
   const title = options.title ?? SITE.title;
   const description = options.description ?? SITE.description;
-  const canonicalURL =
-    options.canonicalURL ?? new URL(route.path, SITE.url).href;
-  const socialImageURL = new URL(options.ogImage ?? SITE.ogImage, SITE.url)
-    .href;
+  const canonicalURL = options.canonicalURL ?? joinURL(SITE.url, route.path);
+  const socialImageURL = joinURL(SITE.url, options.ogImage ?? SITE.ogImage);
 
   useHead({
     title,

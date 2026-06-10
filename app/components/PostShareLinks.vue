@@ -1,5 +1,7 @@
 <script setup lang="ts">
-const pageUrl = computed(() => new URL(useRoute().path, SITE.url).href);
+import { joinURL } from "ufo";
+
+const pageUrl = computed(() => joinURL(SITE.url, useRoute().path));
 
 const platformLabel = (name: string) =>
   name.charAt(0).toUpperCase() + name.slice(1);

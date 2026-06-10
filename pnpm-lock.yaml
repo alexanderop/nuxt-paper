@@ -41,6 +41,9 @@ importers:
       tailwindcss:
         specifier: ^4.1.11
         version: 4.3.0
+      ufo:
+        specifier: ^1.6.4
+        version: 1.6.4
 
 packages:
 
