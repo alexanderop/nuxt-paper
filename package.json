@@ -4,6 +4,7 @@
   "description": "A port of the AstroPaper blog theme to Nuxt 4 and Nuxt Content",
   "private": true,
   "type": "module",
+  "packageManager": "pnpm@10.28.2",
   "pnpm": {
     "onlyBuiltDependencies": [
       "better-sqlite3"
