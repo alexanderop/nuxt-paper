@@ -1,0 +1,94 @@
+import tailwindcss from "@tailwindcss/vite";
+
+// Inline FOUC-prevention script: sets data-theme on <html> before the
+// browser paints. Mirrors AstroPaper's inline theme script.
+const themeInitScript = `
+(function () {
+  const stored = localStorage.getItem("theme");
+  const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+  const theme = stored ?? (prefersDark ? "dark" : "light");
+  const root = document.documentElement;
+  root.setAttribute("data-theme", theme);
+  root.classList.toggle("dark", theme === "dark");
+})();
+`;
+
+export default defineNuxtConfig({
+  compatibilityDate: "2026-06-10",
+  devtools: { enabled: true },
+  modules: ["@nuxt/content", "@nuxt/fonts"],
+
+  css: ["~/assets/css/global.css"],
+
+  vite: {
+    plugins: [tailwindcss()],
+  },
+
+  components: [
+    { path: "~/components/content", pathPrefix: false, global: true },
+    { path: "~/components", pathPrefix: false },
+  ],
+
+  experimental: {
+    viewTransition: true,
+  },
+
+  app: {
+    head: {
+      htmlAttrs: {
+        lang: "en",
+        dir: "ltr",
+        class: "overflow-y-scroll scroll-smooth",
+      },
+      link: [
+        { rel: "icon", type: "image/svg+xml", href: "/favicon.svg" },
+        { rel: "sitemap", href: "/sitemap.xml" },
+        {
+          rel: "alternate",
+          type: "application/rss+xml",
+          title: "NuxtPaper",
+          href: "/rss.xml",
+        },
+      ],
+      meta: [{ name: "theme-color", content: "" }],
+      script: [{ innerHTML: themeInitScript }],
+    },
+  },
+
+  fonts: {
+    families: [
+      {
+        name: "Google Sans Code",
+        provider: "google",
+        weights: [300, 400, 500, 600, 700],
+        styles: ["normal", "italic"],
+        global: true,
+      },
+    ],
+  },
+
+  content: {
+    build: {
+      markdown: {
+        remarkPlugins: {
+          "remark-toc": {},
+        },
+        rehypePlugins: {
+          "rehype-callouts": { options: { theme: "obsidian" } },
+        },
+        highlight: {
+          theme: {
+            default: "min-light",
+            dark: "night-owl",
+          },
+        },
+      },
+    },
+  },
+
+  nitro: {
+    prerender: {
+      routes: ["/rss.xml", "/sitemap.xml"],
+    },
+  },
+});
