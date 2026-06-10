@@ -3,14 +3,6 @@ defineProps<{
   pageTitle: string;
   pageDesc?: string;
 }>();
-
-const route = useRoute();
-
-// Remember the current list URL so post detail pages can offer "Go back".
-onMounted(() => {
-  const backUrl = FEATURES.showBackButton ? route.fullPath : "/";
-  sessionStorage.setItem("backUrl", backUrl);
-});
 </script>
 
 <template>

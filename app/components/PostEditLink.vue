@@ -1,18 +1,22 @@
 <script setup lang="ts">
 const props = defineProps<{
-  hideEditPost?: boolean;
-  /** Path of the source file relative to the content directory */
-  filePath?: string;
+  post: {
+    /** id looks like "posts/posts/my-post.md" (collection/source path) */
+    id: string;
+    hideEditPost?: boolean;
+  };
 }>();
 
+const filePath = computed(
+  () => `content/${props.post.id.split("/").slice(1).join("/")}`
+);
+
 const href = computed(() =>
-  FEATURES.editPost.enabled && props.filePath
-    ? `${FEATURES.editPost.url}${props.filePath}`
-    : ""
+  FEATURES.editPost.enabled ? `${FEATURES.editPost.url}${filePath.value}` : ""
 );
 
 const showEditPost = computed(
-  () => FEATURES.editPost.enabled && !props.hideEditPost && href.value !== ""
+  () => FEATURES.editPost.enabled && !props.post.hideEditPost && href.value !== ""
 );
 </script>
 

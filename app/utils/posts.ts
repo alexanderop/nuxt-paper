@@ -53,7 +53,7 @@ export function postFilter(post: Pick<PostItem, "draft" | "pubDatetime">) {
 export function getSortedPosts<T extends PostItem>(posts: T[]): T[] {
   return posts
     .filter(postFilter)
-    .sort(
+    .toSorted(
       (a, b) =>
         Math.floor(new Date(b.modDatetime ?? b.pubDatetime).getTime() / 1000) -
         Math.floor(new Date(a.modDatetime ?? a.pubDatetime).getTime() / 1000)
@@ -73,7 +73,7 @@ export function getUniqueTags(posts: PostItem[]): TagItem[] {
       (value, index, self) =>
         self.findIndex(tag => tag.tag === value.tag) === index
     )
-    .sort((tagA, tagB) => tagA.tag.localeCompare(tagB.tag));
+    .toSorted((tagA, tagB) => tagA.tag.localeCompare(tagB.tag));
 }
 
 /**

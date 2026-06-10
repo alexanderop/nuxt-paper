@@ -3,17 +3,15 @@ import { joinURL } from "ufo";
 
 const pageUrl = computed(() => joinURL(SITE.url, useRoute().path));
 
-const platformLabel = (name: string) =>
-  name.charAt(0).toUpperCase() + name.slice(1);
-
-const items = SHARE_LINKS.map(({ name, url, linkTitle }) => {
-  const title =
+const items = SHARE_LINKS.map(({ name, url, linkTitle }) => ({
+  name,
+  url,
+  title:
     linkTitle ??
     (name === "mail"
       ? t.post.sharePostViaEmail
-      : tplStr(t.post.sharePostOn, { platform: platformLabel(name) }));
-  return { name, url, title };
-});
+      : tplStr(t.post.sharePostOn, { platform: platformLabel(name) })),
+}));
 </script>
 
 <template>
@@ -23,21 +21,16 @@ const items = SHARE_LINKS.map(({ name, url, linkTitle }) => {
   >
     <span class="italic">{{ t.post.sharePostIntro }}</span>
     <div class="text-center">
-      <LinkButton
+      <SocialIconLink
         v-for="{ name, url, title } in items"
         :key="name"
+        :name="name"
         :href="`${url}${pageUrl}`"
-        class="scale-90 p-2 hover:rotate-6 sm:p-1"
         :title="title"
+        class="scale-90"
         target="_blank"
         rel="noopener noreferrer"
-      >
-        <SocialIcon
-          :name="name"
-          class="inline-block size-6 scale-125 fill-transparent stroke-current stroke-2 opacity-90 group-hover:fill-transparent sm:scale-110"
-        />
-        <span class="sr-only">{{ title }}</span>
-      </LinkButton>
+      />
     </div>
   </div>
 </template>

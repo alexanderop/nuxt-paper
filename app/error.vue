@@ -14,9 +14,7 @@ useHead({
 </script>
 
 <template>
-  <div class="flex min-h-svh flex-col">
-    <AppHeader />
-
+  <NuxtLayout>
     <main
       id="main-content"
       class="app-layout flex flex-1 items-center justify-center"
@@ -35,7 +33,5 @@ useHead({
         </LinkButton>
       </div>
     </main>
-
-    <AppFooter />
-  </div>
+  </NuxtLayout>
 </template>

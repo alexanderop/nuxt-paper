@@ -1,4 +1,4 @@
-type Theme = "light" | "dark";
+export type Theme = "light" | "dark";
 
 const THEME_KEY = "theme";
 
@@ -17,10 +17,6 @@ function reflect(value: Theme) {
 
 export function useTheme() {
   const theme = useState<Theme>("theme", () => "light");
-
-  if (import.meta.client) {
-    theme.value = (document.documentElement.dataset.theme as Theme) ?? "light";
-  }
 
   function apply(value: Theme, persist = true) {
     theme.value = value;

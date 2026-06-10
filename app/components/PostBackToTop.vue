@@ -1,46 +1,23 @@
 <script setup lang="ts">
-const container = ref<HTMLElement | null>(null);
-const progressIndicator = ref<HTMLElement | null>(null);
-const visible = ref(false);
+const { progress } = useScrollProgress();
+
+const visible = computed(() => progress.value > 30);
+
+const progressStyle = computed(() => {
+  const percent = Math.floor(progress.value);
+  return {
+    backgroundImage: `conic-gradient(var(--accent), var(--accent) ${percent}%, transparent ${percent}%)`,
+  };
+});
 
 function scrollToTop() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
-
-let ticking = false;
-
-function handleScroll() {
-  const rootElement = document.documentElement;
-  const scrollTotal = rootElement.scrollHeight - rootElement.clientHeight;
-  const scrollTop = rootElement.scrollTop;
-  const scrollPercent = Math.floor((scrollTop / scrollTotal) * 100);
-
-  progressIndicator.value?.style.setProperty(
-    "background-image",
-    `conic-gradient(var(--accent), var(--accent) ${scrollPercent}%, transparent ${scrollPercent}%)`
-  );
-
-  visible.value = scrollTop / scrollTotal > 0.3;
-}
-
-function onScroll() {
-  if (!ticking) {
-    window.requestAnimationFrame(() => {
-      handleScroll();
-      ticking = false;
-    });
-    ticking = true;
-  }
-}
-
-onMounted(() => document.addEventListener("scroll", onScroll));
-onUnmounted(() => document.removeEventListener("scroll", onScroll));
 </script>
 
 <template>
   <div
-    ref="container"
     :class="[
       'fixed inset-e-4 bottom-8 z-50',
       'md:sticky md:inset-e-auto md:float-end md:me-1',
@@ -58,7 +35,7 @@ onUnmounted(() => document.removeEventListener("scroll", onScroll));
       @click="scrollToTop"
     >
       <span
-        ref="progressIndicator"
+        :style="progressStyle"
         class="absolute inset-0 -z-10 block size-14 scale-110 rounded-full bg-transparent md:hidden md:h-8 md:rounded-md"
       ></span>
       <IconArrowLeft class="inline-block rotate-90 md:hidden" />

@@ -17,10 +17,10 @@ export default defineEventHandler(async event => {
 
   const visible = posts
     .filter(post => !post.draft)
-    .sort(
+    .toSorted(
       (a, b) =>
-        new Date(b.modDatetime ?? b.pubDatetime).getTime() -
-        new Date(a.modDatetime ?? a.pubDatetime).getTime()
+        toDate(b.modDatetime ?? b.pubDatetime).getTime() -
+        toDate(a.modDatetime ?? a.pubDatetime).getTime()
     );
 
   const items = visible
@@ -31,7 +31,7 @@ export default defineEventHandler(async event => {
       <link>${url}</link>
       <guid>${url}</guid>
       <description>${escapeXml(post.description ?? "")}</description>
-      <pubDate>${new Date(post.pubDatetime).toUTCString()}</pubDate>
+      <pubDate>${toDate(post.pubDatetime).toUTCString()}</pubDate>
     </item>`;
     })
     .join("\n");

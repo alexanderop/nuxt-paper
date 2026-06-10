@@ -35,6 +35,14 @@ export const t = {
     copyright: "Copyright",
     allRightsReserved: "All rights reserved.",
   },
+  socials: {
+    emailTo: "Send an email to {{site}}",
+    onPlatform: "{{site}} on {{platform}}",
+  },
+  search: {
+    oneResultFound: "{{count}} result for “{{query}}”",
+    manyResultsFound: "{{count}} results for “{{query}}”",
+  },
   pages: {
     tagTitle: "Tag",
     tagDesc: "All the articles with the tag",
@@ -70,4 +78,9 @@ export const t = {
 
 export function tplStr(template: string, params: Record<string, string>) {
   return template.replace(/\{\{(\w+)\}\}/g, (_, key) => params[key] ?? "");
+}
+
+/** "github" -> "Github", for use in social link titles. */
+export function platformLabel(name: string) {
+  return name.charAt(0).toUpperCase() + name.slice(1);
 }

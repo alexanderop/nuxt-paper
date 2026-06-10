@@ -1,33 +1,16 @@
 <script setup lang="ts">
-import dayjs from "dayjs";
-import utc from "dayjs/plugin/utc";
-import timezone from "dayjs/plugin/timezone";
-
-dayjs.extend(utc);
-dayjs.extend(timezone);
-
 const props = withDefaults(
   defineProps<{
-    pubDatetime: string | Date;
-    modDatetime?: string | Date | null;
-    timezone?: string;
+    post: DatedEntry;
     size?: "sm" | "lg";
   }>(),
   { size: "sm" }
 );
 
-const isModified = computed(
-  () =>
-    !!props.modDatetime &&
-    new Date(props.modDatetime) > new Date(props.pubDatetime)
-);
+const resolved = computed(() => resolvePostDate(props.post));
 
-const datetime = computed(() =>
-  dayjs(isModified.value ? props.modDatetime : props.pubDatetime).tz(
-    props.timezone ?? SITE.timezone
-  )
-);
-
+const datetime = computed(() => resolved.value.datetime);
+const isModified = computed(() => resolved.value.isModified);
 const date = computed(() => datetime.value.format("D MMM, YYYY"));
 </script>
 

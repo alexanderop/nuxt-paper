@@ -16,18 +16,13 @@ usePageSeo({
   ogImage: about.value.ogImage,
   canonicalURL: about.value.canonicalURL,
 });
+useRememberBackUrl();
 </script>
 
 <template>
-  <div class="flex min-h-svh flex-col">
-    <AppHeader />
+  <BreadcrumbNav />
 
-    <BreadcrumbNav />
-
-    <PageMain :page-title="about!.title" class="app-prose">
-      <ContentRenderer :value="about!" />
-    </PageMain>
-
-    <AppFooter />
-  </div>
+  <PageMain :page-title="about!.title" class="app-prose">
+    <ContentRenderer :value="about!" />
+  </PageMain>
 </template>

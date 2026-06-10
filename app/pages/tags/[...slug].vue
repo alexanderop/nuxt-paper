@@ -31,9 +31,11 @@ const tagName = computed(
       .find(name => slugifyStr(name) === tag.value) ?? tag.value
 );
 
-const lastPage = computed(() =>
-  Math.max(1, Math.ceil(tagPosts.value.length / POSTS.perPage))
-);
+const { lastPage, pagePosts, prevUrl, nextUrl } = usePagination({
+  items: tagPosts,
+  page,
+  baseUrl: () => `/tags/${tag.value}`,
+});
 
 if (
   tagPosts.value.length === 0 ||
@@ -43,51 +45,28 @@ if (
   throw createError({ statusCode: 404, statusMessage: "Page Not Found" });
 }
 
-const pagePosts = computed(() =>
-  tagPosts.value.slice(
-    (page.value - 1) * POSTS.perPage,
-    page.value * POSTS.perPage
-  )
-);
-
-const prevUrl = computed(() =>
-  page.value > 1
-    ? page.value === 2
-      ? `/tags/${tag.value}`
-      : `/tags/${tag.value}/${page.value - 1}`
-    : null
-);
-const nextUrl = computed(() =>
-  page.value < lastPage.value ? `/tags/${tag.value}/${page.value + 1}` : null
-);
-
 usePageSeo({
   title: `${t.pages.tagTitle}: ${tagName.value} | ${SITE.title}`,
 });
+useRememberBackUrl();
 </script>
 
 <template>
-  <div class="flex min-h-svh flex-col">
-    <AppHeader />
+  <BreadcrumbNav />
 
-    <BreadcrumbNav />
+  <PageMain
+    :page-title="`${t.pages.tagTitle}: ${tagName}`"
+    :page-desc="`${t.pages.tagDesc} “${tagName}”.`"
+  >
+    <ul>
+      <PostCard v-for="post in pagePosts" :key="post.path" :post="post" />
+    </ul>
+  </PageMain>
 
-    <PageMain
-      :page-title="`${t.pages.tagTitle}: ${tagName}`"
-      :page-desc="`${t.pages.tagDesc} “${tagName}”.`"
-    >
-      <ul>
-        <PostCard v-for="post in pagePosts" :key="post.path" :post="post" />
-      </ul>
-    </PageMain>
-
-    <PaginationNav
-      :current-page="page"
-      :last-page="lastPage"
-      :prev-url="prevUrl"
-      :next-url="nextUrl"
-    />
-
-    <AppFooter :no-margin-top="lastPage > 1" />
-  </div>
+  <PaginationNav
+    :current-page="page"
+    :last-page="lastPage"
+    :prev-url="prevUrl"
+    :next-url="nextUrl"
+  />
 </template>

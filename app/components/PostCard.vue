@@ -18,11 +18,7 @@ withDefaults(
     >
       <component :is="variant">{{ post.title }}</component>
     </NuxtLink>
-    <DatetimeDisplay
-      :pub-datetime="post.pubDatetime"
-      :mod-datetime="post.modDatetime"
-      :timezone="post.timezone"
-    />
+    <DatetimeDisplay :post="post" />
     <p>{{ post.description }}</p>
   </li>
 </template>

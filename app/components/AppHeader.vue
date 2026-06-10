@@ -4,15 +4,21 @@ const { toggle } = useTheme();
 
 const menuExpanded = ref(false);
 
+const navItems = [
+  { to: "/posts", label: t.nav.posts },
+  { to: "/tags", label: t.nav.tags },
+  { to: "/about", label: t.nav.about },
+];
+
 const currentPath = computed(() => {
   const path = route.path;
   return path.endsWith("/") && path !== "/" ? path.slice(0, -1) : path;
 });
 
 function isActive(path: string) {
-  const currentPathArray = currentPath.value.split("/").filter(p => p.trim());
-  const pathArray = path.split("/").filter(p => p.trim());
-  return currentPath.value === path || currentPathArray[0] === pathArray[0];
+  const currentTopSegment = currentPath.value.split("/").find(p => p.trim());
+  const topSegment = path.split("/").find(p => p.trim());
+  return currentPath.value === path || currentTopSegment === topSegment;
 }
 
 function toggleMenu() {
@@ -71,19 +77,9 @@ watch(
             '[&>li>a]:hover:text-accent mt-4 w-44 grid-cols-2 place-content-center gap-2 sm:mt-0 sm:flex sm:w-auto sm:gap-x-5 sm:gap-y-0 sm:[&>li]:h-8 [&>li>a]:block [&>li>a]:px-4 [&>li>a]:py-3 [&>li>a]:text-center [&>li>a]:font-medium sm:[&>li>a]:px-2 sm:[&>li>a]:py-1',
           ]"
         >
-          <li class="col-span-2">
-            <NuxtLink to="/posts" :class="{ 'active-nav': isActive('/posts') }">
-              {{ t.nav.posts }}
-            </NuxtLink>
-          </li>
-          <li class="col-span-2">
-            <NuxtLink to="/tags" :class="{ 'active-nav': isActive('/tags') }">
-              {{ t.nav.tags }}
-            </NuxtLink>
-          </li>
-          <li class="col-span-2">
-            <NuxtLink to="/about" :class="{ 'active-nav': isActive('/about') }">
-              {{ t.nav.about }}
+          <li v-for="item in navItems" :key="item.to" class="col-span-2">
+            <NuxtLink :to="item.to" :class="{ 'active-nav': isActive(item.to) }">
+              {{ item.label }}
             </NuxtLink>
           </li>
           <li v-if="FEATURES.showArchives" class="col-span-2">

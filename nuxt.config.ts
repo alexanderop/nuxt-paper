@@ -20,7 +20,20 @@ const themeInitScript = `
 export default defineNuxtConfig({
   compatibilityDate: "2026-06-10",
   devtools: { enabled: true },
-  modules: ["@nuxt/content", "@nuxt/fonts"],
+  modules: ["@nuxt/content", "@nuxt/fonts", "nuxt-og-image"],
+
+  // Used by nuxt-og-image to build absolute og:image URLs.
+  // The GitHub Pages subpath comes from NUXT_APP_BASE_URL at build time.
+  site: {
+    url: "https://alexanderop.github.io",
+    name: "NuxtPaper",
+  },
+
+  ogImage: {
+    // Static site: generate all images at build time, ship no runtime endpoints.
+    // Fonts are extracted automatically from @nuxt/fonts.
+    zeroRuntime: true,
+  },
 
   css: ["~/assets/css/global.css"],
 

@@ -17,9 +17,8 @@ function decodeSegment(value: string) {
   }
 }
 
-const breadcrumbList = computed(() => {
-  const currentUrlPath = route.path.replace(/\/+$/, "");
-  const list = currentUrlPath.split("/").slice(1).filter(Boolean);
+function breadcrumbSegments(path: string) {
+  const list = path.replace(/\/+$/, "").split("/").slice(1).filter(Boolean);
 
   // if breadcrumb is Home > Posts > [page] replace with "Posts (page n)"
   if (list[0] === "posts") {
@@ -45,7 +44,16 @@ const breadcrumbList = computed(() => {
   }
 
   return list;
-});
+}
+
+const crumbs = computed(() =>
+  breadcrumbSegments(route.path).map((segment, index, list) => ({
+    label: navLabels[segment] ?? decodeSegment(segment),
+    href: `/${segment}`,
+    isCurrent: index === list.length - 1,
+    lowercase: index > 0,
+  }))
+);
 </script>
 
 <template>
@@ -57,22 +65,21 @@ const breadcrumbList = computed(() => {
         <NuxtLink to="/" class="opacity-80">{{ t.nav.home }}</NuxtLink>
         <span aria-hidden="true" class="opacity-80">&raquo;</span>
       </li>
-      <template v-for="(breadcrumb, index) in breadcrumbList" :key="index">
-        <li v-if="index + 1 === breadcrumbList.length">
-          <span
-            :class="['capitalize opacity-75', { lowercase: index > 0 }]"
-            aria-current="page"
-          >
-            {{ navLabels[breadcrumb] ?? decodeSegment(breadcrumb) }}
-          </span>
-        </li>
-        <li v-else>
-          <NuxtLink :to="`/${breadcrumb}`" class="capitalize opacity-70">
-            {{ navLabels[breadcrumb] ?? decodeSegment(breadcrumb) }}
+      <li v-for="(crumb, index) in crumbs" :key="index">
+        <span
+          v-if="crumb.isCurrent"
+          :class="['capitalize opacity-75', { lowercase: crumb.lowercase }]"
+          aria-current="page"
+        >
+          {{ crumb.label }}
+        </span>
+        <template v-else>
+          <NuxtLink :to="crumb.href" class="capitalize opacity-70">
+            {{ crumb.label }}
           </NuxtLink>
           <span aria-hidden="true" class="opacity-70">&raquo;</span>
-        </li>
-      </template>
+        </template>
+      </li>
     </ul>
   </nav>
 </template>

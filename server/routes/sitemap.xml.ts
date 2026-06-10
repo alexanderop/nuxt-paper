@@ -14,7 +14,7 @@ export default defineEventHandler(async event => {
   const tagPaths = [
     ...new Set(
       visible.flatMap(post =>
-        post.tags.map(
+        (post.tags ?? []).map(
           (tag: string) =>
             `/tags/${tag
               .trim()
@@ -30,7 +30,7 @@ export default defineEventHandler(async event => {
     ...staticPaths.map(path => ({ path })),
     ...visible.map(post => ({
       path: post.path,
-      lastmod: new Date(post.modDatetime ?? post.pubDatetime).toISOString(),
+      lastmod: toDate(post.modDatetime ?? post.pubDatetime).toISOString(),
     })),
     ...tagPaths.map(path => ({ path })),
   ];

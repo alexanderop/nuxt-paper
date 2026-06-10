@@ -1,9 +1,5 @@
 <script setup lang="ts">
-const backUrl = ref("/");
-
-onMounted(() => {
-  backUrl.value = sessionStorage.getItem("backUrl") ?? "/";
-});
+const backUrl = useBackUrl();
 </script>
 
 <template>

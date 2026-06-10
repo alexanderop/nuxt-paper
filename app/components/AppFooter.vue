@@ -1,13 +1,9 @@
 <script setup lang="ts">
-withDefaults(defineProps<{ noMarginTop?: boolean }>(), {
-  noMarginTop: false,
-});
-
 const currentYear = new Date().getFullYear();
 </script>
 
 <template>
-  <footer :class="['app-layout', { 'mt-auto': !noMarginTop }]">
+  <footer class="app-layout">
     <div
       class="border-border flex flex-col items-center justify-between border-t py-6 sm:flex-row-reverse sm:py-4"
     >
