@@ -22,6 +22,7 @@ const tags = computed(
 
 usePostSeo(post.value);
 useCodeCopyButtons();
+useImageLightbox();
 </script>
 
 <template>
