@@ -24,6 +24,14 @@ export function usePageSeo(options: PageSeoOptions = {}) {
   useHead({
     title,
     link: [{ rel: "canonical", href: canonicalURL }],
+    meta: SITE.googleVerification
+      ? [
+          {
+            name: "google-site-verification",
+            content: SITE.googleVerification,
+          },
+        ]
+      : [],
   });
 
   useSeoMeta({
