@@ -3,6 +3,7 @@ import {
   getPostsByGroupCondition,
   getSortedPosts,
   getUniqueTags,
+  postFilter,
   slugifyAll,
   slugifyStr,
   type PostItem,
@@ -17,6 +18,36 @@ function makePost(overrides: Partial<PostItem> = {}): PostItem {
     ...overrides,
   };
 }
+
+describe("postFilter", () => {
+  it("excludes drafts", () => {
+    expect(
+      postFilter({ draft: true, pubDatetime: "2000-01-01T00:00:00Z" })
+    ).toBe(false);
+  });
+
+  it("includes posts whose publish time has passed", () => {
+    expect(
+      postFilter({ draft: false, pubDatetime: "2000-01-01T00:00:00Z" })
+    ).toBe(true);
+  });
+
+  it("shows a scheduled post just inside the margin", () => {
+    // Publishes slightly into the future, but within scheduledPostMargin.
+    const pubDatetime = new Date(
+      Date.now() + POSTS.scheduledPostMargin / 2
+    ).toISOString();
+    expect(postFilter({ draft: false, pubDatetime })).toBe(true);
+  });
+
+  it("hides a scheduled post just outside the margin", () => {
+    // Publishes far enough into the future to fall outside the margin.
+    const pubDatetime = new Date(
+      Date.now() + POSTS.scheduledPostMargin * 2
+    ).toISOString();
+    expect(postFilter({ draft: false, pubDatetime })).toBe(false);
+  });
+});
 
 describe("slugifyStr", () => {
   it("kebab-cases spaces and lowercases", () => {

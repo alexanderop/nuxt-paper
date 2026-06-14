@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { tplStr } from "../../shared/utils/i18n";
+import { platformLabel, tplStr } from "../../shared/utils/i18n";
 
 describe("tplStr", () => {
   it("replaces a single placeholder", () => {
@@ -20,5 +20,19 @@ describe("tplStr", () => {
 
   it("leaves strings without placeholders untouched", () => {
     expect(tplStr("No params here", { unused: "x" })).toBe("No params here");
+  });
+});
+
+describe("platformLabel", () => {
+  it("capitalizes the first letter", () => {
+    expect(platformLabel("github")).toBe("Github");
+  });
+
+  it("leaves the rest of the string untouched", () => {
+    expect(platformLabel("linkedIn")).toBe("LinkedIn");
+  });
+
+  it("returns an empty string unchanged", () => {
+    expect(platformLabel("")).toBe("");
   });
 });
