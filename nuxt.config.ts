@@ -1,5 +1,6 @@
 import tailwindcss from "@tailwindcss/vite";
 import { joinURL } from "ufo";
+import { SITE } from "./shared/utils/site";
 
 // e.g. "/nuxt-paper/" when deploying to GitHub Pages project sites
 const baseURL = process.env.NUXT_APP_BASE_URL || "/";
@@ -35,7 +36,7 @@ export default defineNuxtConfig({
     zeroRuntime: true,
   },
 
-  css: ["~/assets/css/global.css"],
+  css: ["~/assets/css/global.css", "katex/dist/katex.min.css"],
 
   vite: {
     plugins: [tailwindcss()],
@@ -53,8 +54,8 @@ export default defineNuxtConfig({
   app: {
     head: {
       htmlAttrs: {
-        lang: "en",
-        dir: "ltr",
+        lang: SITE.lang,
+        dir: SITE.dir,
         class: "overflow-y-scroll scroll-smooth",
       },
       link: [
@@ -93,9 +94,12 @@ export default defineNuxtConfig({
       markdown: {
         remarkPlugins: {
           "remark-toc": {},
+          "remark-math": {},
+          "remark-collapse": { options: { test: "Table of contents" } },
         },
         rehypePlugins: {
           "rehype-callouts": { options: { theme: "obsidian" } },
+          "rehype-katex": {},
         },
         highlight: {
           theme: {
