@@ -9,6 +9,9 @@ export const SITE = {
   lang: "en",
   timezone: "Asia/Bangkok",
   dir: "ltr" as const,
+  // Set to the content value from Google Search Console to emit the
+  // <meta name="google-site-verification"> tag. Leave empty to omit it.
+  googleVerification: "" as string,
 };
 
 export const POSTS = {
