@@ -77,5 +77,10 @@ useImageLightbox();
     <hr class="my-8 border-dashed" />
 
     <PostAdjacentNav :prev-post="prevPost" :next-post="nextPost" />
+
+    <template v-if="FEATURES.giscus">
+      <hr class="my-8 border-dashed" />
+      <GiscusComments />
+    </template>
   </main>
 </template>
