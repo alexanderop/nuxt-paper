@@ -33,6 +33,23 @@ export const FEATURES = {
     url: "https://github.com/satnaing/astro-paper/edit/main/",
   },
   search: true,
+  giscus: false,
+};
+
+/**
+ * Giscus (GitHub Discussions) comments. Disabled by default.
+ * To enable: set FEATURES.giscus to true, enable Discussions on the repo,
+ * install the giscus GitHub app, then fill in the values from
+ * https://giscus.app (repo, repoId, category, categoryId).
+ */
+export const GISCUS = {
+  repo: "",
+  repoId: "",
+  category: "",
+  categoryId: "",
+  mapping: "pathname",
+  reactionsEnabled: true,
+  inputPosition: "bottom" as "top" | "bottom",
 };
 
 export interface SocialLink {
