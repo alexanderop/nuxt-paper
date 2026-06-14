@@ -60,8 +60,5 @@ original content.
 
 ## Not ported
 
-- Dynamic per-post OG image generation (satori) — posts fall back to the
-  default OG image
-- `remark-collapse` (the TOC renders expanded)
 - View-transition names on post titles/tags (document-level transitions are
   enabled via `experimental.viewTransition`)
