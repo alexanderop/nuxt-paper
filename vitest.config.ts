@@ -15,8 +15,7 @@ export default defineConfig({
         "app/plugins/**",
         "**/*.d.ts",
       ],
-      // Thresholds present but not enforced yet; raised to 70/70 in Wave 3.
-      thresholds: { lines: 0, functions: 0 },
+      thresholds: { lines: 70, functions: 70 },
     },
     projects: [
       {
