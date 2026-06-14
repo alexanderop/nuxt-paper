@@ -1,5 +1,5 @@
 import { mockNuxtImport, mountSuspended } from "@nuxt/test-utils/runtime";
-import { renderSSRHead } from "unhead/server";
+import { renderSSRHead } from "@unhead/vue/server";
 import { beforeEach, describe, expect, it, vi } from "vitest";
 import { usePageSeo } from "~/composables/usePageSeo";
 
