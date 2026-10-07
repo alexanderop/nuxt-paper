@@ -6,39 +6,15 @@ export default defineEventHandler(async event => {
     .select("path", "pubDatetime", "modDatetime", "draft", "tags")
     .all();
 
-  const visible = posts.filter(post => !post.draft);
-
-  const staticPaths = ["/", "/posts", "/tags", "/about", "/search"];
-  if (FEATURES.showArchives) staticPaths.push("/archives");
-
-  const tagPaths = [
-    ...new Set(
-      visible.flatMap(post =>
-        (post.tags ?? []).map(
-          (tag: string) =>
-            `/tags/${tag
-              .trim()
-              .toLowerCase()
-              .replace(/[\s_]+/g, "-")
-              .replace(/[^\p{L}\p{N}-]+/gu, "")}`
-        )
-      )
-    ),
-  ];
-
-  const urls = [
-    ...staticPaths.map(path => ({ path })),
-    ...visible.map(post => ({
-      path: post.path,
-      lastmod: toDate(post.modDatetime ?? post.pubDatetime).toISOString(),
-    })),
-    ...tagPaths.map(path => ({ path })),
-  ];
+  const visible = publishedPosts(posts.map(post => Object.assign({}, post, { modDatetime: post.modDatetime ? toDate(post.modDatetime) : null })), useRuntimeConfig(event).public.publication);
+  const lastModified = new Map(visible.map(post => [post.path, toDate(post.modDatetime ?? post.pubDatetime).toISOString()]));
+  const urls = publicationRoutes(visible, { perPage: POSTS.perPage, archives: FEATURES.showArchives, search: FEATURES.search })
+    .map(path => ({ path, lastmod: lastModified.get(path) }));
 
   const body = urls
     .map(
       url => `  <url>
-    <loc>${joinURL(SITE.url, url.path)}</loc>${
+    <loc>${escapeXml(joinURL(SITE.url, url.path))}</loc>${
       "lastmod" in url && url.lastmod ? `\n    <lastmod>${url.lastmod}</lastmod>` : ""
     }
   </url>`

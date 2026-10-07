@@ -13,10 +13,10 @@ const recentPosts = computed(() => posts.value.filter(p => !p.featured));
 </script>
 
 <template>
-  <main id="main-content" class="app-layout">
+  <main id="main-content" class="app-layout my-1">
     <section id="hero" class="border-border border-b pt-8 pb-6">
       <h1 class="my-4 inline-block text-4xl font-bold sm:my-8 sm:text-5xl">
-        Mingalaba
+        {{ HOME.title }}
       </h1>
       <a
         target="_blank"
@@ -33,21 +33,14 @@ const recentPosts = computed(() => posts.value.filter(p => !p.featured));
         <span class="sr-only">RSS Feed</span>
       </a>
 
-      <p>
-        NuxtPaper is a minimal, responsive, accessible and SEO-friendly blog
-        theme — a port of AstroPaper to Nuxt 4 and Nuxt Content. This theme
-        follows best practices and provides accessibility out of the box.
-        Light and dark mode are supported by default.
-      </p>
+      <p>{{ HOME.description }}</p>
       <p class="mt-2">
-        Read the blog posts or check
+        {{ HOME.readMorePrefix }}
         <LinkButton
           class="hover:text-accent underline decoration-dashed underline-offset-4"
-          href="https://github.com/satnaing/astro-paper#readme"
-        >
-          README
-        </LinkButton>
-        of the original theme for more info.
+          :href="HOME.readMoreUrl"
+        >{{ HOME.readMoreLabel }}</LinkButton>
+        {{ HOME.readMoreSuffix }}
       </p>
       <div v-if="SOCIALS.length > 0" class="mt-4 flex max-sm:flex-col sm:items-center">
         <div class="me-2 mb-1 whitespace-nowrap sm:mb-0">

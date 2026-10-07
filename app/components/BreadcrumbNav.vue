@@ -59,13 +59,13 @@ const crumbs = computed(() =>
 <template>
   <nav class="app-layout mt-8 mb-1" aria-label="breadcrumb">
     <ul
-      class="font-light [&>li]:inline [&>li:not(:last-child)>a]:hover:opacity-100"
+      class="flex flex-wrap items-center gap-x-1 font-light [&>li:not(:last-child)>a]:hover:opacity-100"
     >
-      <li>
+      <li class="flex items-center gap-x-1">
         <NuxtLink to="/" class="opacity-80">{{ t.nav.home }}</NuxtLink>
         <span aria-hidden="true" class="opacity-80">&raquo;</span>
       </li>
-      <li v-for="(crumb, index) in crumbs" :key="index">
+      <li v-for="(crumb, index) in crumbs" :key="index" :class="{ 'flex items-center gap-x-1': !crumb.isCurrent }">
         <span
           v-if="crumb.isCurrent"
           :class="['capitalize opacity-75', { lowercase: crumb.lowercase }]"

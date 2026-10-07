@@ -8,11 +8,11 @@ export async function useAdjacentPosts(path: MaybeRefOrGetter<string>) {
     posts.value.findIndex(post => post.path === toValue(path))
   );
 
-  const prevPost = computed(() =>
+  const nextPost = computed(() =>
     index.value > 0 ? posts.value[index.value - 1] : null
   );
 
-  const nextPost = computed(() =>
+  const prevPost = computed(() =>
     index.value >= 0 && index.value < posts.value.length - 1
       ? posts.value[index.value + 1]
       : null

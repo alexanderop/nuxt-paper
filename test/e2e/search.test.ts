@@ -1,23 +1,28 @@
 import { expect, test } from "./test-utils";
 
-const CONTENT_TIMEOUT = 15_000;
+test("Pagefind searches article text and restores the query after returning", async ({ page, goto }) => {
+  await goto("/search", { waitUntil: "hydration" });
+  const input = page.getByRole("textbox", { name: "Search" });
+  await input.fill("color");
+  const result = page.locator(".pagefind-ui__result-title").getByRole("link", { name: "Predefined color schemes", exact: true });
+  await expect(result).toBeVisible({ timeout: 15000 });
+  await expect(page).toHaveURL(/q=color/);
+  await result.click();
+  await expect(page.getByRole("heading", { level: 1 })).toHaveText("Predefined color schemes");
+  await page.getByRole("link", { name: /go back/i }).click();
+  await expect(input).toHaveValue("color");
+  await expect(result).toBeVisible();
+  await page.getByRole("button", { name: /clear/i }).click();
+  await expect(page).not.toHaveURL(/q=/);
+});
 
-test.describe("search", () => {
-  test("typing a query renders client-side results", async ({ page, goto }) => {
-    await goto("/search", { waitUntil: "hydration" });
-
-    const input = page.getByRole("searchbox");
-    await expect(input).toBeVisible({ timeout: CONTENT_TIMEOUT });
-
-    await input.fill("color");
-
-    // minisearch runs client-side; the results list should populate.
-    const results = page.locator("#search-container ul li");
-    await expect(results.first()).toBeVisible({ timeout: CONTENT_TIMEOUT });
-    expect(await results.count()).toBeGreaterThan(0);
-
-    await expect(
-      page.getByRole("link", { name: /color schemes/i }).first()
-    ).toBeVisible({ timeout: CONTENT_TIMEOUT });
-  });
+test("a shared query searches immediately and survives a reload", async ({ page, goto }) => {
+  await goto("/search/?q=color", { waitUntil: "hydration" });
+  const input = page.getByRole("textbox", { name: "Search" });
+  const result = page.locator(".pagefind-ui__result-title").getByRole("link", { name: "Predefined color schemes", exact: true });
+  await expect(input).toHaveValue("color");
+  await expect(result).toBeVisible({ timeout: 15000 });
+  await page.reload();
+  await expect(input).toHaveValue("color");
+  await expect(result).toBeVisible({ timeout: 15000 });
 });

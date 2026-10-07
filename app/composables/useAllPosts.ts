@@ -5,6 +5,7 @@ import type { PostItem } from "~/utils/posts";
  * and sorted by "last updated" descending.
  */
 export function useAllPosts() {
+  const context = useRuntimeConfig().public.publication;
   return useAsyncData(
     "all-posts",
     () =>
@@ -22,7 +23,7 @@ export function useAllPosts() {
         )
         .all() as Promise<PostItem[]>,
     {
-      transform: posts => getSortedPosts(posts),
+      transform: posts => getSortedPosts(posts, context),
       default: () => [] as PostItem[],
     }
   );

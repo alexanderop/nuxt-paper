@@ -26,3 +26,5 @@ playwright-report
 .env
 .env.*
 !.env.example
+
+/public/pagefind

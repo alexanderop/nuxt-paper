@@ -1,17 +1,25 @@
 import { defineCollection, defineContentConfig, z } from "@nuxt/content";
 
+import { contentRoot, excludedPostSources } from "./build/content-source";
+import { SITE } from "./shared/utils/site";
+
 export default defineContentConfig({
   collections: {
     posts: defineCollection({
       type: "page",
       source: {
+        cwd: contentRoot,
         include: "posts/**/*.md",
-        exclude: ["posts/**/_*", "posts/**/_*/**"],
+        exclude: excludedPostSources(),
       },
       schema: z.object({
-        author: z.string().optional(),
-        pubDatetime: z.date(),
-        modDatetime: z.date().optional().nullable(),
+        title: z.string(),
+        description: z.string(),
+        sourcePath: z.string(),
+        slug: z.string().optional(),
+        author: z.string().default(SITE.author),
+        pubDatetime: z.string(),
+        modDatetime: z.string().optional().nullable(),
         featured: z.boolean().optional(),
         draft: z.boolean().optional(),
         tags: z.array(z.string()).default(["others"]),
@@ -24,6 +32,7 @@ export default defineContentConfig({
     pages: defineCollection({
       type: "page",
       source: {
+        cwd: contentRoot,
         include: "pages/**/*.md",
         prefix: "/",
       },

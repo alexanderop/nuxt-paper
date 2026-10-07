@@ -22,14 +22,9 @@ const date = computed(() => datetime.value.format("D MMM, YYYY"));
     <span
       v-if="isModified"
       :class="['text-sm', { 'sm:text-base': size === 'lg' }]"
-    >
-      {{ t.post.updatedAt }}:
-    </span>
-    <time
+    >{{ t.post.updatedAt }}:</span><time
       :class="['text-sm', { 'sm:text-base': size === 'lg' }]"
       :datetime="datetime.toISOString()"
-    >
-      {{ date }}
-    </time>
+    >{{ date }}</time>
   </div>
 </template>

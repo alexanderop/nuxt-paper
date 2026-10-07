@@ -1,3 +1,5 @@
+import { isPublished, publishedPosts, type PublicationContext } from "#shared/utils/publication";
+
 export interface PostItem {
   path: string;
   title: string;
@@ -19,45 +21,17 @@ export interface TagItem {
  * Slugify a string: "E2E Testing" -> "e2e-testing".
  * Non-latin characters are kept as-is (kebab-cased).
  */
-export function slugifyStr(str: string): string {
-  return str
-    .trim()
-    .toLowerCase()
-    .replace(/([a-z\d])([A-Z])/g, "$1-$2")
-    .replace(/[\s_]+/g, "-")
-    .replace(/[^\p{L}\p{N}-]+/gu, "")
-    .replace(/-+/g, "-")
-    .replace(/^-|-$/g, "");
-}
+export { slugifyStr } from "#shared/utils/routes";
+import { slugifyStr } from "#shared/utils/routes";
 
 export const slugifyAll = (arr: string[]) => arr.map(str => slugifyStr(str));
 
-/**
- * Determines whether a post is eligible to be listed/rendered.
- *
- * - Excludes drafts always
- * - In production, excludes scheduled posts until `pubDatetime` minus the configured margin
- * - In dev, always shows non-draft posts to make authoring easier
- */
-export function postFilter(post: Pick<PostItem, "draft" | "pubDatetime">) {
-  const isPublishTimePassed =
-    Date.now() >
-    new Date(post.pubDatetime).getTime() - POSTS.scheduledPostMargin;
-  return !post.draft && (import.meta.dev || isPublishTimePassed);
+export function postFilter(post: Pick<PostItem, "draft" | "pubDatetime">, context: PublicationContext) {
+  return isPublished(post, context);
 }
 
-/**
- * Returns posts that are eligible to be shown, sorted by "last updated"
- * descending (uses `modDatetime` when present, otherwise `pubDatetime`).
- */
-export function getSortedPosts<T extends PostItem>(posts: T[]): T[] {
-  return posts
-    .filter(postFilter)
-    .toSorted(
-      (a, b) =>
-        Math.floor(new Date(b.modDatetime ?? b.pubDatetime).getTime() / 1000) -
-        Math.floor(new Date(a.modDatetime ?? a.pubDatetime).getTime() / 1000)
-    );
+export function getSortedPosts<T extends PostItem>(posts: T[], context: PublicationContext): T[] {
+  return publishedPosts(posts, context);
 }
 
 /**
@@ -65,8 +39,7 @@ export function getSortedPosts<T extends PostItem>(posts: T[]): T[] {
  * `tag` is the slug used in URLs; `tagName` is the original label for display.
  */
 export function getUniqueTags(posts: PostItem[]): TagItem[] {
-  return posts
-    .filter(postFilter)
+  return posts.toSorted((a, b) => a.path.localeCompare(b.path))
     .flatMap(post => post.tags)
     .map(tag => ({ tag: slugifyStr(tag), tagName: tag }))
     .filter(

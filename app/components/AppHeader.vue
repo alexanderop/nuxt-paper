@@ -32,12 +32,20 @@ watch(
     menuExpanded.value = false;
   }
 );
+function focusMain() {
+  const main = document.getElementById("main-content");
+  if (!main) return;
+  main.setAttribute("tabindex", "-1");
+  main.focus();
+  main.addEventListener("blur", () => main.removeAttribute("tabindex"), { once: true });
+}
 </script>
 
 <template>
   <a
     id="skip-to-content"
     href="#main-content"
+    @click="focusMain"
     class="bg-background text-accent absolute inset-s-16 -top-full z-50 px-3 py-2 backdrop-blur-lg transition-all focus:top-4"
   >
     {{ t.a11y.skipToContent }}

@@ -1,0 +1,520 @@
+{
+  "settings": {
+    "threshold": 0,
+    "includeAA": true,
+    "passRequires": "zero changed bytes and identical dimensions",
+    "masks": []
+  },
+  "results": [
+    {
+      "file": "desktop-light-home.png",
+      "pass": true,
+      "baseline": [
+        1280,
+        1672
+      ],
+      "candidate": [
+        1280,
+        1672
+      ],
+      "changedPixels": 0,
+      "changedBytes": 0,
+      "changedPixelPercentage": 0
+    },
+    {
+      "file": "desktop-light-posts.png",
+      "pass": true,
+      "baseline": [
+        1280,
+        900
+      ],
+      "candidate": [
+        1280,
+        900
+      ],
+      "changedPixels": 0,
+      "changedBytes": 0,
+      "changedPixelPercentage": 0
+    },
+    {
+      "file": "desktop-light-tags.png",
+      "pass": true,
+      "baseline": [
+        1280,
+        900
+      ],
+      "candidate": [
+        1280,
+        900
+      ],
+      "changedPixels": 0,
+      "changedBytes": 0,
+      "changedPixelPercentage": 0
+    },
+    {
+      "file": "desktop-light-archives.png",
+      "pass": true,
+      "baseline": [
+        1280,
+        2882
+      ],
+      "candidate": [
+        1280,
+        2882
+      ],
+      "changedPixels": 0,
+      "changedBytes": 0,
+      "changedPixelPercentage": 0
+    },
+    {
+      "file": "desktop-light-about.png",
+      "pass": true,
+      "baseline": [
+        1280,
+        1849
+      ],
+      "candidate": [
+        1280,
+        1849
+      ],
+      "changedPixels": 0,
+      "changedBytes": 0,
+      "changedPixelPercentage": 0
+    },
+    {
+      "file": "desktop-light-search.png",
+      "pass": true,
+      "baseline": [
+        1280,
+        900
+      ],
+      "candidate": [
+        1280,
+        900
+      ],
+      "changedPixels": 0,
+      "changedBytes": 0,
+      "changedPixelPercentage": 0
+    },
+    {
+      "file": "desktop-light-article.png",
+      "pass": true,
+      "baseline": [
+        1280,
+        10398
+      ],
+      "candidate": [
+        1280,
+        10398
+      ],
+      "changedPixels": 0,
+      "changedBytes": 0,
+      "changedPixelPercentage": 0
+    },
+    {
+      "file": "desktop-light-search-results.png",
+      "pass": true,
+      "baseline": [
+        1280,
+        1853
+      ],
+      "candidate": [
+        1280,
+        1853
+      ],
+      "changedPixels": 0,
+      "changedBytes": 0,
+      "changedPixelPercentage": 0
+    },
+    {
+      "file": "desktop-dark-home.png",
+      "pass": true,
+      "baseline": [
+        1280,
+        1672
+      ],
+      "candidate": [
+        1280,
+        1672
+      ],
+      "changedPixels": 0,
+      "changedBytes": 0,
+      "changedPixelPercentage": 0
+    },
+    {
+      "file": "desktop-dark-posts.png",
+      "pass": true,
+      "baseline": [
+        1280,
+        900
+      ],
+      "candidate": [
+        1280,
+        900
+      ],
+      "changedPixels": 0,
+      "changedBytes": 0,
+      "changedPixelPercentage": 0
+    },
+    {
+      "file": "desktop-dark-tags.png",
+      "pass": true,
+      "baseline": [
+        1280,
+        900
+      ],
+      "candidate": [
+        1280,
+        900
+      ],
+      "changedPixels": 0,
+      "changedBytes": 0,
+      "changedPixelPercentage": 0
+    },
+    {
+      "file": "desktop-dark-archives.png",
+      "pass": true,
+      "baseline": [
+        1280,
+        2882
+      ],
+      "candidate": [
+        1280,
+        2882
+      ],
+      "changedPixels": 0,
+      "changedBytes": 0,
+      "changedPixelPercentage": 0
+    },
+    {
+      "file": "desktop-dark-about.png",
+      "pass": true,
+      "baseline": [
+        1280,
+        1849
+      ],
+      "candidate": [
+        1280,
+        1849
+      ],
+      "changedPixels": 0,
+      "changedBytes": 0,
+      "changedPixelPercentage": 0
+    },
+    {
+      "file": "desktop-dark-search.png",
+      "pass": true,
+      "baseline": [
+        1280,
+        900
+      ],
+      "candidate": [
+        1280,
+        900
+      ],
+      "changedPixels": 0,
+      "changedBytes": 0,
+      "changedPixelPercentage": 0
+    },
+    {
+      "file": "desktop-dark-article.png",
+      "pass": false,
+      "baseline": [
+        1280,
+        10398
+      ],
+      "candidate": [
+        1280,
+        10398
+      ],
+      "changedPixels": 209851,
+      "changedBytes": 295322,
+      "changedPixelPercentage": 1.5767079606655126
+    },
+    {
+      "file": "desktop-dark-search-results.png",
+      "pass": true,
+      "baseline": [
+        1280,
+        1853
+      ],
+      "candidate": [
+        1280,
+        1853
+      ],
+      "changedPixels": 0,
+      "changedBytes": 0,
+      "changedPixelPercentage": 0
+    },
+    {
+      "file": "mobile-light-home.png",
+      "pass": true,
+      "baseline": [
+        390,
+        2164
+      ],
+      "candidate": [
+        390,
+        2164
+      ],
+      "changedPixels": 0,
+      "changedBytes": 0,
+      "changedPixelPercentage": 0
+    },
+    {
+      "file": "mobile-light-posts.png",
+      "pass": true,
+      "baseline": [
+        390,
+        1070
+      ],
+      "candidate": [
+        390,
+        1070
+      ],
+      "changedPixels": 0,
+      "changedBytes": 0,
+      "changedPixelPercentage": 0
+    },
+    {
+      "file": "mobile-light-tags.png",
+      "pass": true,
+      "baseline": [
+        390,
+        844
+      ],
+      "candidate": [
+        390,
+        844
+      ],
+      "changedPixels": 0,
+      "changedBytes": 0,
+      "changedPixelPercentage": 0
+    },
+    {
+      "file": "mobile-light-archives.png",
+      "pass": true,
+      "baseline": [
+        390,
+        4306
+      ],
+      "candidate": [
+        390,
+        4306
+      ],
+      "changedPixels": 0,
+      "changedBytes": 0,
+      "changedPixelPercentage": 0
+    },
+    {
+      "file": "mobile-light-about.png",
+      "pass": true,
+      "baseline": [
+        390,
+        2040
+      ],
+      "candidate": [
+        390,
+        2040
+      ],
+      "changedPixels": 0,
+      "changedBytes": 0,
+      "changedPixelPercentage": 0
+    },
+    {
+      "file": "mobile-light-search.png",
+      "pass": true,
+      "baseline": [
+        390,
+        844
+      ],
+      "candidate": [
+        390,
+        844
+      ],
+      "changedPixels": 0,
+      "changedBytes": 0,
+      "changedPixelPercentage": 0
+    },
+    {
+      "file": "mobile-light-article.png",
+      "pass": false,
+      "baseline": [
+        390,
+        12883
+      ],
+      "candidate": [
+        390,
+        12883
+      ],
+      "changedPixels": 53945,
+      "changedBytes": 78244,
+      "changedPixelPercentage": 1.0736669472988654
+    },
+    {
+      "file": "mobile-light-search-results.png",
+      "pass": true,
+      "baseline": [
+        390,
+        2463
+      ],
+      "candidate": [
+        390,
+        2463
+      ],
+      "changedPixels": 0,
+      "changedBytes": 0,
+      "changedPixelPercentage": 0
+    },
+    {
+      "file": "mobile-light-mobile-menu.png",
+      "pass": true,
+      "baseline": [
+        390,
+        2452
+      ],
+      "candidate": [
+        390,
+        2452
+      ],
+      "changedPixels": 0,
+      "changedBytes": 0,
+      "changedPixelPercentage": 0
+    },
+    {
+      "file": "mobile-dark-home.png",
+      "pass": true,
+      "baseline": [
+        390,
+        2164
+      ],
+      "candidate": [
+        390,
+        2164
+      ],
+      "changedPixels": 0,
+      "changedBytes": 0,
+      "changedPixelPercentage": 0
+    },
+    {
+      "file": "mobile-dark-posts.png",
+      "pass": true,
+      "baseline": [
+        390,
+        1070
+      ],
+      "candidate": [
+        390,
+        1070
+      ],
+      "changedPixels": 0,
+      "changedBytes": 0,
+      "changedPixelPercentage": 0
+    },
+    {
+      "file": "mobile-dark-tags.png",
+      "pass": true,
+      "baseline": [
+        390,
+        844
+      ],
+      "candidate": [
+        390,
+        844
+      ],
+      "changedPixels": 0,
+      "changedBytes": 0,
+      "changedPixelPercentage": 0
+    },
+    {
+      "file": "mobile-dark-archives.png",
+      "pass": true,
+      "baseline": [
+        390,
+        4306
+      ],
+      "candidate": [
+        390,
+        4306
+      ],
+      "changedPixels": 0,
+      "changedBytes": 0,
+      "changedPixelPercentage": 0
+    },
+    {
+      "file": "mobile-dark-about.png",
+      "pass": true,
+      "baseline": [
+        390,
+        2040
+      ],
+      "candidate": [
+        390,
+        2040
+      ],
+      "changedPixels": 0,
+      "changedBytes": 0,
+      "changedPixelPercentage": 0
+    },
+    {
+      "file": "mobile-dark-search.png",
+      "pass": true,
+      "baseline": [
+        390,
+        844
+      ],
+      "candidate": [
+        390,
+        844
+      ],
+      "changedPixels": 0,
+      "changedBytes": 0,
+      "changedPixelPercentage": 0
+    },
+    {
+      "file": "mobile-dark-article.png",
+      "pass": false,
+      "baseline": [
+        390,
+        12883
+      ],
+      "candidate": [
+        390,
+        12883
+      ],
+      "changedPixels": 53945,
+      "changedBytes": 78244,
+      "changedPixelPercentage": 1.0736669472988654
+    },
+    {
+      "file": "mobile-dark-search-results.png",
+      "pass": true,
+      "baseline": [
+        390,
+        2463
+      ],
+      "candidate": [
+        390,
+        2463
+      ],
+      "changedPixels": 0,
+      "changedBytes": 0,
+      "changedPixelPercentage": 0
+    },
+    {
+      "file": "mobile-dark-mobile-menu.png",
+      "pass": true,
+      "baseline": [
+        390,
+        2452
+      ],
+      "candidate": [
+        390,
+        2452
+      ],
+      "changedPixels": 0,
+      "changedBytes": 0,
+      "changedPixelPercentage": 0
+    }
+  ]
+}

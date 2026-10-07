@@ -1,0 +1,68 @@
+{
+  "upstream": "https://github.com/satnaing/astro-paper",
+  "revision": "35cfa7fbe0b897306d27670d3819e55d5205f3dd",
+  "source": "Google Fonts static WOFF and TTF files resolved by Astro font provider",
+  "license": "https://github.com/googlefonts/googlesans-code/blob/main/OFL.txt",
+  "files": [
+    {
+      "file": "google-sans-code-300-italic.woff",
+      "upstreamAsset": "/_astro/fonts/2213c1e7fbe06cc7.woff",
+      "sha256": "62a352667eb89460f8a29c1f6d2fd9e71db1b7f5005f565c7291be13e0e0e459"
+    },
+    {
+      "file": "google-sans-code-400-italic.woff",
+      "upstreamAsset": "/_astro/fonts/c487dbd9c215141e.woff",
+      "sha256": "b6c2aa68fb9546ae372b07ba9c17d5d46a1e51a0d06eba87370d73649b17092d"
+    },
+    {
+      "file": "google-sans-code-500-italic.woff",
+      "upstreamAsset": "/_astro/fonts/0976c79a1e97c08d.woff",
+      "sha256": "d6ed7e620758a5ed89bef1b52945aad07b5798be75486282e231fa91ab63d411"
+    },
+    {
+      "file": "google-sans-code-600-italic.woff",
+      "upstreamAsset": "/_astro/fonts/3c46d5a1dde2929d.woff",
+      "sha256": "2a94cf3920b82b6d34f840e1410dfe6a4070d5cd7398bf065474f8cf5ca39c5d"
+    },
+    {
+      "file": "google-sans-code-700-italic.woff",
+      "upstreamAsset": "/_astro/fonts/e9aa617e80052f4b.woff",
+      "sha256": "d3781834fc0bd0bebd49c5258ea651d6950f661de4f7cf1ee614f291907b3d7a"
+    },
+    {
+      "file": "google-sans-code-300-normal.woff",
+      "upstreamAsset": "/_astro/fonts/5056f1a50e5e7744.woff",
+      "sha256": "cc699b2cdc920394d9df03f845a23d5e1ecdb018eae476f6b99e992f7dda8d0d"
+    },
+    {
+      "file": "google-sans-code-400-normal.woff",
+      "upstreamAsset": "/_astro/fonts/e734307f8c328338.woff",
+      "sha256": "0b62444e118bec97a9d180cc5093cfa36bb765fdb1c590a983c889a03b39ca0b"
+    },
+    {
+      "file": "google-sans-code-500-normal.woff",
+      "upstreamAsset": "/_astro/fonts/dfa89044152f7da4.woff",
+      "sha256": "0c1a29b51765d85c8923394e93789c9194456b9c6a2ca287a74e1958f59bb558"
+    },
+    {
+      "file": "google-sans-code-600-normal.woff",
+      "upstreamAsset": "/_astro/fonts/8bbd58b325585200.woff",
+      "sha256": "913590982e4ef63129c0569e6a0fff2ba8ebc677fb33c4ed467ecee6ecddbdf3"
+    },
+    {
+      "file": "google-sans-code-700-normal.woff",
+      "upstreamAsset": "/_astro/fonts/035035a9ddbd14aa.woff",
+      "sha256": "0d0dc7606f34fd9a5a0d14fdbe41739be70fcb95e9931d9b7d99ecd4fc6c679a"
+    },
+    {
+      "file": "../../../public/fonts/google-sans-code-400-normal.ttf",
+      "upstreamAsset": "/_astro/fonts/ba3036786bf88603.ttf",
+      "sha256": "f2fbd95d7f7a0a41828dcf1bb841b2911b4fbe0ee95d21101c744a868a3f8001"
+    },
+    {
+      "file": "../../../public/fonts/google-sans-code-700-normal.ttf",
+      "upstreamAsset": "/_astro/fonts/50fcf54bf575f53f.ttf",
+      "sha256": "e4fb47c3201dffdd5b02f541131f47fe91c2e89d64f09ed7d08018cddfa740ed"
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+# Design rubric
+Score 0-5 each. 1. Pixel and behavior parity with pinned upstream, including Pagefind. 2. One consistent publication eligibility rule across pages/search/feeds/exported data. 3. Minimal change preserving existing history/content/contracts. 4. Reproducible identical-data visual and production browser proof. 5. Static root/base-path portability, no external runtime service. Prefer narrow public API and established layout/component structure.

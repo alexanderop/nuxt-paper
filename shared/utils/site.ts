@@ -25,12 +25,13 @@ export const POSTS = {
 };
 
 export const FEATURES = {
+  dynamicOgImage: true,
   lightAndDarkMode: true,
   showArchives: true,
   showBackButton: true,
   editPost: {
     enabled: true,
-    url: "https://github.com/satnaing/astro-paper/edit/main/",
+    url: "https://github.com/alexanderop/nuxt-paper/edit/main/",
   },
   search: true,
   giscus: false,
@@ -73,3 +74,12 @@ export const SHARE_LINKS: SocialLink[] = [
   { name: "pinterest", url: "https://pinterest.com/pin/create/button/?url=" },
   { name: "mail", url: "mailto:?subject=See%20this%20post&body=" },
 ];
+
+export const HOME = {
+  title: "Mingalaba",
+  description: "NuxtPaper is a minimal, responsive, accessible and SEO-friendly blog theme — a port of AstroPaper to Nuxt 4 and Nuxt Content. This theme follows best practices and provides accessibility out of the box. Light and dark mode are supported by default.",
+  readMorePrefix: "Read the blog posts or check",
+  readMoreLabel: "README",
+  readMoreUrl: "https://github.com/alexanderop/nuxt-paper#readme",
+  readMoreSuffix: "of the theme for more info.",
+};

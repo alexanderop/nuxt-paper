@@ -12,7 +12,8 @@
     scrollbar-color: var(--color-muted) transparent;
   }
   a,
-  button {
+  button,
+  #main-content {
     @apply outline-accent outline-offset-1 focus-visible:no-underline focus-visible:outline-2 focus-visible:outline-dashed;
   }
   button:not(:disabled),
@@ -35,4 +36,14 @@
 
 :target {
   scroll-margin-block: 1rem;
+}
+
+@keyframes paperFadeIn {
+  from { opacity: 0; mix-blend-mode: plus-lighter; }
+  to { opacity: 1; mix-blend-mode: plus-lighter; }
+}
+
+@keyframes paperFadeOut {
+  from { opacity: 1; mix-blend-mode: plus-lighter; }
+  to { opacity: 0; mix-blend-mode: plus-lighter; }
 }

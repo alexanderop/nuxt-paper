@@ -22,5 +22,5 @@ const postPath = computed(() => `/posts/${segments.value.join("/")}`);
 
 <template>
   <PostListView v-if="isList" :page="page" />
-  <PostDetailView v-else :path="postPath" />
+  <PostDetailView v-else :key="postPath" :path="postPath" />
 </template>

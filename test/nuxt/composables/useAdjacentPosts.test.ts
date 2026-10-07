@@ -46,26 +46,26 @@ describe("useAdjacentPosts", () => {
   });
 
   it("returns prev and next around a middle post", async () => {
-    const { prevPost, nextPost } = await setup("/c");
-    expect(prevPost.value?.path).toBe("/b");
-    expect(nextPost.value?.path).toBe("/a");
+    const { nextPost, prevPost } = await setup("/c");
+    expect(nextPost.value?.path).toBe("/b");
+    expect(prevPost.value?.path).toBe("/a");
   });
 
-  it("has no prevPost for the first post", async () => {
-    const { prevPost, nextPost } = await setup("/b");
-    expect(prevPost.value).toBeNull();
-    expect(nextPost.value?.path).toBe("/c");
-  });
-
-  it("has no nextPost for the last post", async () => {
-    const { prevPost, nextPost } = await setup("/a");
-    expect(prevPost.value?.path).toBe("/c");
+  it("has no nextPost for the first post", async () => {
+    const { nextPost, prevPost } = await setup("/b");
     expect(nextPost.value).toBeNull();
+    expect(prevPost.value?.path).toBe("/c");
+  });
+
+  it("has no prevPost for the last post", async () => {
+    const { nextPost, prevPost } = await setup("/a");
+    expect(nextPost.value?.path).toBe("/c");
+    expect(prevPost.value).toBeNull();
   });
 
   it("returns null on both sides for an unknown path", async () => {
-    const { prevPost, nextPost } = await setup("/missing");
-    expect(prevPost.value).toBeNull();
+    const { nextPost, prevPost } = await setup("/missing");
     expect(nextPost.value).toBeNull();
+    expect(prevPost.value).toBeNull();
   });
 });
