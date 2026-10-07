@@ -3,6 +3,8 @@
  * DOM-based because the blocks come from rendered markdown, not Vue.
  */
 export function useCodeCopyButtons() {
+  const timers: ReturnType<typeof setTimeout>[] = [];
+  onBeforeUnmount(() => timers.forEach(clearTimeout));
   onMounted(() => {
     const copyButtonLabel = "Copy";
     const codeBlocks = Array.from(
@@ -20,6 +22,7 @@ export function useCodeCopyButtons() {
       const copyButton = document.createElement("button");
       copyButton.className =
         "copy-code absolute end-3 -top-3 rounded bg-muted border border-muted px-2 py-1 text-xs leading-4 text-foreground font-medium";
+      copyButton.style.top = codeBlock.style.getPropertyValue("--file-name-offset") || "-0.75rem";
       copyButton.innerHTML = copyButtonLabel;
       codeBlock.setAttribute("tabindex", "0");
       codeBlock.appendChild(copyButton);
@@ -31,9 +34,9 @@ export function useCodeCopyButtons() {
         const code = codeBlock.querySelector("code");
         await navigator.clipboard.writeText(code?.innerText ?? "");
         copyButton.innerText = "Copied";
-        setTimeout(() => {
+        timers.push(setTimeout(() => {
           copyButton.innerText = copyButtonLabel;
-        }, 700);
+        }, 700));
       });
     }
   });

@@ -31,21 +31,6 @@
       @apply text-foreground hover:text-accent wrap-break-word decoration-dashed underline-offset-4 focus-visible:no-underline;
     }
 
-    /* Nuxt Content (MDC) wraps heading text in an anchor link */
-    :is(h2, h3, h4, h5, h6) a {
-      @apply no-underline hover:text-foreground;
-
-      &::after {
-        content: " #";
-        @apply text-foreground ms-1 opacity-75 md:opacity-0;
-      }
-
-      &:hover::after,
-      &:focus-visible::after {
-        @apply md:opacity-100;
-      }
-    }
-
     ul {
       @apply overflow-x-clip;
     }
@@ -62,6 +47,11 @@
       @apply border-border mx-auto border;
     }
 
+    img[role="button"] {
+      @apply cursor-zoom-in;
+      &:focus-visible { @apply outline-2 outline-offset-2 outline-dashed; }
+    }
+
     figcaption {
       @apply opacity-75;
     }
@@ -72,9 +62,10 @@
         @apply border-border border p-2;
       }
 
-      th {
-        @apply py-1.5;
-      }
+      th { @apply py-1.5; }
+      th[align="center"], td[align="center"] { text-align: center; }
+      th[align="right"], td[align="right"] { text-align: right; }
+      th[align="left"], td[align="left"] { text-align: left; }
     }
 
     code {
@@ -82,7 +73,7 @@
     }
 
     pre code {
-      @apply bg-inherit p-0;
+      @apply flex-[1_0_100%] bg-inherit p-0;
     }
 
     blockquote {
@@ -91,6 +82,10 @@
 
     details:not(.callout) {
       @apply text-foreground inline-block cursor-pointer select-none [&_p]:hidden [&_ul]:my-0!;
+    }
+
+    h2 + details:not(.callout) {
+      @apply mt-2;
     }
 
     summary {
@@ -107,29 +102,33 @@
      `dark` class on <html>. Only the block background needs defining:
      min-light (#ffffff) and night-owl (#011627). */
   .app-prose pre.shiki {
-    --shiki-default-bg: #ffffff;
-    --shiki-dark-bg: #011627;
-    @apply outline-border border;
-    background-color: var(--shiki-default-bg);
+    @apply outline-border flex border;
+    background-color: #ffffff;
   }
 
   html[data-theme="dark"] .app-prose pre.shiki {
-    background-color: var(--shiki-dark-bg);
+    background-color: #011627;
   }
 
   /* Styles for Shiki transformer-like markup (kept for parity) */
   .shiki {
     .line.diff.add {
-      @apply relative inline-block w-full bg-green-400/20 before:absolute before:-left-3 before:text-green-500 before:content-['+'];
+      @apply relative inline-block w-full bg-green-400/20! before:absolute before:-left-3 before:text-green-500 before:content-['+'];
     }
     .line.diff.remove {
-      @apply relative inline-block w-full bg-red-500/20 before:absolute before:-left-3 before:text-red-500 before:content-['-'];
+      @apply relative inline-block w-full bg-red-500/20! before:absolute before:-left-3 before:text-red-500 before:content-['-'];
     }
     .line.highlighted {
-      @apply inline-block w-full bg-slate-400/20;
+      @apply inline-block w-full bg-slate-400/20!;
     }
     .highlighted-word {
       @apply border-border rounded-sm border px-0.5 py-px;
     }
   }
+}
+
+html .app-prose pre.shiki code span {
+  font-style: normal !important;
+  font-weight: inherit !important;
+  text-decoration: none !important;
 }

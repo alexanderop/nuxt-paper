@@ -87,10 +87,13 @@ describe("usePageSeo", () => {
   });
 
   it("generates an og image component when none is provided", async () => {
-    await renderHead({ title: "Hello | NuxtPaper", description: "d" });
-    expect(ogImageSpy).toHaveBeenCalledWith("BlogPost", {
+    await renderHead({ title: "Hello | NuxtPaper", description: "d", ogType: "article" });
+    expect(ogImageSpy).toHaveBeenCalledWith("BlogPostSatori", {
       title: "Hello",
       description: "d",
+      author: "Sat Naing",
+      article: true,
+      fontFamily: "Google Sans Code OG",
     });
   });
 

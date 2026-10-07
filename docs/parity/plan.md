@@ -1,0 +1,21 @@
+- [x] Read the Principles section of the poteto-mode skill.
+- [x] Phase A: Frame
+- [x] Phase B: Design the workflow
+- [x] Phase C: Run the loop
+- [x] Capture pinned AstroPaper baseline and establish comparison harness.
+- [x] Ground: trace content, routes, styling, and interaction behavior.
+- [x] Sketch: Frame, Fan out, Cross-judge, Pick, Graft, Verify three design candidates.
+- [x] Agree: proceed under autopilot authorization.
+- [x] Implement: repair the existing Nuxt Content port, shared primitives, and pages.
+- [x] Scrap: revisit architecture only if repeated friction proves it wrong.
+- [x] Blocking first steps. Baseline and architecture before implementation fan-out.
+- [x] Independent workstreams. Source grounding and verification artifacts may run independently.
+- [x] Shared mutable state. One implementation owner; independent review paths.
+- [x] Smallest safe decomposition. One app owner keeps shared markup and content coherent.
+- [x] Verify static output, behavior, accessibility, and pixel diffs; repair defects.
+- [x] Independent review, no-comments, available deslop equivalent, and audit review.
+- [ ] Preserve existing public alexanderop/nuxt-paper; publish verified changes and inspect CI.
+- [x] Phase D: Keep the audit trail
+- [ ] Phase E: Verify and hand back
+
+The selected architecture held through verification; no architecture reset was required. Browser parity passed all 34 states with zero changed bytes. Final CI and deployment remain shipping gates.

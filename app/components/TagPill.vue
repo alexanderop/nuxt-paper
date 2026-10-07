@@ -1,5 +1,5 @@
 <script setup lang="ts">
-withDefaults(
+const props = withDefaults(
   defineProps<{
     tag: string;
     tagName: string;
@@ -7,12 +7,15 @@ withDefaults(
   }>(),
   { size: "lg" }
 );
+const transitionName = computed(() => `tag-${toTransitionName(props.tag)}`);
 </script>
 
 <template>
   <li>
+    <component :is="'style'">{{ cardTransitionStyles(transitionName) }}</component>
     <NuxtLink
       :to="`/tags/${tag}`"
+      :style="{ viewTransitionName: transitionName }"
       :class="[
         'flex items-center gap-0.5',
         'border-foreground border-b-2 border-dashed',

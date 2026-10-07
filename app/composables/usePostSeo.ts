@@ -19,6 +19,7 @@ export function usePostSeo(post: PostSeoInput) {
     ogImage: post.ogImage,
     canonicalURL: post.canonicalURL,
     ogType: "article",
+    author: post.author,
   });
 
   const pubISO = toDate(post.pubDatetime).toISOString();

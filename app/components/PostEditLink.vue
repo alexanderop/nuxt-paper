@@ -3,12 +3,13 @@ const props = defineProps<{
   post: {
     /** id looks like "posts/posts/my-post.md" (collection/source path) */
     id: string;
+    sourcePath?: string;
     hideEditPost?: boolean;
   };
 }>();
 
 const filePath = computed(
-  () => `content/${props.post.id.split("/").slice(1).join("/")}`
+  () => `content/${(props.post.sourcePath ?? props.post.id.split("/").slice(1).join("/"))}`
 );
 
 const href = computed(() =>

@@ -1,0 +1,2024 @@
+[
+  {
+    "port": 4322,
+    "samples": [
+      [
+        {
+          "name": "-ua-view-transition-group-anim-root",
+          "pseudo": "::view-transition-group(root)",
+          "timing": {
+            "delay": 0,
+            "direction": "normal",
+            "duration": 250,
+            "easing": "linear",
+            "endDelay": 0,
+            "fill": "both",
+            "iterationStart": 0,
+            "iterations": 1
+          },
+          "frames": [
+            {
+              "offset": 0,
+              "easing": "ease",
+              "composite": "auto",
+              "height": "900px",
+              "backdropFilter": "none",
+              "width": "1280px",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "ease",
+              "composite": "replace",
+              "height": "900px",
+              "backdropFilter": "none",
+              "width": "1280px",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)",
+              "computedOffset": 1
+            }
+          ]
+        },
+        {
+          "name": "-ua-view-transition-group-anim-adding-new-posts-in-astropaper-theme",
+          "pseudo": "::view-transition-group(adding-new-posts-in-astropaper-theme)",
+          "timing": {
+            "delay": 0,
+            "direction": "normal",
+            "duration": 250,
+            "easing": "linear",
+            "endDelay": 0,
+            "fill": "both",
+            "iterationStart": 0,
+            "iterations": 1
+          },
+          "frames": [
+            {
+              "offset": 0,
+              "easing": "ease",
+              "composite": "auto",
+              "height": "28px",
+              "backdropFilter": "none",
+              "width": "388.812px",
+              "transform": "matrix(1, 0, 0, 1, 272, 534)",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "ease",
+              "composite": "replace",
+              "height": "36px",
+              "backdropFilter": "none",
+              "width": "648px",
+              "transform": "matrix(1, 0, 0, 1, 272, 145)",
+              "computedOffset": 1
+            }
+          ]
+        },
+        {
+          "name": "-ua-view-transition-fade-in",
+          "pseudo": "::view-transition-new(root)",
+          "timing": {
+            "delay": 0,
+            "direction": "normal",
+            "duration": 250,
+            "easing": "linear",
+            "endDelay": 0,
+            "fill": "both",
+            "iterationStart": 0,
+            "iterations": 1
+          },
+          "frames": [
+            {
+              "offset": 0,
+              "easing": "ease",
+              "composite": "auto",
+              "opacity": "0",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "ease",
+              "composite": "replace",
+              "opacity": "1",
+              "computedOffset": 1
+            }
+          ]
+        },
+        {
+          "name": "-ua-mix-blend-mode-plus-lighter",
+          "pseudo": "::view-transition-new(root)",
+          "timing": {
+            "delay": 0,
+            "direction": "normal",
+            "duration": 250,
+            "easing": "linear",
+            "endDelay": 0,
+            "fill": "both",
+            "iterationStart": 0,
+            "iterations": 1
+          },
+          "frames": [
+            {
+              "offset": 0,
+              "easing": "ease",
+              "composite": "auto",
+              "mixBlendMode": "plus-lighter",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "ease",
+              "composite": "auto",
+              "mixBlendMode": "plus-lighter",
+              "computedOffset": 1
+            }
+          ]
+        },
+        {
+          "name": "-ua-view-transition-fade-out",
+          "pseudo": "::view-transition-old(root)",
+          "timing": {
+            "delay": 0,
+            "direction": "normal",
+            "duration": 250,
+            "easing": "linear",
+            "endDelay": 0,
+            "fill": "both",
+            "iterationStart": 0,
+            "iterations": 1
+          },
+          "frames": [
+            {
+              "offset": 0,
+              "easing": "ease",
+              "composite": "replace",
+              "opacity": "1",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "ease",
+              "composite": "auto",
+              "opacity": "0",
+              "computedOffset": 1
+            }
+          ]
+        },
+        {
+          "name": "-ua-mix-blend-mode-plus-lighter",
+          "pseudo": "::view-transition-old(root)",
+          "timing": {
+            "delay": 0,
+            "direction": "normal",
+            "duration": 250,
+            "easing": "linear",
+            "endDelay": 0,
+            "fill": "both",
+            "iterationStart": 0,
+            "iterations": 1
+          },
+          "frames": [
+            {
+              "offset": 0,
+              "easing": "ease",
+              "composite": "auto",
+              "mixBlendMode": "plus-lighter",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "ease",
+              "composite": "auto",
+              "mixBlendMode": "plus-lighter",
+              "computedOffset": 1
+            }
+          ]
+        },
+        {
+          "name": "-ua-view-transition-fade-in",
+          "pseudo": "::view-transition-new(adding-new-posts-in-astropaper-theme)",
+          "timing": {
+            "delay": 0,
+            "direction": "normal",
+            "duration": 250,
+            "easing": "linear",
+            "endDelay": 0,
+            "fill": "both",
+            "iterationStart": 0,
+            "iterations": 1
+          },
+          "frames": [
+            {
+              "offset": 0,
+              "easing": "ease",
+              "composite": "auto",
+              "opacity": "0",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "ease",
+              "composite": "replace",
+              "opacity": "1",
+              "computedOffset": 1
+            }
+          ]
+        },
+        {
+          "name": "-ua-mix-blend-mode-plus-lighter",
+          "pseudo": "::view-transition-new(adding-new-posts-in-astropaper-theme)",
+          "timing": {
+            "delay": 0,
+            "direction": "normal",
+            "duration": 250,
+            "easing": "linear",
+            "endDelay": 0,
+            "fill": "both",
+            "iterationStart": 0,
+            "iterations": 1
+          },
+          "frames": [
+            {
+              "offset": 0,
+              "easing": "ease",
+              "composite": "auto",
+              "mixBlendMode": "plus-lighter",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "ease",
+              "composite": "auto",
+              "mixBlendMode": "plus-lighter",
+              "computedOffset": 1
+            }
+          ]
+        },
+        {
+          "name": "-ua-view-transition-fade-out",
+          "pseudo": "::view-transition-old(adding-new-posts-in-astropaper-theme)",
+          "timing": {
+            "delay": 0,
+            "direction": "normal",
+            "duration": 250,
+            "easing": "linear",
+            "endDelay": 0,
+            "fill": "both",
+            "iterationStart": 0,
+            "iterations": 1
+          },
+          "frames": [
+            {
+              "offset": 0,
+              "easing": "ease",
+              "composite": "replace",
+              "opacity": "1",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "ease",
+              "composite": "auto",
+              "opacity": "0",
+              "computedOffset": 1
+            }
+          ]
+        },
+        {
+          "name": "-ua-mix-blend-mode-plus-lighter",
+          "pseudo": "::view-transition-old(adding-new-posts-in-astropaper-theme)",
+          "timing": {
+            "delay": 0,
+            "direction": "normal",
+            "duration": 250,
+            "easing": "linear",
+            "endDelay": 0,
+            "fill": "both",
+            "iterationStart": 0,
+            "iterations": 1
+          },
+          "frames": [
+            {
+              "offset": 0,
+              "easing": "ease",
+              "composite": "auto",
+              "mixBlendMode": "plus-lighter",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "ease",
+              "composite": "auto",
+              "mixBlendMode": "plus-lighter",
+              "computedOffset": 1
+            }
+          ]
+        },
+        {
+          "name": "-ua-view-transition-fade-out",
+          "pseudo": "::view-transition-old(how-to-configure-astropaper-theme)",
+          "timing": {
+            "delay": 0,
+            "direction": "normal",
+            "duration": 250,
+            "easing": "linear",
+            "endDelay": 0,
+            "fill": "both",
+            "iterationStart": 0,
+            "iterations": 1
+          },
+          "frames": [
+            {
+              "offset": 0,
+              "easing": "ease",
+              "composite": "replace",
+              "opacity": "1",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "ease",
+              "composite": "auto",
+              "opacity": "0",
+              "computedOffset": 1
+            }
+          ]
+        },
+        {
+          "name": "-ua-view-transition-fade-out",
+          "pseudo": "::view-transition-old(astro-paper-v6)",
+          "timing": {
+            "delay": 0,
+            "direction": "normal",
+            "duration": 250,
+            "easing": "linear",
+            "endDelay": 0,
+            "fill": "both",
+            "iterationStart": 0,
+            "iterations": 1
+          },
+          "frames": [
+            {
+              "offset": 0,
+              "easing": "ease",
+              "composite": "replace",
+              "opacity": "1",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "ease",
+              "composite": "auto",
+              "opacity": "0",
+              "computedOffset": 1
+            }
+          ]
+        },
+        {
+          "name": "-ua-view-transition-fade-out",
+          "pseudo": "::view-transition-old(dynamic-og-image-generation-in-astropaper-blog-posts)",
+          "timing": {
+            "delay": 0,
+            "direction": "normal",
+            "duration": 250,
+            "easing": "linear",
+            "endDelay": 0,
+            "fill": "both",
+            "iterationStart": 0,
+            "iterations": 1
+          },
+          "frames": [
+            {
+              "offset": 0,
+              "easing": "ease",
+              "composite": "replace",
+              "opacity": "1",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "ease",
+              "composite": "auto",
+              "opacity": "0",
+              "computedOffset": 1
+            }
+          ]
+        },
+        {
+          "name": "-ua-view-transition-fade-out",
+          "pseudo": "::view-transition-old(customizing-astropaper-theme-color-schemes)",
+          "timing": {
+            "delay": 0,
+            "direction": "normal",
+            "duration": 250,
+            "easing": "linear",
+            "endDelay": 0,
+            "fill": "both",
+            "iterationStart": 0,
+            "iterations": 1
+          },
+          "frames": [
+            {
+              "offset": 0,
+              "easing": "ease",
+              "composite": "replace",
+              "opacity": "1",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "ease",
+              "composite": "auto",
+              "opacity": "0",
+              "computedOffset": 1
+            }
+          ]
+        },
+        {
+          "name": "-ua-view-transition-fade-out",
+          "pseudo": "::view-transition-old(predefined-color-schemes)",
+          "timing": {
+            "delay": 0,
+            "direction": "normal",
+            "duration": 250,
+            "easing": "linear",
+            "endDelay": 0,
+            "fill": "both",
+            "iterationStart": 0,
+            "iterations": 1
+          },
+          "frames": [
+            {
+              "offset": 0,
+              "easing": "ease",
+              "composite": "replace",
+              "opacity": "1",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "ease",
+              "composite": "auto",
+              "opacity": "0",
+              "computedOffset": 1
+            }
+          ]
+        },
+        {
+          "name": "-ua-view-transition-fade-out",
+          "pseudo": "::view-transition-old(how-to-add-latex-equations-in-blog-posts)",
+          "timing": {
+            "delay": 0,
+            "direction": "normal",
+            "duration": 250,
+            "easing": "linear",
+            "endDelay": 0,
+            "fill": "both",
+            "iterationStart": 0,
+            "iterations": 1
+          },
+          "frames": [
+            {
+              "offset": 0,
+              "easing": "ease",
+              "composite": "replace",
+              "opacity": "1",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "ease",
+              "composite": "auto",
+              "opacity": "0",
+              "computedOffset": 1
+            }
+          ]
+        },
+        {
+          "name": "astroFadeIn",
+          "pseudo": "::view-transition-new(docs)",
+          "timing": {
+            "delay": 0,
+            "direction": "normal",
+            "duration": 180,
+            "easing": "linear",
+            "endDelay": 0,
+            "fill": "both",
+            "iterationStart": 0,
+            "iterations": 1
+          },
+          "frames": [
+            {
+              "offset": 0,
+              "easing": "cubic-bezier(0.76, 0, 0.24, 1)",
+              "composite": "auto",
+              "opacity": "0",
+              "mixBlendMode": "plus-lighter",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "cubic-bezier(0.76, 0, 0.24, 1)",
+              "composite": "auto",
+              "opacity": "1",
+              "mixBlendMode": "plus-lighter",
+              "computedOffset": 1
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "name": "-ua-view-transition-group-anim-adding-new-posts-in-astropaper-theme",
+          "pseudo": "::view-transition-group(adding-new-posts-in-astropaper-theme)",
+          "timing": {
+            "delay": 0,
+            "direction": "normal",
+            "duration": 250,
+            "easing": "linear",
+            "endDelay": 0,
+            "fill": "both",
+            "iterationStart": 0,
+            "iterations": 1
+          },
+          "frames": [
+            {
+              "offset": 0,
+              "easing": "ease",
+              "composite": "auto",
+              "height": "36px",
+              "backdropFilter": "none",
+              "width": "648px",
+              "transform": "matrix(1, 0, 0, 1, 272, 145)",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "ease",
+              "composite": "replace",
+              "height": "28px",
+              "backdropFilter": "none",
+              "width": "388.812px",
+              "transform": "matrix(1, 0, 0, 1, 272, 534)",
+              "computedOffset": 1
+            }
+          ]
+        },
+        {
+          "name": "-ua-view-transition-group-anim-root",
+          "pseudo": "::view-transition-group(root)",
+          "timing": {
+            "delay": 0,
+            "direction": "normal",
+            "duration": 250,
+            "easing": "linear",
+            "endDelay": 0,
+            "fill": "both",
+            "iterationStart": 0,
+            "iterations": 1
+          },
+          "frames": [
+            {
+              "offset": 0,
+              "easing": "ease",
+              "composite": "auto",
+              "height": "900px",
+              "backdropFilter": "none",
+              "width": "1280px",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "ease",
+              "composite": "replace",
+              "height": "900px",
+              "backdropFilter": "none",
+              "width": "1280px",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)",
+              "computedOffset": 1
+            }
+          ]
+        },
+        {
+          "name": "-ua-view-transition-fade-in",
+          "pseudo": "::view-transition-new(root)",
+          "timing": {
+            "delay": 0,
+            "direction": "normal",
+            "duration": 250,
+            "easing": "linear",
+            "endDelay": 0,
+            "fill": "both",
+            "iterationStart": 0,
+            "iterations": 1
+          },
+          "frames": [
+            {
+              "offset": 0,
+              "easing": "ease",
+              "composite": "auto",
+              "opacity": "0",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "ease",
+              "composite": "replace",
+              "opacity": "1",
+              "computedOffset": 1
+            }
+          ]
+        },
+        {
+          "name": "-ua-mix-blend-mode-plus-lighter",
+          "pseudo": "::view-transition-new(root)",
+          "timing": {
+            "delay": 0,
+            "direction": "normal",
+            "duration": 250,
+            "easing": "linear",
+            "endDelay": 0,
+            "fill": "both",
+            "iterationStart": 0,
+            "iterations": 1
+          },
+          "frames": [
+            {
+              "offset": 0,
+              "easing": "ease",
+              "composite": "auto",
+              "mixBlendMode": "plus-lighter",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "ease",
+              "composite": "auto",
+              "mixBlendMode": "plus-lighter",
+              "computedOffset": 1
+            }
+          ]
+        },
+        {
+          "name": "-ua-view-transition-fade-out",
+          "pseudo": "::view-transition-old(root)",
+          "timing": {
+            "delay": 0,
+            "direction": "normal",
+            "duration": 250,
+            "easing": "linear",
+            "endDelay": 0,
+            "fill": "both",
+            "iterationStart": 0,
+            "iterations": 1
+          },
+          "frames": [
+            {
+              "offset": 0,
+              "easing": "ease",
+              "composite": "replace",
+              "opacity": "1",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "ease",
+              "composite": "auto",
+              "opacity": "0",
+              "computedOffset": 1
+            }
+          ]
+        },
+        {
+          "name": "-ua-mix-blend-mode-plus-lighter",
+          "pseudo": "::view-transition-old(root)",
+          "timing": {
+            "delay": 0,
+            "direction": "normal",
+            "duration": 250,
+            "easing": "linear",
+            "endDelay": 0,
+            "fill": "both",
+            "iterationStart": 0,
+            "iterations": 1
+          },
+          "frames": [
+            {
+              "offset": 0,
+              "easing": "ease",
+              "composite": "auto",
+              "mixBlendMode": "plus-lighter",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "ease",
+              "composite": "auto",
+              "mixBlendMode": "plus-lighter",
+              "computedOffset": 1
+            }
+          ]
+        },
+        {
+          "name": "astroFadeIn",
+          "pseudo": "::view-transition-new(adding-new-posts-in-astropaper-theme)",
+          "timing": {
+            "delay": 0,
+            "direction": "normal",
+            "duration": 180,
+            "easing": "linear",
+            "endDelay": 0,
+            "fill": "both",
+            "iterationStart": 0,
+            "iterations": 1
+          },
+          "frames": [
+            {
+              "offset": 0,
+              "easing": "cubic-bezier(0.76, 0, 0.24, 1)",
+              "composite": "auto",
+              "opacity": "0",
+              "mixBlendMode": "plus-lighter",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "cubic-bezier(0.76, 0, 0.24, 1)",
+              "composite": "auto",
+              "opacity": "1",
+              "mixBlendMode": "plus-lighter",
+              "computedOffset": 1
+            }
+          ]
+        },
+        {
+          "name": "astroFadeOut",
+          "pseudo": "::view-transition-old(adding-new-posts-in-astropaper-theme)",
+          "timing": {
+            "delay": 0,
+            "direction": "normal",
+            "duration": 180,
+            "easing": "linear",
+            "endDelay": 0,
+            "fill": "both",
+            "iterationStart": 0,
+            "iterations": 1
+          },
+          "frames": [
+            {
+              "offset": 0,
+              "easing": "cubic-bezier(0.76, 0, 0.24, 1)",
+              "composite": "auto",
+              "opacity": "1",
+              "mixBlendMode": "plus-lighter",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "cubic-bezier(0.76, 0, 0.24, 1)",
+              "composite": "auto",
+              "opacity": "0",
+              "mixBlendMode": "plus-lighter",
+              "computedOffset": 1
+            }
+          ]
+        },
+        {
+          "name": "-ua-view-transition-fade-out",
+          "pseudo": "::view-transition-old(docs)",
+          "timing": {
+            "delay": 0,
+            "direction": "normal",
+            "duration": 250,
+            "easing": "linear",
+            "endDelay": 0,
+            "fill": "both",
+            "iterationStart": 0,
+            "iterations": 1
+          },
+          "frames": [
+            {
+              "offset": 0,
+              "easing": "ease",
+              "composite": "replace",
+              "opacity": "1",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "ease",
+              "composite": "auto",
+              "opacity": "0",
+              "computedOffset": 1
+            }
+          ]
+        },
+        {
+          "name": "astroFadeIn",
+          "pseudo": "::view-transition-new(how-to-configure-astropaper-theme)",
+          "timing": {
+            "delay": 0,
+            "direction": "normal",
+            "duration": 180,
+            "easing": "linear",
+            "endDelay": 0,
+            "fill": "both",
+            "iterationStart": 0,
+            "iterations": 1
+          },
+          "frames": [
+            {
+              "offset": 0,
+              "easing": "cubic-bezier(0.76, 0, 0.24, 1)",
+              "composite": "auto",
+              "opacity": "0",
+              "mixBlendMode": "plus-lighter",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "cubic-bezier(0.76, 0, 0.24, 1)",
+              "composite": "auto",
+              "opacity": "1",
+              "mixBlendMode": "plus-lighter",
+              "computedOffset": 1
+            }
+          ]
+        },
+        {
+          "name": "astroFadeIn",
+          "pseudo": "::view-transition-new(astro-paper-v6)",
+          "timing": {
+            "delay": 0,
+            "direction": "normal",
+            "duration": 180,
+            "easing": "linear",
+            "endDelay": 0,
+            "fill": "both",
+            "iterationStart": 0,
+            "iterations": 1
+          },
+          "frames": [
+            {
+              "offset": 0,
+              "easing": "cubic-bezier(0.76, 0, 0.24, 1)",
+              "composite": "auto",
+              "opacity": "0",
+              "mixBlendMode": "plus-lighter",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "cubic-bezier(0.76, 0, 0.24, 1)",
+              "composite": "auto",
+              "opacity": "1",
+              "mixBlendMode": "plus-lighter",
+              "computedOffset": 1
+            }
+          ]
+        },
+        {
+          "name": "astroFadeIn",
+          "pseudo": "::view-transition-new(dynamic-og-image-generation-in-astropaper-blog-posts)",
+          "timing": {
+            "delay": 0,
+            "direction": "normal",
+            "duration": 180,
+            "easing": "linear",
+            "endDelay": 0,
+            "fill": "both",
+            "iterationStart": 0,
+            "iterations": 1
+          },
+          "frames": [
+            {
+              "offset": 0,
+              "easing": "cubic-bezier(0.76, 0, 0.24, 1)",
+              "composite": "auto",
+              "opacity": "0",
+              "mixBlendMode": "plus-lighter",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "cubic-bezier(0.76, 0, 0.24, 1)",
+              "composite": "auto",
+              "opacity": "1",
+              "mixBlendMode": "plus-lighter",
+              "computedOffset": 1
+            }
+          ]
+        },
+        {
+          "name": "astroFadeIn",
+          "pseudo": "::view-transition-new(customizing-astropaper-theme-color-schemes)",
+          "timing": {
+            "delay": 0,
+            "direction": "normal",
+            "duration": 180,
+            "easing": "linear",
+            "endDelay": 0,
+            "fill": "both",
+            "iterationStart": 0,
+            "iterations": 1
+          },
+          "frames": [
+            {
+              "offset": 0,
+              "easing": "cubic-bezier(0.76, 0, 0.24, 1)",
+              "composite": "auto",
+              "opacity": "0",
+              "mixBlendMode": "plus-lighter",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "cubic-bezier(0.76, 0, 0.24, 1)",
+              "composite": "auto",
+              "opacity": "1",
+              "mixBlendMode": "plus-lighter",
+              "computedOffset": 1
+            }
+          ]
+        },
+        {
+          "name": "astroFadeIn",
+          "pseudo": "::view-transition-new(predefined-color-schemes)",
+          "timing": {
+            "delay": 0,
+            "direction": "normal",
+            "duration": 180,
+            "easing": "linear",
+            "endDelay": 0,
+            "fill": "both",
+            "iterationStart": 0,
+            "iterations": 1
+          },
+          "frames": [
+            {
+              "offset": 0,
+              "easing": "cubic-bezier(0.76, 0, 0.24, 1)",
+              "composite": "auto",
+              "opacity": "0",
+              "mixBlendMode": "plus-lighter",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "cubic-bezier(0.76, 0, 0.24, 1)",
+              "composite": "auto",
+              "opacity": "1",
+              "mixBlendMode": "plus-lighter",
+              "computedOffset": 1
+            }
+          ]
+        },
+        {
+          "name": "astroFadeIn",
+          "pseudo": "::view-transition-new(how-to-add-latex-equations-in-blog-posts)",
+          "timing": {
+            "delay": 0,
+            "direction": "normal",
+            "duration": 180,
+            "easing": "linear",
+            "endDelay": 0,
+            "fill": "both",
+            "iterationStart": 0,
+            "iterations": 1
+          },
+          "frames": [
+            {
+              "offset": 0,
+              "easing": "cubic-bezier(0.76, 0, 0.24, 1)",
+              "composite": "auto",
+              "opacity": "0",
+              "mixBlendMode": "plus-lighter",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "cubic-bezier(0.76, 0, 0.24, 1)",
+              "composite": "auto",
+              "opacity": "1",
+              "mixBlendMode": "plus-lighter",
+              "computedOffset": 1
+            }
+          ]
+        }
+      ]
+    ]
+  },
+  {
+    "port": 5686,
+    "samples": [
+      [
+        {
+          "name": "-ua-view-transition-group-anim-root",
+          "pseudo": "::view-transition-group(root)",
+          "timing": {
+            "delay": 0,
+            "direction": "normal",
+            "duration": 250,
+            "easing": "linear",
+            "endDelay": 0,
+            "fill": "both",
+            "iterationStart": 0,
+            "iterations": 1
+          },
+          "frames": [
+            {
+              "offset": 0,
+              "easing": "ease",
+              "composite": "auto",
+              "height": "900px",
+              "backdropFilter": "none",
+              "width": "1280px",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "ease",
+              "composite": "replace",
+              "height": "900px",
+              "backdropFilter": "none",
+              "width": "1280px",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)",
+              "computedOffset": 1
+            }
+          ]
+        },
+        {
+          "name": "-ua-view-transition-group-anim-postsadding-new-posts-in-astropaper-theme",
+          "pseudo": "::view-transition-group(postsadding-new-posts-in-astropaper-theme)",
+          "timing": {
+            "delay": 0,
+            "direction": "normal",
+            "duration": 250,
+            "easing": "linear",
+            "endDelay": 0,
+            "fill": "both",
+            "iterationStart": 0,
+            "iterations": 1
+          },
+          "frames": [
+            {
+              "offset": 0,
+              "easing": "ease",
+              "composite": "auto",
+              "height": "28px",
+              "backdropFilter": "none",
+              "width": "388.812px",
+              "transform": "matrix(1, 0, 0, 1, 272, 534)",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "ease",
+              "composite": "replace",
+              "height": "36px",
+              "backdropFilter": "none",
+              "width": "648px",
+              "transform": "matrix(1, 0, 0, 1, 272, 145)",
+              "computedOffset": 1
+            }
+          ]
+        },
+        {
+          "name": "-ua-view-transition-fade-in",
+          "pseudo": "::view-transition-new(root)",
+          "timing": {
+            "delay": 0,
+            "direction": "normal",
+            "duration": 250,
+            "easing": "linear",
+            "endDelay": 0,
+            "fill": "both",
+            "iterationStart": 0,
+            "iterations": 1
+          },
+          "frames": [
+            {
+              "offset": 0,
+              "easing": "ease",
+              "composite": "auto",
+              "opacity": "0",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "ease",
+              "composite": "replace",
+              "opacity": "1",
+              "computedOffset": 1
+            }
+          ]
+        },
+        {
+          "name": "-ua-mix-blend-mode-plus-lighter",
+          "pseudo": "::view-transition-new(root)",
+          "timing": {
+            "delay": 0,
+            "direction": "normal",
+            "duration": 250,
+            "easing": "linear",
+            "endDelay": 0,
+            "fill": "both",
+            "iterationStart": 0,
+            "iterations": 1
+          },
+          "frames": [
+            {
+              "offset": 0,
+              "easing": "ease",
+              "composite": "auto",
+              "mixBlendMode": "plus-lighter",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "ease",
+              "composite": "auto",
+              "mixBlendMode": "plus-lighter",
+              "computedOffset": 1
+            }
+          ]
+        },
+        {
+          "name": "-ua-view-transition-fade-out",
+          "pseudo": "::view-transition-old(root)",
+          "timing": {
+            "delay": 0,
+            "direction": "normal",
+            "duration": 250,
+            "easing": "linear",
+            "endDelay": 0,
+            "fill": "both",
+            "iterationStart": 0,
+            "iterations": 1
+          },
+          "frames": [
+            {
+              "offset": 0,
+              "easing": "ease",
+              "composite": "replace",
+              "opacity": "1",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "ease",
+              "composite": "auto",
+              "opacity": "0",
+              "computedOffset": 1
+            }
+          ]
+        },
+        {
+          "name": "-ua-mix-blend-mode-plus-lighter",
+          "pseudo": "::view-transition-old(root)",
+          "timing": {
+            "delay": 0,
+            "direction": "normal",
+            "duration": 250,
+            "easing": "linear",
+            "endDelay": 0,
+            "fill": "both",
+            "iterationStart": 0,
+            "iterations": 1
+          },
+          "frames": [
+            {
+              "offset": 0,
+              "easing": "ease",
+              "composite": "auto",
+              "mixBlendMode": "plus-lighter",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "ease",
+              "composite": "auto",
+              "mixBlendMode": "plus-lighter",
+              "computedOffset": 1
+            }
+          ]
+        },
+        {
+          "name": "-ua-view-transition-fade-in",
+          "pseudo": "::view-transition-new(postsadding-new-posts-in-astropaper-theme)",
+          "timing": {
+            "delay": 0,
+            "direction": "normal",
+            "duration": 250,
+            "easing": "linear",
+            "endDelay": 0,
+            "fill": "both",
+            "iterationStart": 0,
+            "iterations": 1
+          },
+          "frames": [
+            {
+              "offset": 0,
+              "easing": "ease",
+              "composite": "auto",
+              "opacity": "0",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "ease",
+              "composite": "replace",
+              "opacity": "1",
+              "computedOffset": 1
+            }
+          ]
+        },
+        {
+          "name": "-ua-mix-blend-mode-plus-lighter",
+          "pseudo": "::view-transition-new(postsadding-new-posts-in-astropaper-theme)",
+          "timing": {
+            "delay": 0,
+            "direction": "normal",
+            "duration": 250,
+            "easing": "linear",
+            "endDelay": 0,
+            "fill": "both",
+            "iterationStart": 0,
+            "iterations": 1
+          },
+          "frames": [
+            {
+              "offset": 0,
+              "easing": "ease",
+              "composite": "auto",
+              "mixBlendMode": "plus-lighter",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "ease",
+              "composite": "auto",
+              "mixBlendMode": "plus-lighter",
+              "computedOffset": 1
+            }
+          ]
+        },
+        {
+          "name": "-ua-view-transition-fade-out",
+          "pseudo": "::view-transition-old(postsadding-new-posts-in-astropaper-theme)",
+          "timing": {
+            "delay": 0,
+            "direction": "normal",
+            "duration": 250,
+            "easing": "linear",
+            "endDelay": 0,
+            "fill": "both",
+            "iterationStart": 0,
+            "iterations": 1
+          },
+          "frames": [
+            {
+              "offset": 0,
+              "easing": "ease",
+              "composite": "replace",
+              "opacity": "1",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "ease",
+              "composite": "auto",
+              "opacity": "0",
+              "computedOffset": 1
+            }
+          ]
+        },
+        {
+          "name": "-ua-mix-blend-mode-plus-lighter",
+          "pseudo": "::view-transition-old(postsadding-new-posts-in-astropaper-theme)",
+          "timing": {
+            "delay": 0,
+            "direction": "normal",
+            "duration": 250,
+            "easing": "linear",
+            "endDelay": 0,
+            "fill": "both",
+            "iterationStart": 0,
+            "iterations": 1
+          },
+          "frames": [
+            {
+              "offset": 0,
+              "easing": "ease",
+              "composite": "auto",
+              "mixBlendMode": "plus-lighter",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "ease",
+              "composite": "auto",
+              "mixBlendMode": "plus-lighter",
+              "computedOffset": 1
+            }
+          ]
+        },
+        {
+          "name": "-ua-view-transition-fade-out",
+          "pseudo": "::view-transition-old(postshow-to-configure-astropaper-theme)",
+          "timing": {
+            "delay": 0,
+            "direction": "normal",
+            "duration": 250,
+            "easing": "linear",
+            "endDelay": 0,
+            "fill": "both",
+            "iterationStart": 0,
+            "iterations": 1
+          },
+          "frames": [
+            {
+              "offset": 0,
+              "easing": "ease",
+              "composite": "replace",
+              "opacity": "1",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "ease",
+              "composite": "auto",
+              "opacity": "0",
+              "computedOffset": 1
+            }
+          ]
+        },
+        {
+          "name": "-ua-view-transition-fade-out",
+          "pseudo": "::view-transition-old(postsastro-paper-v6)",
+          "timing": {
+            "delay": 0,
+            "direction": "normal",
+            "duration": 250,
+            "easing": "linear",
+            "endDelay": 0,
+            "fill": "both",
+            "iterationStart": 0,
+            "iterations": 1
+          },
+          "frames": [
+            {
+              "offset": 0,
+              "easing": "ease",
+              "composite": "replace",
+              "opacity": "1",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "ease",
+              "composite": "auto",
+              "opacity": "0",
+              "computedOffset": 1
+            }
+          ]
+        },
+        {
+          "name": "-ua-view-transition-fade-out",
+          "pseudo": "::view-transition-old(postsdynamic-og-image-generation-in-astropaper-blog-posts)",
+          "timing": {
+            "delay": 0,
+            "direction": "normal",
+            "duration": 250,
+            "easing": "linear",
+            "endDelay": 0,
+            "fill": "both",
+            "iterationStart": 0,
+            "iterations": 1
+          },
+          "frames": [
+            {
+              "offset": 0,
+              "easing": "ease",
+              "composite": "replace",
+              "opacity": "1",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "ease",
+              "composite": "auto",
+              "opacity": "0",
+              "computedOffset": 1
+            }
+          ]
+        },
+        {
+          "name": "-ua-view-transition-fade-out",
+          "pseudo": "::view-transition-old(postscustomizing-astropaper-theme-color-schemes)",
+          "timing": {
+            "delay": 0,
+            "direction": "normal",
+            "duration": 250,
+            "easing": "linear",
+            "endDelay": 0,
+            "fill": "both",
+            "iterationStart": 0,
+            "iterations": 1
+          },
+          "frames": [
+            {
+              "offset": 0,
+              "easing": "ease",
+              "composite": "replace",
+              "opacity": "1",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "ease",
+              "composite": "auto",
+              "opacity": "0",
+              "computedOffset": 1
+            }
+          ]
+        },
+        {
+          "name": "-ua-view-transition-fade-out",
+          "pseudo": "::view-transition-old(postspredefined-color-schemes)",
+          "timing": {
+            "delay": 0,
+            "direction": "normal",
+            "duration": 250,
+            "easing": "linear",
+            "endDelay": 0,
+            "fill": "both",
+            "iterationStart": 0,
+            "iterations": 1
+          },
+          "frames": [
+            {
+              "offset": 0,
+              "easing": "ease",
+              "composite": "replace",
+              "opacity": "1",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "ease",
+              "composite": "auto",
+              "opacity": "0",
+              "computedOffset": 1
+            }
+          ]
+        },
+        {
+          "name": "-ua-view-transition-fade-out",
+          "pseudo": "::view-transition-old(postshow-to-add-latex-equations-in-blog-posts)",
+          "timing": {
+            "delay": 0,
+            "direction": "normal",
+            "duration": 250,
+            "easing": "linear",
+            "endDelay": 0,
+            "fill": "both",
+            "iterationStart": 0,
+            "iterations": 1
+          },
+          "frames": [
+            {
+              "offset": 0,
+              "easing": "ease",
+              "composite": "replace",
+              "opacity": "1",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "ease",
+              "composite": "auto",
+              "opacity": "0",
+              "computedOffset": 1
+            }
+          ]
+        },
+        {
+          "name": "paperFadeIn",
+          "pseudo": "::view-transition-new(tag-docs)",
+          "timing": {
+            "delay": 0,
+            "direction": "normal",
+            "duration": 180,
+            "easing": "linear",
+            "endDelay": 0,
+            "fill": "both",
+            "iterationStart": 0,
+            "iterations": 1
+          },
+          "frames": [
+            {
+              "offset": 0,
+              "easing": "cubic-bezier(0.76, 0, 0.24, 1)",
+              "composite": "auto",
+              "opacity": "0",
+              "mixBlendMode": "plus-lighter",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "cubic-bezier(0.76, 0, 0.24, 1)",
+              "composite": "auto",
+              "opacity": "1",
+              "mixBlendMode": "plus-lighter",
+              "computedOffset": 1
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "name": "-ua-view-transition-group-anim-postsadding-new-posts-in-astropaper-theme",
+          "pseudo": "::view-transition-group(postsadding-new-posts-in-astropaper-theme)",
+          "timing": {
+            "delay": 0,
+            "direction": "normal",
+            "duration": 250,
+            "easing": "linear",
+            "endDelay": 0,
+            "fill": "both",
+            "iterationStart": 0,
+            "iterations": 1
+          },
+          "frames": [
+            {
+              "offset": 0,
+              "easing": "ease",
+              "composite": "auto",
+              "height": "36px",
+              "backdropFilter": "none",
+              "width": "648px",
+              "transform": "matrix(1, 0, 0, 1, 272, 145)",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "ease",
+              "composite": "replace",
+              "height": "28px",
+              "backdropFilter": "none",
+              "width": "388.812px",
+              "transform": "matrix(1, 0, 0, 1, 272, 534)",
+              "computedOffset": 1
+            }
+          ]
+        },
+        {
+          "name": "-ua-view-transition-group-anim-root",
+          "pseudo": "::view-transition-group(root)",
+          "timing": {
+            "delay": 0,
+            "direction": "normal",
+            "duration": 250,
+            "easing": "linear",
+            "endDelay": 0,
+            "fill": "both",
+            "iterationStart": 0,
+            "iterations": 1
+          },
+          "frames": [
+            {
+              "offset": 0,
+              "easing": "ease",
+              "composite": "auto",
+              "height": "900px",
+              "backdropFilter": "none",
+              "width": "1280px",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "ease",
+              "composite": "replace",
+              "height": "900px",
+              "backdropFilter": "none",
+              "width": "1280px",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)",
+              "computedOffset": 1
+            }
+          ]
+        },
+        {
+          "name": "-ua-view-transition-fade-in",
+          "pseudo": "::view-transition-new(root)",
+          "timing": {
+            "delay": 0,
+            "direction": "normal",
+            "duration": 250,
+            "easing": "linear",
+            "endDelay": 0,
+            "fill": "both",
+            "iterationStart": 0,
+            "iterations": 1
+          },
+          "frames": [
+            {
+              "offset": 0,
+              "easing": "ease",
+              "composite": "auto",
+              "opacity": "0",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "ease",
+              "composite": "replace",
+              "opacity": "1",
+              "computedOffset": 1
+            }
+          ]
+        },
+        {
+          "name": "-ua-mix-blend-mode-plus-lighter",
+          "pseudo": "::view-transition-new(root)",
+          "timing": {
+            "delay": 0,
+            "direction": "normal",
+            "duration": 250,
+            "easing": "linear",
+            "endDelay": 0,
+            "fill": "both",
+            "iterationStart": 0,
+            "iterations": 1
+          },
+          "frames": [
+            {
+              "offset": 0,
+              "easing": "ease",
+              "composite": "auto",
+              "mixBlendMode": "plus-lighter",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "ease",
+              "composite": "auto",
+              "mixBlendMode": "plus-lighter",
+              "computedOffset": 1
+            }
+          ]
+        },
+        {
+          "name": "-ua-view-transition-fade-out",
+          "pseudo": "::view-transition-old(root)",
+          "timing": {
+            "delay": 0,
+            "direction": "normal",
+            "duration": 250,
+            "easing": "linear",
+            "endDelay": 0,
+            "fill": "both",
+            "iterationStart": 0,
+            "iterations": 1
+          },
+          "frames": [
+            {
+              "offset": 0,
+              "easing": "ease",
+              "composite": "replace",
+              "opacity": "1",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "ease",
+              "composite": "auto",
+              "opacity": "0",
+              "computedOffset": 1
+            }
+          ]
+        },
+        {
+          "name": "-ua-mix-blend-mode-plus-lighter",
+          "pseudo": "::view-transition-old(root)",
+          "timing": {
+            "delay": 0,
+            "direction": "normal",
+            "duration": 250,
+            "easing": "linear",
+            "endDelay": 0,
+            "fill": "both",
+            "iterationStart": 0,
+            "iterations": 1
+          },
+          "frames": [
+            {
+              "offset": 0,
+              "easing": "ease",
+              "composite": "auto",
+              "mixBlendMode": "plus-lighter",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "ease",
+              "composite": "auto",
+              "mixBlendMode": "plus-lighter",
+              "computedOffset": 1
+            }
+          ]
+        },
+        {
+          "name": "paperFadeIn",
+          "pseudo": "::view-transition-new(postsadding-new-posts-in-astropaper-theme)",
+          "timing": {
+            "delay": 0,
+            "direction": "normal",
+            "duration": 180,
+            "easing": "linear",
+            "endDelay": 0,
+            "fill": "both",
+            "iterationStart": 0,
+            "iterations": 1
+          },
+          "frames": [
+            {
+              "offset": 0,
+              "easing": "cubic-bezier(0.76, 0, 0.24, 1)",
+              "composite": "auto",
+              "opacity": "0",
+              "mixBlendMode": "plus-lighter",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "cubic-bezier(0.76, 0, 0.24, 1)",
+              "composite": "auto",
+              "opacity": "1",
+              "mixBlendMode": "plus-lighter",
+              "computedOffset": 1
+            }
+          ]
+        },
+        {
+          "name": "paperFadeOut",
+          "pseudo": "::view-transition-old(postsadding-new-posts-in-astropaper-theme)",
+          "timing": {
+            "delay": 0,
+            "direction": "normal",
+            "duration": 180,
+            "easing": "linear",
+            "endDelay": 0,
+            "fill": "both",
+            "iterationStart": 0,
+            "iterations": 1
+          },
+          "frames": [
+            {
+              "offset": 0,
+              "easing": "cubic-bezier(0.76, 0, 0.24, 1)",
+              "composite": "auto",
+              "opacity": "1",
+              "mixBlendMode": "plus-lighter",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "cubic-bezier(0.76, 0, 0.24, 1)",
+              "composite": "auto",
+              "opacity": "0",
+              "mixBlendMode": "plus-lighter",
+              "computedOffset": 1
+            }
+          ]
+        },
+        {
+          "name": "-ua-view-transition-fade-out",
+          "pseudo": "::view-transition-old(tag-docs)",
+          "timing": {
+            "delay": 0,
+            "direction": "normal",
+            "duration": 250,
+            "easing": "linear",
+            "endDelay": 0,
+            "fill": "both",
+            "iterationStart": 0,
+            "iterations": 1
+          },
+          "frames": [
+            {
+              "offset": 0,
+              "easing": "ease",
+              "composite": "replace",
+              "opacity": "1",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "ease",
+              "composite": "auto",
+              "opacity": "0",
+              "computedOffset": 1
+            }
+          ]
+        },
+        {
+          "name": "paperFadeIn",
+          "pseudo": "::view-transition-new(postshow-to-configure-astropaper-theme)",
+          "timing": {
+            "delay": 0,
+            "direction": "normal",
+            "duration": 180,
+            "easing": "linear",
+            "endDelay": 0,
+            "fill": "both",
+            "iterationStart": 0,
+            "iterations": 1
+          },
+          "frames": [
+            {
+              "offset": 0,
+              "easing": "cubic-bezier(0.76, 0, 0.24, 1)",
+              "composite": "auto",
+              "opacity": "0",
+              "mixBlendMode": "plus-lighter",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "cubic-bezier(0.76, 0, 0.24, 1)",
+              "composite": "auto",
+              "opacity": "1",
+              "mixBlendMode": "plus-lighter",
+              "computedOffset": 1
+            }
+          ]
+        },
+        {
+          "name": "paperFadeIn",
+          "pseudo": "::view-transition-new(postsastro-paper-v6)",
+          "timing": {
+            "delay": 0,
+            "direction": "normal",
+            "duration": 180,
+            "easing": "linear",
+            "endDelay": 0,
+            "fill": "both",
+            "iterationStart": 0,
+            "iterations": 1
+          },
+          "frames": [
+            {
+              "offset": 0,
+              "easing": "cubic-bezier(0.76, 0, 0.24, 1)",
+              "composite": "auto",
+              "opacity": "0",
+              "mixBlendMode": "plus-lighter",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "cubic-bezier(0.76, 0, 0.24, 1)",
+              "composite": "auto",
+              "opacity": "1",
+              "mixBlendMode": "plus-lighter",
+              "computedOffset": 1
+            }
+          ]
+        },
+        {
+          "name": "paperFadeIn",
+          "pseudo": "::view-transition-new(postsdynamic-og-image-generation-in-astropaper-blog-posts)",
+          "timing": {
+            "delay": 0,
+            "direction": "normal",
+            "duration": 180,
+            "easing": "linear",
+            "endDelay": 0,
+            "fill": "both",
+            "iterationStart": 0,
+            "iterations": 1
+          },
+          "frames": [
+            {
+              "offset": 0,
+              "easing": "cubic-bezier(0.76, 0, 0.24, 1)",
+              "composite": "auto",
+              "opacity": "0",
+              "mixBlendMode": "plus-lighter",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "cubic-bezier(0.76, 0, 0.24, 1)",
+              "composite": "auto",
+              "opacity": "1",
+              "mixBlendMode": "plus-lighter",
+              "computedOffset": 1
+            }
+          ]
+        },
+        {
+          "name": "paperFadeIn",
+          "pseudo": "::view-transition-new(postscustomizing-astropaper-theme-color-schemes)",
+          "timing": {
+            "delay": 0,
+            "direction": "normal",
+            "duration": 180,
+            "easing": "linear",
+            "endDelay": 0,
+            "fill": "both",
+            "iterationStart": 0,
+            "iterations": 1
+          },
+          "frames": [
+            {
+              "offset": 0,
+              "easing": "cubic-bezier(0.76, 0, 0.24, 1)",
+              "composite": "auto",
+              "opacity": "0",
+              "mixBlendMode": "plus-lighter",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "cubic-bezier(0.76, 0, 0.24, 1)",
+              "composite": "auto",
+              "opacity": "1",
+              "mixBlendMode": "plus-lighter",
+              "computedOffset": 1
+            }
+          ]
+        },
+        {
+          "name": "paperFadeIn",
+          "pseudo": "::view-transition-new(postspredefined-color-schemes)",
+          "timing": {
+            "delay": 0,
+            "direction": "normal",
+            "duration": 180,
+            "easing": "linear",
+            "endDelay": 0,
+            "fill": "both",
+            "iterationStart": 0,
+            "iterations": 1
+          },
+          "frames": [
+            {
+              "offset": 0,
+              "easing": "cubic-bezier(0.76, 0, 0.24, 1)",
+              "composite": "auto",
+              "opacity": "0",
+              "mixBlendMode": "plus-lighter",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "cubic-bezier(0.76, 0, 0.24, 1)",
+              "composite": "auto",
+              "opacity": "1",
+              "mixBlendMode": "plus-lighter",
+              "computedOffset": 1
+            }
+          ]
+        },
+        {
+          "name": "paperFadeIn",
+          "pseudo": "::view-transition-new(postshow-to-add-latex-equations-in-blog-posts)",
+          "timing": {
+            "delay": 0,
+            "direction": "normal",
+            "duration": 180,
+            "easing": "linear",
+            "endDelay": 0,
+            "fill": "both",
+            "iterationStart": 0,
+            "iterations": 1
+          },
+          "frames": [
+            {
+              "offset": 0,
+              "easing": "cubic-bezier(0.76, 0, 0.24, 1)",
+              "composite": "auto",
+              "opacity": "0",
+              "mixBlendMode": "plus-lighter",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "cubic-bezier(0.76, 0, 0.24, 1)",
+              "composite": "auto",
+              "opacity": "1",
+              "mixBlendMode": "plus-lighter",
+              "computedOffset": 1
+            }
+          ]
+        }
+      ]
+    ]
+  }
+]

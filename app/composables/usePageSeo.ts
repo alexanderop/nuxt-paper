@@ -5,15 +5,10 @@ interface PageSeoOptions {
   description?: string;
   ogImage?: string;
   canonicalURL?: string;
+  author?: string;
   ogType?: "website" | "article";
 }
 
-/**
- * Sets per-page meta tags mirroring AstroPaper's Layout.astro head.
- *
- * When no explicit `ogImage` is given (e.g. post frontmatter), an OG image
- * is generated at build time from the page title via nuxt-og-image.
- */
 export function usePageSeo(options: PageSeoOptions = {}) {
   const route = useRoute();
 
@@ -48,13 +43,14 @@ export function usePageSeo(options: PageSeoOptions = {}) {
     twitterDescription: description,
   });
 
-  if (options.ogImage) {
-    const socialImageURL = joinURL(SITE.url, options.ogImage);
+  const image = options.ogImage || (!FEATURES.dynamicOgImage || options.ogType !== "article" ? useRuntimeConfig().public.defaultOgImage : "");
+  if (image) {
+    const socialImageURL = /^https?:\/\//.test(image) ? image : joinURL(SITE.url, image);
     useSeoMeta({
       ogImage: socialImageURL,
       twitterImage: socialImageURL,
     });
-  } else {
+  } else if (FEATURES.dynamicOgImage) {
     // Page titles carry a " | NuxtPaper" suffix; the template shows the
     // site name separately, so strip it from the image headline.
     const suffix = ` | ${SITE.title}`;
@@ -62,9 +58,12 @@ export function usePageSeo(options: PageSeoOptions = {}) {
       ? title.slice(0, -suffix.length)
       : title;
 
-    defineOgImageComponent("BlogPost", {
+    defineOgImageComponent("BlogPostSatori", {
       title: imageTitle,
-      description: options.description ?? "",
+      description: description,
+      author: options.author ?? SITE.author,
+      article: options.ogType === "article",
+      fontFamily: "Google Sans Code OG",
     });
   }
 }

@@ -1,0 +1,1014 @@
+{
+  "upstream": "35cfa7fbe0b897306d27670d3819e55d5205f3dd",
+  "source": "/Users/alexanderopalic/Projects/active/nuxt-paper-parity",
+  "output": "/private/tmp/nuxt-paper-parity-fixture-07",
+  "publicationNow": "2026-10-07T12:00:00.000Z",
+  "sourceFiles": [
+    {
+      "path": ".github/workflows/ci.yml",
+      "sha256": "9cada2a6c5fad7fd83ec7a5106375db84246d67d65f5dfe8373c8ee139b3069c"
+    },
+    {
+      "path": ".github/workflows/deploy.yml",
+      "sha256": "622f0053f86e3b50998e687dcafe7c1746b078d16cc840e2ef27f221a64e6db1"
+    },
+    {
+      "path": ".github/workflows/zizmor.yml",
+      "sha256": "21ce0621647d8250dbf68e9e848eb4081b6aadd0a9eb04878e8cc1b79a1723a3"
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "3e7064fc718183a7d35cb677c2ba04dac2a220f786ddc5c0dbc24862facd9d1f"
+    },
+    {
+      "path": ".nuxtrc",
+      "sha256": "85e19339853960414a409c472ba788af0448fa0e6439b41afb58fe922554bd8d"
+    },
+    {
+      "path": ".oxlintrc.json",
+      "sha256": "bc138e78805f72079a8445108b6bd9634b194590911931ec99b8d6a7e076d9b0"
+    },
+    {
+      "path": "app/app.vue",
+      "sha256": "23e467a77c4409fa36a2a35f7aa5f6a199a1f30aed12ffa65a463dc10c842f01"
+    },
+    {
+      "path": "app/assets/css/fonts.css",
+      "sha256": "c40850ec24ae098cf45509702e6d40f808e71db4c2787fcd7b6bc70e2df1dfb5"
+    },
+    {
+      "path": "app/assets/css/global.css",
+      "sha256": "5bffe9e1ecd5d7909436fc01c47b54f643147412d3adde5fd3e1a12283b98370"
+    },
+    {
+      "path": "app/assets/css/theme.css",
+      "sha256": "716e0097613c6259089c256721dfae26a21b2bdef431d7c43533544f41371df3"
+    },
+    {
+      "path": "app/assets/css/typography.css",
+      "sha256": "025b00c12062bae845621341159ab80865aec79fd5d1f666c595cadb947bc565"
+    },
+    {
+      "path": "app/assets/fonts/google-sans-code-300-italic.woff",
+      "sha256": "62a352667eb89460f8a29c1f6d2fd9e71db1b7f5005f565c7291be13e0e0e459"
+    },
+    {
+      "path": "app/assets/fonts/google-sans-code-300-normal.woff",
+      "sha256": "cc699b2cdc920394d9df03f845a23d5e1ecdb018eae476f6b99e992f7dda8d0d"
+    },
+    {
+      "path": "app/assets/fonts/google-sans-code-400-italic.woff",
+      "sha256": "b6c2aa68fb9546ae372b07ba9c17d5d46a1e51a0d06eba87370d73649b17092d"
+    },
+    {
+      "path": "app/assets/fonts/google-sans-code-400-normal.woff",
+      "sha256": "0b62444e118bec97a9d180cc5093cfa36bb765fdb1c590a983c889a03b39ca0b"
+    },
+    {
+      "path": "app/assets/fonts/google-sans-code-500-italic.woff",
+      "sha256": "d6ed7e620758a5ed89bef1b52945aad07b5798be75486282e231fa91ab63d411"
+    },
+    {
+      "path": "app/assets/fonts/google-sans-code-500-normal.woff",
+      "sha256": "0c1a29b51765d85c8923394e93789c9194456b9c6a2ca287a74e1958f59bb558"
+    },
+    {
+      "path": "app/assets/fonts/google-sans-code-600-italic.woff",
+      "sha256": "2a94cf3920b82b6d34f840e1410dfe6a4070d5cd7398bf065474f8cf5ca39c5d"
+    },
+    {
+      "path": "app/assets/fonts/google-sans-code-600-normal.woff",
+      "sha256": "913590982e4ef63129c0569e6a0fff2ba8ebc677fb33c4ed467ecee6ecddbdf3"
+    },
+    {
+      "path": "app/assets/fonts/google-sans-code-700-italic.woff",
+      "sha256": "d3781834fc0bd0bebd49c5258ea651d6950f661de4f7cf1ee614f291907b3d7a"
+    },
+    {
+      "path": "app/assets/fonts/google-sans-code-700-normal.woff",
+      "sha256": "0d0dc7606f34fd9a5a0d14fdbe41739be70fcb95e9931d9b7d99ecd4fc6c679a"
+    },
+    {
+      "path": "app/assets/fonts/OFL.txt",
+      "sha256": "ff8f4fbc4f1a71c7d4c6481c48dc2b21c43f8dc15872536667fee45c15d20928"
+    },
+    {
+      "path": "app/assets/fonts/provenance.json",
+      "sha256": "5a5726bbabdd188dc9e314ea46bef7d68fb8eadfcdafd095cbdb6f64d6e29e67"
+    },
+    {
+      "path": "app/components/AppFooter.vue",
+      "sha256": "e00df4b9bbca4ec8d2ba9fa4d7f60bb6ca625f8e26c5e663120231ddb7dbdcec"
+    },
+    {
+      "path": "app/components/AppHeader.vue",
+      "sha256": "2ae330e8eed4ad9f49e4ff29043adfe44602213ff251b7aac8c47b13797e4b27"
+    },
+    {
+      "path": "app/components/BreadcrumbNav.vue",
+      "sha256": "b28f407814374b1d1ae1524f7734b989fc5bb135d6a028697bae7ab3911264d3"
+    },
+    {
+      "path": "app/components/content/ProseH2.vue",
+      "sha256": "b70918cf373fb5cd47c1e31e166c1121a4770834b5e8cbb238b364f2aaba103c"
+    },
+    {
+      "path": "app/components/content/ProseH3.vue",
+      "sha256": "78e7f1bfd1071e1de910f5473238d14ef95a4a8e3fac28932c0a7c723978b164"
+    },
+    {
+      "path": "app/components/content/ProseH4.vue",
+      "sha256": "3569de3b7e2bfbed99702943a0eb6daa487accd34f06b7a75e0da929e84826c2"
+    },
+    {
+      "path": "app/components/content/ProseH5.vue",
+      "sha256": "4ca73e26f64240a6515bab851095fcc4c52fbad33b6553efed161663f89db0dc"
+    },
+    {
+      "path": "app/components/content/ProseH6.vue",
+      "sha256": "6066b72f865192678ab7623f54a93e420ac918404deb8d7584b0c94157d04649"
+    },
+    {
+      "path": "app/components/content/ProsePre.vue",
+      "sha256": "a6aec2745c503e159e1fe9ca4e51b8c9e03310f596ab9844b2870d8b0da28d8f"
+    },
+    {
+      "path": "app/components/content/ResponsiveTable.vue",
+      "sha256": "7e7ab5ffb989f56c4787dc11a80fd88d878fe8d4d5765ceabb644f8a37808e41"
+    },
+    {
+      "path": "app/components/DatetimeDisplay.vue",
+      "sha256": "50df588904958b52884411bc8a2ba4c4db272d23a8af4f02b71ed4486257df10"
+    },
+    {
+      "path": "app/components/GiscusComments.vue",
+      "sha256": "ee2ddc811d6a9bc6e31cce77ad4699b42e264411a7adb5dde210929b2217ecae"
+    },
+    {
+      "path": "app/components/icons/IconArchive.vue",
+      "sha256": "79ad0b0e503be788a063b9a951e2d4e97c19ce1f39b07785af2dfc9cb666f327"
+    },
+    {
+      "path": "app/components/icons/IconArrowLeft.vue",
+      "sha256": "7bac7c7fd10e2b6aacc4afb47056a9b8bd81ebb5b2c2788fee0f6df6baa52c06"
+    },
+    {
+      "path": "app/components/icons/IconArrowNarrowUp.vue",
+      "sha256": "aa6653860af796789559b782d35ef748aaad923ed78156617dd2f0eddb55714b"
+    },
+    {
+      "path": "app/components/icons/IconArrowRight.vue",
+      "sha256": "cff69fc5f0a706734742840d7aa201383988ac31d31e3cc2a7fa4b129bfbbc70"
+    },
+    {
+      "path": "app/components/icons/IconCalendar.vue",
+      "sha256": "37bd121b66dc9c55ddd829ba02dac344c77aa3b71c6e61a3b8b35b16faa48d1a"
+    },
+    {
+      "path": "app/components/icons/IconChevronLeft.vue",
+      "sha256": "c27075bca1f98a9663500fc94ae47bb8ffc8e1f6061fd17128bd35a9e4b26f1f"
+    },
+    {
+      "path": "app/components/icons/IconEdit.vue",
+      "sha256": "d4aa669006499f11cc40bf9d522c319dc77df754b76841ca0273006c233cf0df"
+    },
+    {
+      "path": "app/components/icons/IconHash.vue",
+      "sha256": "369fd7db60163c13f152b56bf6ac584c0623f69b7462ac36489aff9aef6fde08"
+    },
+    {
+      "path": "app/components/icons/IconMenuDeep.vue",
+      "sha256": "4a9b3b4a277c4c1d8aea62696e83b685a03bc7cd5e5f2663aca6d0394f7487bf"
+    },
+    {
+      "path": "app/components/icons/IconMoon.vue",
+      "sha256": "75769955c735c1984f85641c07206f136bf1c9288838d2c177cf8de8608668c7"
+    },
+    {
+      "path": "app/components/icons/IconRss.vue",
+      "sha256": "626339622a6eceb04bf5bc9cf1bf41a6118ee53d848023b0d814cd3a05c5307f"
+    },
+    {
+      "path": "app/components/icons/IconSearch.vue",
+      "sha256": "9283a192720c40413f874e5e98a630980b35a68e220dd5a9081ef146812a79d5"
+    },
+    {
+      "path": "app/components/icons/IconSunHigh.vue",
+      "sha256": "578b40ee28eb4c4647a025978f3e3833dc5a903709bb8608a8f89d0d4763b68e"
+    },
+    {
+      "path": "app/components/icons/IconUnderline.vue",
+      "sha256": "10ccc5ca33d02ce84cf559162129cdfd1e9c31f90717bf5e8641c381566e961c"
+    },
+    {
+      "path": "app/components/icons/IconX.vue",
+      "sha256": "e2c658c1df61da60f431c642d79f20b175be7a1a89be32d4942eb8ecd21c2af0"
+    },
+    {
+      "path": "app/components/icons/SocialFacebook.vue",
+      "sha256": "61529ef9028c972a52ced3bf7bddb8f3094d23739490739dc512b382d99d5366"
+    },
+    {
+      "path": "app/components/icons/SocialGithub.vue",
+      "sha256": "3614934a7a6543581abace8e5e1586e4b0225177fc5c67ecadfc5e68a718cde0"
+    },
+    {
+      "path": "app/components/icons/SocialLinkedin.vue",
+      "sha256": "04a9a5129a5eb2a23a8559038df77d1de027c8de1d257307e157051f425c726e"
+    },
+    {
+      "path": "app/components/icons/SocialMail.vue",
+      "sha256": "fc42eaacc69e38e06a65f73399eac06abc0ccbcd77c97c66c1b8b2958895b38a"
+    },
+    {
+      "path": "app/components/icons/SocialPinterest.vue",
+      "sha256": "d8b300ebdb82bf2e6d4f549ca5423049328f4bd52a50fe893414f9945f1f8513"
+    },
+    {
+      "path": "app/components/icons/SocialTelegram.vue",
+      "sha256": "ae1fde3276d215c552c200a29689ce7448091642c889e64667d83f4472e7887e"
+    },
+    {
+      "path": "app/components/icons/SocialWhatsapp.vue",
+      "sha256": "c62725e12587a4a922c80c3063ae3d103ed8948f115e54b59acbbbd10971e415"
+    },
+    {
+      "path": "app/components/icons/SocialX.vue",
+      "sha256": "254d28dcc53999765bbed13a5e72a5548a781f013baf044c47462104a6e31c78"
+    },
+    {
+      "path": "app/components/LinkButton.vue",
+      "sha256": "785d875f515489ce41dbf1ed0a85d6d70a68dd069fe4ec1910f5211ea6db2e79"
+    },
+    {
+      "path": "app/components/OgImage/BlogPost.satori.vue",
+      "sha256": "6621f829b47151309727fd4ae79092b879c6a20ab23b6dca93ffe6923a8d3b12"
+    },
+    {
+      "path": "app/components/PageMain.vue",
+      "sha256": "f208277c0bf97328226a435f2d5a700d574ffe81b962af91b0c244ca4a517cdb"
+    },
+    {
+      "path": "app/components/PaginationNav.vue",
+      "sha256": "bfabcbde6635828d4b0ddf840c6425613aef156bf714ecdb303f5127b9b2aec0"
+    },
+    {
+      "path": "app/components/PostAdjacentNav.vue",
+      "sha256": "8ce278eb7810150712f3b6333b74dc5f8d7ff887f075a52c24ecb3ec73ea1c0d"
+    },
+    {
+      "path": "app/components/PostBackButton.vue",
+      "sha256": "62055a230ae21bce4afec2951d4b3ee37e3310b6081fd3d4e5a5104416858794"
+    },
+    {
+      "path": "app/components/PostBackToTop.vue",
+      "sha256": "2a703b5182674a93e6f2a86c472841af565fc0fae90475be1fb949cc1eda86b8"
+    },
+    {
+      "path": "app/components/PostCard.vue",
+      "sha256": "445cff0fa019ca56a0f484fe90aaadbeb573402e9fa32c95b0383eb5b02c482c"
+    },
+    {
+      "path": "app/components/PostDetailView.vue",
+      "sha256": "6211ca773e6b44cc96dd6338154dca1013c8d0dd414ef21e0032addd1a702e45"
+    },
+    {
+      "path": "app/components/PostEditLink.vue",
+      "sha256": "76d8e8155ff4b14157ea112cfab36c1fd38c36098bc6fccd6bfa1a68cf374b24"
+    },
+    {
+      "path": "app/components/PostListView.vue",
+      "sha256": "04930ff52500d94f605776915b560a5ed736ecd1556564e96bde6d04fee784c0"
+    },
+    {
+      "path": "app/components/PostShareLinks.vue",
+      "sha256": "a78c3ecc5787bbcc9f00892360b560a885a9d5a074fed6ff99d7a9f655dfbe09"
+    },
+    {
+      "path": "app/components/ReadingProgressBar.vue",
+      "sha256": "6af415c43fadcb31ccb9deb08853d61833ecfae56b24dab16e99fecddd09c4e9"
+    },
+    {
+      "path": "app/components/SocialIcon.vue",
+      "sha256": "2485d2a78d66bf2145f3490a44c3918a860273bb44feb4a65e2a40d03e5da41c"
+    },
+    {
+      "path": "app/components/SocialIconLink.vue",
+      "sha256": "439d0d37ab3518fa5c694feaafbd0ee1f921c8b9425c2aee0dac93b8cea25fd2"
+    },
+    {
+      "path": "app/components/SocialLinks.vue",
+      "sha256": "ae8fb8987ca0e65da11690ebf70e73d2474973537f8665051f120813aa604888"
+    },
+    {
+      "path": "app/components/TagPill.vue",
+      "sha256": "8ff9fc5532655347e6f24d915a27b2810a8bec3d4ac19708ad0037bb286b69e6"
+    },
+    {
+      "path": "app/composables/useAdjacentPosts.ts",
+      "sha256": "a720cac0631c8b1ac0a8ea16400d534524432e8f9dc03499e66db77cef3d738e"
+    },
+    {
+      "path": "app/composables/useAllPosts.ts",
+      "sha256": "6e1ff099167181dc26aae77b85a5ac8b35a50fde58dde2de359d2ae00b97a004"
+    },
+    {
+      "path": "app/composables/useBackUrl.ts",
+      "sha256": "bc787b8cd3142eb15cbf2fd8740200df55462be3ea49db009a6d482554a99e5b"
+    },
+    {
+      "path": "app/composables/useCodeCopyButtons.ts",
+      "sha256": "fd77b0fca5d498b3094cab35542955d706988bb86e87c17bc6ac259220a7ca5b"
+    },
+    {
+      "path": "app/composables/useGiscus.ts",
+      "sha256": "e18f0ea15abbbe5e741b6c9d5be7d93da2139fe326b98d0e02817b088530a633"
+    },
+    {
+      "path": "app/composables/useImageLightbox.ts",
+      "sha256": "921edf24ececbbc2f1038ea5911693a198ded37f80d6ef38fe58925c1ac1788f"
+    },
+    {
+      "path": "app/composables/usePageSeo.ts",
+      "sha256": "8be0df5e3cfd40bf2140afb8050661ad3a8d39bee6e0597f7c335e75284af818"
+    },
+    {
+      "path": "app/composables/usePagination.ts",
+      "sha256": "638d5a29f3f9c8e0909ae8573f3ff809739d3fae0156c5c9be3f1858454c1bc9"
+    },
+    {
+      "path": "app/composables/usePostSeo.ts",
+      "sha256": "415ce278d4a8c7cd2a035e144a5eda43d9d89c03ae9fa1a1a4b162626566cba8"
+    },
+    {
+      "path": "app/composables/useScrollProgress.ts",
+      "sha256": "db6e240f50f01cae01f35a6c5c05bc9c268ae916fb618528aabe382bc9be490d"
+    },
+    {
+      "path": "app/composables/useTheme.ts",
+      "sha256": "84efe43962b23d9bb438a99ad48e299ffd26d8809262e3d0b6debae76921a529"
+    },
+    {
+      "path": "app/error.vue",
+      "sha256": "5f9017337ea1a04bf00645490d6a740f18b25a4597c01c0b777558521f378af7"
+    },
+    {
+      "path": "app/layouts/default.vue",
+      "sha256": "65405ed58c93c387f2a92ee4f9dccf1e0ebfe191f34e7bda2effacbbbfbc3948"
+    },
+    {
+      "path": "app/mdc.config.ts",
+      "sha256": "1eb46f3e284ad037cc0e367a798fd0dc3bf86cfd46fae801880b557847b90cf0"
+    },
+    {
+      "path": "app/middleware/initial-transition.global.ts",
+      "sha256": "07c95b692d677c554164d1db4644f450ac4628cb41706448419e5489ff400373"
+    },
+    {
+      "path": "app/pages/about.vue",
+      "sha256": "4fd86a6f2ac072045d573bad69003344444e1aad26fece8f4a70857644db6bf5"
+    },
+    {
+      "path": "app/pages/archives.vue",
+      "sha256": "5e688817d9ae1feffdbac0dcd0bb32748cc357c6ddf2e932bd9df8f258915f6c"
+    },
+    {
+      "path": "app/pages/index.vue",
+      "sha256": "15384bf27ba661c36ce438d332a636238a93ef286d15b98f70adac58e5072b71"
+    },
+    {
+      "path": "app/pages/posts/[...slug].vue",
+      "sha256": "075ea991cd6ba3903c0f24f66b821d4b867ad77d2532b78277004dc25886eab3"
+    },
+    {
+      "path": "app/pages/search.vue",
+      "sha256": "f8562234fc1eac474fa0ff3406e364869a180fa184c8288583122d4a1899ac8b"
+    },
+    {
+      "path": "app/pages/tags/[...slug].vue",
+      "sha256": "d2957d55286f83c9f3b4f2ab3795c0ca057262a2912da454a460b8f11b3b3af2"
+    },
+    {
+      "path": "app/pages/tags/index.vue",
+      "sha256": "052da5e2ebb150ebb36cbbb46699c4f8c650b12ac2653df98c5eab35c4324726"
+    },
+    {
+      "path": "app/plugins/theme.client.ts",
+      "sha256": "0f9e2ffc2b893f45b39a9e2c2f7cb0410c19a038476488be52a02a290a6bd192"
+    },
+    {
+      "path": "app/types/pagefind.d.ts",
+      "sha256": "aa8d17ec18f141e46b7e916bb1eb9c72541bb5d6c9016aa72d477d33ecd0fd02"
+    },
+    {
+      "path": "app/utils/cardTransitionStyles.ts",
+      "sha256": "f6374149fb2d72d0bb75504ba32249e5f6cc2d4f649839a405930c3f72199afc"
+    },
+    {
+      "path": "app/utils/date.ts",
+      "sha256": "b1c4e6bd8773934ba597b37c0ec0ecd393767949af873f6503e915b09d3dac7c"
+    },
+    {
+      "path": "app/utils/posts.ts",
+      "sha256": "8ce91bc56d9db0cbefa6dc340370afbb504762602145b0ee7315bf6df88777e3"
+    },
+    {
+      "path": "app/utils/toTransitionName.ts",
+      "sha256": "540862d959ce5b501b9808b8160aefa5b445acd7435238a8680b783b58c45b7c"
+    },
+    {
+      "path": "build/content-source.ts",
+      "sha256": "a478ed9ea8093c980dd9f37dafbd662de801337971881d0ead15bcafa1cc3e18"
+    },
+    {
+      "path": "build/rehype-svg.mjs",
+      "sha256": "6f5b0adb772131b5317a22466681ab8fcee835dca760ac3306412e4e4fd49e7e"
+    },
+    {
+      "path": "content/pages/about.md",
+      "sha256": "091f78d8a175efedbd333433b6881f604d4f97355217dda7f91a826f9e2d39f4"
+    },
+    {
+      "path": "content/posts/how-i-ported-astropaper-to-nuxt-content-with-fable-5.md",
+      "sha256": "3dd0a48ce1a7a9e81e27a33267831c9c2c151ee6dae0d249aac20f408269af6b"
+    },
+    {
+      "path": "content/posts/predefined-color-schemes.md",
+      "sha256": "14d9a9a483b5d7a1ca92746db76ce951f517ec7ce6cb52ab97086b2d65784a38"
+    },
+    {
+      "path": "content.config.ts",
+      "sha256": "992851c6842d7d013823b73013e39f190a10e775c487d98a5f1dbcb296fa2553"
+    },
+    {
+      "path": "docs/adr/0001-vercel-runtime-for-blog-agent.md",
+      "sha256": "2229ce51c520aea4613dd22cbb6f31f2dbd766f2a021a85e4ade930e52670f51"
+    },
+    {
+      "path": "docs/parity/decisions.tsv",
+      "sha256": "667024237e77b2cc1e5eb05afa78ad3f4378a9e767e81aca6e74b48277657f41"
+    },
+    {
+      "path": "docs/parity/design/brief.md",
+      "sha256": "fc1017bb1d62045656981d5a268d884d7e3497be5c79b41f69c6171e140433e8"
+    },
+    {
+      "path": "docs/parity/design/candidate-a.md",
+      "sha256": "6f2628cfb6585b35a78e3c839caab8b858420ae0e66b6f7ffc8ddb2c7a58ccc3"
+    },
+    {
+      "path": "docs/parity/design/candidate-b.md",
+      "sha256": "0966d137cc72b33642117fb0695d3e1ce64fc3d0a80fd6cb01405250ed56f353"
+    },
+    {
+      "path": "docs/parity/design/candidate-c.md",
+      "sha256": "b57ddaee6207618fcebaede72807f23a844054ccb3745e5b56e6adb2a7b05ed5"
+    },
+    {
+      "path": "docs/parity/design/rubric.md",
+      "sha256": "9538a6ed0c35fc8370311b92c584d76a770ec3397b0c8663b067c9ff38aab464"
+    },
+    {
+      "path": "docs/parity/evidence/capture-method.json",
+      "sha256": "b32d829c98def0c7bb61c43afffc7a37a8782d603d28e4b8e1a2a965ca5abae7"
+    },
+    {
+      "path": "docs/parity/evidence/capture-software.diff",
+      "sha256": "5e152d80e864130be3640ba4ce7cc6ee0c4f6c5108f6214b660e5d52f7ccf325"
+    },
+    {
+      "path": "docs/parity/evidence/upstream-gpu-repeat.json",
+      "sha256": "7a1e64defd5a587279da2ce085ef76b2d3570df72255b7a31e6c2ac2f2d9a4c1"
+    },
+    {
+      "path": "docs/parity/evidence/upstream-software-manifest.json",
+      "sha256": "abc12b6114bf4b4ab4e79f510c76af77d271665994a0d7150462a05ba9155052"
+    },
+    {
+      "path": "docs/parity/evidence/upstream-software-repeat.json",
+      "sha256": "b9c9e45e3dbcb67d42246d509f4cdef42790843b0a50b47fc4ca28359cdcc547"
+    },
+    {
+      "path": "docs/parity/grounding.md",
+      "sha256": "42609269ca5557b13ce65155451c85e3a0a9d77f96a4212d08ff27bc255ddd82"
+    },
+    {
+      "path": "docs/parity/judgment.md",
+      "sha256": "41a8aa992ad2269ccaabb0bc314e80c13dca5e3b4906a8028139f148ceaab078"
+    },
+    {
+      "path": "docs/parity/plan.md",
+      "sha256": "56f71f439f8752df7523672ff64ae62130577db6107cfa1d77d5b897123459cc"
+    },
+    {
+      "path": "docs/parity/README.md",
+      "sha256": "8b44f48b8768b69525f6a50f931fc496a2c544bf24026e12c570b1941e2bb6e5"
+    },
+    {
+      "path": "docs/plans/close-astropaper-parity-gaps.md",
+      "sha256": "d1d6a84fd65d2c9c515df27e17349c303631361d4833274622b93fcb5c24a6f0"
+    },
+    {
+      "path": "docs/plans/nuxi-style-blog-agent.md",
+      "sha256": "cfc9da6f931dcff880f28857fa7ba353a9d760c1246885ecfb8e9ee5e557ad65"
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "ea4d07cab870abad55c0abbf59d393fdf39e81d2ecf413752ab9cc7bdfc5ff41"
+    },
+    {
+      "path": "nuxt.config.ts",
+      "sha256": "8038797b82e037ac107b3233a632f81b50878b82563738dc032a26b62825f905"
+    },
+    {
+      "path": "package.json",
+      "sha256": "4389c2a3a0d14390ce4a53e34fd9b46a54ad59fda55abc2eeab1c94994ecd6b8"
+    },
+    {
+      "path": "playwright.config.ts",
+      "sha256": "1e769161c8e63fce93eff9e6ccb5ef2a9e303c674f489edc16291e0c92d15d2a"
+    },
+    {
+      "path": "pnpm-lock.yaml",
+      "sha256": "677e6b98f4ad44b9cf42b57130685e1d0b6c0aef58cbfb2187638d36b1dc0e6f"
+    },
+    {
+      "path": "public/default-og.jpg",
+      "sha256": "07f07701f273c4717cf6f857eda793985a79cd99faeabb824278c854aa9e2990"
+    },
+    {
+      "path": "public/favicon.svg",
+      "sha256": "2d7a310283d6f9cc753210d83224cd6db6348cb82a5536348884e5831d46203f"
+    },
+    {
+      "path": "public/fonts/google-sans-code-400-normal.ttf",
+      "sha256": "f2fbd95d7f7a0a41828dcf1bb841b2911b4fbe0ee95d21101c744a868a3f8001"
+    },
+    {
+      "path": "public/fonts/google-sans-code-700-normal.ttf",
+      "sha256": "e4fb47c3201dffdd5b02f541131f47fe91c2e89d64f09ed7d08018cddfa740ed"
+    },
+    {
+      "path": "public/fonts/OFL.txt",
+      "sha256": "ff8f4fbc4f1a71c7d4c6481c48dc2b21c43f8dc15872536667fee45c15d20928"
+    },
+    {
+      "path": "public/images/astropaper-og.jpg",
+      "sha256": "07f07701f273c4717cf6f857eda793985a79cd99faeabb824278c854aa9e2990"
+    },
+    {
+      "path": "public/pagefind/fragment/en_8e7fe53.pf_fragment",
+      "sha256": "c71a7b2989611552d0c66d12a012fbfa333851550b0a56ee930b70301371ebaf"
+    },
+    {
+      "path": "public/pagefind/fragment/en_c331656.pf_fragment",
+      "sha256": "06835cbbe846ccde1d44c7ad5b02755f5fa969e88061854a1e75b1ddb171bcd2"
+    },
+    {
+      "path": "public/pagefind/index/en_ea7283a.pf_index",
+      "sha256": "0fdd10b871b2319accb9e0b4989605609eef774afd8224295558589a583adf5f"
+    },
+    {
+      "path": "public/pagefind/pagefind-component-ui.css",
+      "sha256": "de389c7e5d87d6e2b10d65fb1e36e8989a12a2ad8dd6239b7e070d81fb5d8b0d"
+    },
+    {
+      "path": "public/pagefind/pagefind-component-ui.js",
+      "sha256": "958620129dd14bd851805daeb12ce708bd63b9287325d1d5ae6f73a04d1723f8"
+    },
+    {
+      "path": "public/pagefind/pagefind-entry.json",
+      "sha256": "b7aa30227f09f2cd31bde0958a52a694a93fec126bfd3807e69e3fb4468c9d99"
+    },
+    {
+      "path": "public/pagefind/pagefind-highlight.js",
+      "sha256": "04741266a86911636cefc41c8b407e380dda99b7d208724f700f94cdf57e37b5"
+    },
+    {
+      "path": "public/pagefind/pagefind-modular-ui.css",
+      "sha256": "653ab29e4de5629f6ddf5f6fcdf5d2b3eb539a8c07fff8a56b8ce2156a570788"
+    },
+    {
+      "path": "public/pagefind/pagefind-modular-ui.js",
+      "sha256": "f3efa0f74b305ccab0bc9edc7c09ab69867180b4c43093d84bb9b508ac4ec32c"
+    },
+    {
+      "path": "public/pagefind/pagefind-ui.css",
+      "sha256": "e113b816110ed07b017613e901addfe635350f2a5b84990aa76c91a74b158084"
+    },
+    {
+      "path": "public/pagefind/pagefind-ui.js",
+      "sha256": "2efa93f2e80a199ca742a69bd4cfffabc5c591ebe7763f64f7c655fd00d2209f"
+    },
+    {
+      "path": "public/pagefind/pagefind-worker.js",
+      "sha256": "4ca50d25bcab9e1c3afbc00ab5f7761114e83c8fc1b83d38655af1558b650c2a"
+    },
+    {
+      "path": "public/pagefind/pagefind.en_530c6b84cf.pf_meta",
+      "sha256": "25905c1dfdc207bc5dc46cca203ae6df5b17f9b5622e7d7941660e1a3be6ad10"
+    },
+    {
+      "path": "public/pagefind/pagefind.js",
+      "sha256": "252d272bd34d483d19a752060f6a065114d15ab12c42d8f905ca565e2768a009"
+    },
+    {
+      "path": "public/pagefind/wasm.en.pagefind",
+      "sha256": "6c8406154b5d460fc8b6cdbf2c99c008c43c465efdb1f9c15c192f5cf30dcd85"
+    },
+    {
+      "path": "public/pagefind/wasm.unknown.pagefind",
+      "sha256": "2533da887ac06de36813d031310af0f737daadacc931775e342aa5a3857a4959"
+    },
+    {
+      "path": "README.md",
+      "sha256": "9cb7516b3a5320bd5cacabafa5c815ad448fcef4c2f4b0fbce2aef5d5324af5b"
+    },
+    {
+      "path": "scripts/clear-search.mjs",
+      "sha256": "5f05509699a66efc1f14b5f95933a755c66330f190df4b074af9280c6e2a78e9"
+    },
+    {
+      "path": "scripts/index-search.mjs",
+      "sha256": "1174582eecd81c48b0f82ef538e567ada54d15e04c3ee00a91398eb785119225"
+    },
+    {
+      "path": "scripts/migrate-content.mjs",
+      "sha256": "b07afc6dd99c7f23ff03eb242679320808395dde3e3967aba73886a78d6c9bff"
+    },
+    {
+      "path": "scripts/parity/map-assets.mjs",
+      "sha256": "9c9fcd1318b65fa0a019bfcce65dec664cbe7b9b1d4a0c22fb887309ee03ef6c"
+    },
+    {
+      "path": "scripts/parity/parity.mjs",
+      "sha256": "b9d0a1cf861d77f48d475bef972aecb3fa0172c9e5e8f9cccafffabe306c116d"
+    },
+    {
+      "path": "scripts/parity/parity.test.mjs",
+      "sha256": "ea3d5a8ff5ae0196b78f7cda905b6fdceecc67c484efda53df6a43cbf868698d"
+    },
+    {
+      "path": "scripts/parity/visual/capture-software.mjs",
+      "sha256": "0e309fe125232ea9014b48a4abaa0357e15c4e39faeeb107dc3ffc76eaaa2551"
+    },
+    {
+      "path": "scripts/parity/visual/capture.mjs",
+      "sha256": "75a775d8475f6e2bd3f515f14e8f550571274efc9b9af28ab424b17f1193b8ad"
+    },
+    {
+      "path": "scripts/parity/visual/compare.mjs",
+      "sha256": "0225c8473bfaefa8e184288fe255ef706cd8d5ba1ebb3b8af5ce8d3875578833"
+    },
+    {
+      "path": "scripts/parity/visual/package.json",
+      "sha256": "f06fbb17d1bc7fef9ea306ae840511c967fd2ac746020fa85a02a2fbe2dd95d6"
+    },
+    {
+      "path": "scripts/parity/visual/pnpm-lock.yaml",
+      "sha256": "2404cbc7f14e704573dcbed44db0cec1fde344ff92d01556889c94988adc11b8"
+    },
+    {
+      "path": "scripts/verify-publication.mjs",
+      "sha256": "86dc7db593c9ddf6debe9e1606a7dcb1a06ecb5e6ffed3ad01bd8d6a9f60d2a3"
+    },
+    {
+      "path": "scripts/verify-subpath.mjs",
+      "sha256": "c3acee9a3ecdbf353a169568617d522edf34da291e4634d8a6ace5c09f3c5dc2"
+    },
+    {
+      "path": "server/routes/robots.txt.ts",
+      "sha256": "009f83a85ac0d06017ab07faae0a7d17e89b86b7bfd5ecf3a520d1d8836dc2d0"
+    },
+    {
+      "path": "server/routes/rss.xml.ts",
+      "sha256": "3c07c99d89a413d6ec7e9895f57b59b132edf6e1825714e6cc730c392096a921"
+    },
+    {
+      "path": "server/routes/sitemap.xml.ts",
+      "sha256": "af4dd1df1108f687bb00d26ee268d86f115380ef4da5064d91841c6b9f59383f"
+    },
+    {
+      "path": "shared/utils/date.ts",
+      "sha256": "4b99979192037270c77c86a85040de5f1f01b7832475066cff71c97c8742852c"
+    },
+    {
+      "path": "shared/utils/i18n.ts",
+      "sha256": "561b5a409931b7c08525110a4da7e3f010dcd0692510b43bd9b740edf8600fc6"
+    },
+    {
+      "path": "shared/utils/publication.ts",
+      "sha256": "8a5e3296ba8c990d3238ba0385f339b133cef7a69cf0b629cc73354fb9263450"
+    },
+    {
+      "path": "shared/utils/routes.ts",
+      "sha256": "5a1a8d3b0f58bba3fde0f9f93f1c7cb0d90951a2fb4dec992373268238fde883"
+    },
+    {
+      "path": "shared/utils/site.ts",
+      "sha256": "e5704ec83f8b7aac18005baec944a462cc815f0c868302d88de7fe92fb0c03f3"
+    },
+    {
+      "path": "test/e2e/article-controls.test.ts",
+      "sha256": "919254836694eeae4244499140f34068cd055af30971e9323373212bb01f1df0"
+    },
+    {
+      "path": "test/e2e/navigation.test.ts",
+      "sha256": "8ed4be57e2fb61d7482f0c94f20db7c5f148bcb9019728ee4e61d554d7ac69d0"
+    },
+    {
+      "path": "test/e2e/prerender-artifacts.test.ts",
+      "sha256": "49ae12d753a37fcb3cdfd98fed07650be48e7e288ba13e2deb15164705499743"
+    },
+    {
+      "path": "test/e2e/search.test.ts",
+      "sha256": "4b19460ffee227d65eecd5145087c27a44b90a079f7fa288af1d4e2a2a188576"
+    },
+    {
+      "path": "test/e2e/tags.test.ts",
+      "sha256": "150939b5311a41876a39399417896d05e005c4fb88899204fcdd286b84bbb9be"
+    },
+    {
+      "path": "test/e2e/test-utils.ts",
+      "sha256": "57e034b981ce43429f999b0107080797e0141149f6af06b99c460ed6109537f7"
+    },
+    {
+      "path": "test/e2e/theme.test.ts",
+      "sha256": "f7e765d5cc90d005801ce2a2398537fab2cd093b6a305a83318ef795e3dba12a"
+    },
+    {
+      "path": "test/nuxt/components/app-footer.test.ts",
+      "sha256": "7dbb76e44a8f48e15776c98dbe0157c2a9f9ed540e575e3f78cae99b7b381b58"
+    },
+    {
+      "path": "test/nuxt/components/app-header.test.ts",
+      "sha256": "22b7a32febb425700ae7de6c5bc5ecfda1921654ff5d9ac6df6c31908825f480"
+    },
+    {
+      "path": "test/nuxt/components/breadcrumb-nav.test.ts",
+      "sha256": "ac02e8d632a86da2fef7f2325c07f91d203962e13b4f93828402670211e77761"
+    },
+    {
+      "path": "test/nuxt/components/datetime-display.test.ts",
+      "sha256": "0f1642a7c30701cf98201446d2d20fce0756d14518f86485b2cbd591ff4be5e6"
+    },
+    {
+      "path": "test/nuxt/components/link-button.test.ts",
+      "sha256": "17d3afbdb4b56c24b9f5ccd9613a6e16f1fa2cf4fdd096b2c5f660e9c70d31f3"
+    },
+    {
+      "path": "test/nuxt/components/pagination-nav.test.ts",
+      "sha256": "da17ea8bde6eae308133ff061e72841744178668df2ffbd72b46d7afe38e56f6"
+    },
+    {
+      "path": "test/nuxt/components/post-adjacent-nav.test.ts",
+      "sha256": "d9e862f3544c4fa7fbc65bade347d512b90fb5f1c8d002428494910bd6fc1d4f"
+    },
+    {
+      "path": "test/nuxt/components/post-card.test.ts",
+      "sha256": "a19eaad476e99ae2958680834d72a158cfef9f0c903f7544d467106d0e285265"
+    },
+    {
+      "path": "test/nuxt/components/post-detail-view.test.ts",
+      "sha256": "88d2aeb398c96b0846dbfedc7ae97ed4c6a66b2ca4314afc94a91e4d05dec18b"
+    },
+    {
+      "path": "test/nuxt/components/post-list-view.test.ts",
+      "sha256": "4ea01ac5b51741c735e6f0a5320d469d97a22a33f947fff9255bad9709432492"
+    },
+    {
+      "path": "test/nuxt/components/post-share-links.test.ts",
+      "sha256": "b5692fec77e4ebf9124981876900ae130a609d51caa835060ecbdadb1cfeb2d7"
+    },
+    {
+      "path": "test/nuxt/components/reading-progress-bar.test.ts",
+      "sha256": "a17aa03c42bc3e4d0ae92e08b8dbf32dc716cbb568dad8e6a3d75a6280388cd2"
+    },
+    {
+      "path": "test/nuxt/components/social-links.test.ts",
+      "sha256": "95591a96608b3719e47b699b182b444b09f1452f5565bd6b44312a38ba5cbf9c"
+    },
+    {
+      "path": "test/nuxt/composables/useAdjacentPosts.test.ts",
+      "sha256": "abdfe2cd9601a5e41517443c3001c6a0ba81020f1520f1c44c85f80a0447d7e1"
+    },
+    {
+      "path": "test/nuxt/composables/useAllPosts.test.ts",
+      "sha256": "65d63ac9158b72e9ff06311d1eec6615bed65122a8189408c01a12c27c9db4bb"
+    },
+    {
+      "path": "test/nuxt/composables/useBackUrl.test.ts",
+      "sha256": "e35333db5095d85324d091d218a503fe5c400cbbafbb014e195a0991f16e3715"
+    },
+    {
+      "path": "test/nuxt/composables/useCodeCopyButtons.test.ts",
+      "sha256": "ffd43b64c6feb0fa034435f15c789d064525dc701f78d380b07a35a58750cd82"
+    },
+    {
+      "path": "test/nuxt/composables/useGiscus.test.ts",
+      "sha256": "b54aae8111a2ddbf3b3a048c5ab383f82b6e7f78527c969e26befcb8b0d937c2"
+    },
+    {
+      "path": "test/nuxt/composables/useImageLightbox.test.ts",
+      "sha256": "73c5552b59074e7498098127513732c91fc15afcc3e02f0a8cf466545f49d7b4"
+    },
+    {
+      "path": "test/nuxt/composables/usePageSeo.test.ts",
+      "sha256": "8b7edcce3e42b728384b51ac0eafe32903018896fe52a16a6a02aedd13304e3a"
+    },
+    {
+      "path": "test/nuxt/composables/usePagination.test.ts",
+      "sha256": "b58617ce502b3199d84072a2a95c03892640b5ac1a4fad751784a1f5e330090e"
+    },
+    {
+      "path": "test/nuxt/composables/usePostSeo.test.ts",
+      "sha256": "ee156c099365dacb86b443e09a49c141de903bfe1d183dc54ee30fac3bd5ce20"
+    },
+    {
+      "path": "test/nuxt/composables/useScrollProgress.test.ts",
+      "sha256": "207b098fbfe7e3260e41d298c842f1b846da02b4bc451d0c33d852133b03db56"
+    },
+    {
+      "path": "test/nuxt/composables/useTheme.test.ts",
+      "sha256": "157e9842b9dc941e6783906890e935778a243a75ae6c33c3c65e8f356a951072"
+    },
+    {
+      "path": "test/nuxt/pages/_helpers.ts",
+      "sha256": "509c488567f436527457af3e1b5d8e64008fd6ec554e9f12429d4a12b7da4214"
+    },
+    {
+      "path": "test/nuxt/pages/about.test.ts",
+      "sha256": "baab8e0465859611867e6e64b0319e53122f483212d1ba2363d76d987e33495f"
+    },
+    {
+      "path": "test/nuxt/pages/archives.test.ts",
+      "sha256": "194fe8991d49104d099c43800da323193b6ad04896b01274bcb395d2b12152ae"
+    },
+    {
+      "path": "test/nuxt/pages/index.test.ts",
+      "sha256": "3ee2a02010c262b36a3906e9b8ae1e8142adc242c50226f8087e78311f6bf271"
+    },
+    {
+      "path": "test/nuxt/pages/posts-slug.test.ts",
+      "sha256": "2025aa623fbb8c240c7a63d3ecdc39dffde5c2568dd90f91eabcd4f64d5b7661"
+    },
+    {
+      "path": "test/nuxt/pages/tags-index.test.ts",
+      "sha256": "4cf094eaafc0f85f77240b320a491d4b329e6603e46ff2191fa171f5faee0acb"
+    },
+    {
+      "path": "test/nuxt/pages/tags-slug.test.ts",
+      "sha256": "1c399cdd7e2b03809658fc9c5cedac1ecbcb2f6c629b7d2a35910a5d65dab97c"
+    },
+    {
+      "path": "test/nuxt/tag-pill.test.ts",
+      "sha256": "8f314a86a7503172c33fef9feaefbe62c23fc6c7333152f8049cdb0e39b75c07"
+    },
+    {
+      "path": "test/setup/unit-auto-imports.ts",
+      "sha256": "d166bcd364f8244a95d088f37c23d8350936ccc72e2af0788a4c6df4bf7cb29d"
+    },
+    {
+      "path": "test/unit/content-source.test.ts",
+      "sha256": "a8803660ace3fcd2c7cbfe4bccf236eac8a9e60ee18e62c3a07642c41d0afdea"
+    },
+    {
+      "path": "test/unit/date.test.ts",
+      "sha256": "d20016e4c5ff1761efe004ecd9fa0f2ac144bdd023989fcbed1b5389b853d676"
+    },
+    {
+      "path": "test/unit/i18n.test.ts",
+      "sha256": "57cff5aa7a06d07358cbd374a8180efbf9e0faf6b8c696208453ada603b46706"
+    },
+    {
+      "path": "test/unit/markdown.test.ts",
+      "sha256": "2c5319ddcf691c782db5a0f0da8cb07d55cef8f03d5fb50c9e2cf96f3846085c"
+    },
+    {
+      "path": "test/unit/posts.test.ts",
+      "sha256": "54dd1f8239d43812718ae43fdc4e2401e184d7a00dc2b37958178878f5fe94c1"
+    },
+    {
+      "path": "test/unit/publication.test.ts",
+      "sha256": "4edbc9c7bf5de8c50b69238fda235b2f2889ec2ec7ab4d36f3bc48d23c988edb"
+    },
+    {
+      "path": "test/unit/shared-date.test.ts",
+      "sha256": "cbad8501db21dbdcba3e5f6b5adc6578946c3015ece2c1d831bf03feeb467749"
+    },
+    {
+      "path": "test/unit/site.test.ts",
+      "sha256": "f3bb5f42816d1ee07c52ffbe36cc458a82ef04fdb1ab6a2ef324c6ef485389ec"
+    },
+    {
+      "path": "tsconfig.json",
+      "sha256": "665bfd2725ef0790a0173aacdd820037c4420f3df365ae3873953f8c953b9b08"
+    },
+    {
+      "path": "vitest.config.ts",
+      "sha256": "0eb2d32136d73c8463368387325ae9ac7824c1f01f421d6f83df72221161287e"
+    }
+  ],
+  "files": [
+    {
+      "path": "pages/about.md",
+      "sha256": "cf4bc75a25d07bf765e58637c998288e3d607a09d23912771147fd47ebb809af"
+    },
+    {
+      "path": "posts/_color-schemes/predefined-color-schemes.md",
+      "sha256": "d81fe8dc8dbcbde07c44ca87dfd13a92bb27e87a710eeb3eda3b478babd6a467"
+    },
+    {
+      "path": "posts/_releases/astro-paper-2.md",
+      "sha256": "1a418ce86753f76c8d01f9856af78748100b1099504677b06ff83981904368ad"
+    },
+    {
+      "path": "posts/_releases/astro-paper-3.md",
+      "sha256": "0235201b2ce34c3453a47b7f23dce5466115a38874a5b5c4afb3eeab8bf41dbe"
+    },
+    {
+      "path": "posts/_releases/astro-paper-4.md",
+      "sha256": "f8693e32b385c8c3f42f97b4f5ed008e80ee9261568975273732c5c0baf2a3c2"
+    },
+    {
+      "path": "posts/_releases/astro-paper-5.md",
+      "sha256": "7e1dd800bad0ad326fd0916b5eec99c381a1af4c1a9dd63168db702aa6b4c714"
+    },
+    {
+      "path": "posts/_releases/astro-paper-6.md",
+      "sha256": "f1199e6fe47c54bdfcc159b1cf80d82be88c88dd1160bea0ee60364dc086ed73"
+    },
+    {
+      "path": "posts/adding-new-post.md",
+      "sha256": "4b5bde650fe2560081f74ad249d280d3bed1ebbc40e5d01caac514eb1c37e347"
+    },
+    {
+      "path": "posts/customizing-astropaper-theme-color-schemes.md",
+      "sha256": "669d63ac29d91271a9be6466898dbb3935c5a4f00faec4901fd060452f4d151b"
+    },
+    {
+      "path": "posts/dynamic-og-images.md",
+      "sha256": "ff78f27acde3f1ac8c3ec54f9618770cd65c39caad15e49931808e608d885d3f"
+    },
+    {
+      "path": "posts/examples/example-draft-post.md",
+      "sha256": "45d723b8867ea93959be7a303885a2da0d5b9f4175229eb393379aab39772bb5"
+    },
+    {
+      "path": "posts/examples/portfolio-website-development.md",
+      "sha256": "d743b87263f997dcf2d5ae764eaaf5d3337fd3bf94c038ac797b284d4f610147"
+    },
+    {
+      "path": "posts/examples/tailwind-typography.md",
+      "sha256": "6edaf9aa449d61bd352529106086452749da7e081dcb6f625df463b0ec77b749"
+    },
+    {
+      "path": "posts/examples/terminal-development.md",
+      "sha256": "bf4c4a9f55ee0bb717cd231151704a17c51b32bd5f882a3b47d5834fd50f3160"
+    },
+    {
+      "path": "posts/how-to-add-latex-equations-in-blog-posts.md",
+      "sha256": "8b6148318239847cc5487f525d9525be0ff29528b99da1700b0962fa5cba7b39"
+    },
+    {
+      "path": "posts/how-to-configure-astropaper-theme.md",
+      "sha256": "f3dbf0345f205921b51bf34a935ed5c4c16079d55edfcd85db75e1387887b522"
+    },
+    {
+      "path": "posts/how-to-integrate-giscus-comments.md",
+      "sha256": "efd95956b13fda427d49fb732d5ca642505e50372072c173dd4c3437373d9ef9"
+    },
+    {
+      "path": "posts/how-to-update-dependencies.md",
+      "sha256": "bdef4c0f1d5abe4215c06cb2083154e18c2b1901eb17f4a7d89e650593af9707"
+    },
+    {
+      "path": "posts/setting-dates-via-git-hooks.md",
+      "sha256": "921d70253e96bf164dbd2d07be020dfb5ea67de592539cac90b9f3a2ea78b5d5"
+    }
+  ],
+  "assets": [
+    "/parity-assets/src/assets/images/astropaper-og.jpg.webp",
+    "/parity-assets/src/content/posts/_color-schemes/assets/paper-light.png",
+    "/parity-assets/src/content/posts/_color-schemes/assets/kha-yan.png",
+    "/parity-assets/src/content/posts/_color-schemes/assets/nila.png",
+    "/parity-assets/src/content/posts/_color-schemes/assets/jadeite.png",
+    "/parity-assets/src/content/posts/_color-schemes/assets/pyit-tine-htaung.png",
+    "/parity-assets/src/content/posts/_color-schemes/assets/ember.png",
+    "/parity-assets/src/content/posts/_color-schemes/assets/espresso.png",
+    "/parity-assets/src/assets/images/AstroPaper-v3.png",
+    "/parity-assets/src/assets/images/AstroPaper-v4.png",
+    "/parity-assets/src/assets/images/AstroPaper-v5.png",
+    "/parity-assets/src/content/posts/_releases/assets/AstroPaper-v6.png",
+    "/parity-assets/src/assets/images/forrest-gump-quote.png"
+  ],
+  "assetOverrides": [
+    {
+      "source": "src/assets/images/astropaper-og.jpg",
+      "sourceSha256": "07f07701f273c4717cf6f857eda793985a79cd99faeabb824278c854aa9e2990",
+      "optimized": "/private/tmp/astro-paper-nuxt-research-20261007/dist/_astro/default-og.jWlOTf-L_1HQtSB.webp",
+      "optimizedSha256": "0321a45a9bad571649ac12720f78a43608fdf5b7ea57819a2c9b93d94ff0c443",
+      "publicPath": "/parity-assets/src/assets/images/astropaper-og.jpg.webp"
+    }
+  ]
+}

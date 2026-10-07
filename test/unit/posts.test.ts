@@ -9,6 +9,8 @@ import {
   type PostItem,
 } from "~/utils/posts";
 
+const context = { now: Date.parse("2026-10-07T00:00:00Z"), development: false, scheduledMarginMs: 900000 };
+
 function makePost(overrides: Partial<PostItem> = {}): PostItem {
   return {
     path: "/posts/example",
@@ -22,30 +24,30 @@ function makePost(overrides: Partial<PostItem> = {}): PostItem {
 describe("postFilter", () => {
   it("excludes drafts", () => {
     expect(
-      postFilter({ draft: true, pubDatetime: "2000-01-01T00:00:00Z" })
+      postFilter({ draft: true, pubDatetime: "2000-01-01T00:00:00Z" }, context)
     ).toBe(false);
   });
 
   it("includes posts whose publish time has passed", () => {
     expect(
-      postFilter({ draft: false, pubDatetime: "2000-01-01T00:00:00Z" })
+      postFilter({ draft: false, pubDatetime: "2000-01-01T00:00:00Z" }, context)
     ).toBe(true);
   });
 
   it("shows a scheduled post just inside the margin", () => {
     // Publishes slightly into the future, but within scheduledPostMargin.
     const pubDatetime = new Date(
-      Date.now() + POSTS.scheduledPostMargin / 2
+      context.now + POSTS.scheduledPostMargin / 2
     ).toISOString();
-    expect(postFilter({ draft: false, pubDatetime })).toBe(true);
+    expect(postFilter({ draft: false, pubDatetime }, context)).toBe(true);
   });
 
   it("hides a scheduled post just outside the margin", () => {
     // Publishes far enough into the future to fall outside the margin.
     const pubDatetime = new Date(
-      Date.now() + POSTS.scheduledPostMargin * 2
+      context.now + POSTS.scheduledPostMargin * 2
     ).toISOString();
-    expect(postFilter({ draft: false, pubDatetime })).toBe(false);
+    expect(postFilter({ draft: false, pubDatetime }, context)).toBe(false);
   });
 });
 
@@ -54,12 +56,12 @@ describe("slugifyStr", () => {
     expect(slugifyStr("E2E Testing")).toBe("e2e-testing");
   });
 
-  it("strips special characters", () => {
-    expect(slugifyStr("Hello, World!")).toBe("hello-world");
+  it("uses upstream ASCII punctuation rules", () => {
+    expect(slugifyStr("Hello, World!")).toBe("hello-world!");
   });
 
   it("collapses repeated separators and trims dashes", () => {
-    expect(slugifyStr("  foo__bar  baz  ")).toBe("foo-bar-baz");
+    expect(slugifyStr("  foo__bar  baz  ")).toBe("foo__bar-baz");
   });
 
   it("keeps non-latin characters", () => {
@@ -79,7 +81,7 @@ describe("getSortedPosts", () => {
       makePost({ title: "draft", draft: true }),
       makePost({ title: "published" }),
     ];
-    expect(getSortedPosts(posts).map(p => p.title)).toEqual(["published"]);
+    expect(getSortedPosts(posts, context).map(p => p.title)).toEqual(["published"]);
   });
 
   it("sorts by modDatetime falling back to pubDatetime, descending", () => {
@@ -92,7 +94,7 @@ describe("getSortedPosts", () => {
       }),
       makePost({ title: "recent", pubDatetime: "2024-01-01T00:00:00Z" }),
     ];
-    expect(getSortedPosts(posts).map(p => p.title)).toEqual([
+    expect(getSortedPosts(posts, context).map(p => p.title)).toEqual([
       "updated",
       "recent",
       "old",
@@ -101,6 +103,11 @@ describe("getSortedPosts", () => {
 });
 
 describe("getUniqueTags", () => {
+  it("keeps tag labels stable when article publication ordering changes", () => {
+    const earlierPath = makePost({ path: "/posts/a", tags: ["Astro"] });
+    const laterPath = makePost({ path: "/posts/z", tags: ["astro"] });
+    expect(getUniqueTags([laterPath, earlierPath])).toEqual([{ tag: "astro", tagName: "Astro" }]);
+  });
   it("dedupes by slug and sorts alphabetically", () => {
     const posts = [
       makePost({ tags: ["Vue", "Testing"] }),
@@ -114,8 +121,8 @@ describe("getUniqueTags", () => {
   });
 
   it("ignores tags from drafts", () => {
-    const posts = [makePost({ tags: ["secret"], draft: true })];
-    expect(getUniqueTags(posts)).toEqual([]);
+    const posts = [makePost({ tags: ["secret"], draft: true }), makePost({ tags: ["visible"] })];
+    expect(getUniqueTags(getSortedPosts(posts, context))).toEqual([{ tag: "visible", tagName: "visible" }]);
   });
 });
 

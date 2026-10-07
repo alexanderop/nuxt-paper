@@ -1,0 +1,3349 @@
+{
+  "baseURL": "http://localhost:4322",
+  "revision": "immutable-astro-software-renderer",
+  "capturedAt": "2026-10-07T05:26:02.752Z",
+  "browser": "154.0.8037.98",
+  "settings": {
+    "deviceScaleFactor": 1,
+    "locale": "en-US",
+    "timezoneId": "Europe/Berlin",
+    "animations": "disabled",
+    "fullPage": true,
+    "clock": "real",
+    "masks": []
+  },
+  "captures": [
+    {
+      "file": "desktop-light-home.png",
+      "name": "home",
+      "route": "/",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "theme": "light",
+      "sha256": "617c3e1cbf0f58102f0644c23ce9d5251a22a78598a27f594607f6e6e86f6740",
+      "title": "AstroPaper",
+      "text": "Skip to content\nAstroPaper\nPosts\nTags\nAbout\nArchives\nSearch\nMingalaba\nRSS Feed\n\nAstroPaper is a minimal, responsive, accessible and SEO-friendly Astro blog theme. This theme follows best practices and provides accessibility out of the box. Light and dark mode are supported by default. Moreover, additional color schemes can also be configured.\n\nRead the blog posts or check README for more info.\n\nSocial Links:\nAstroPaper on Github\nAstroPaper on X\nAstroPaper on Linkedin\nSend an email to AstroPaper\nFeatured\nAdding new posts in AstroPaper theme\nUpdated:\n3 Jun, 2026\n\nSome rules & recommendations for creating or adding new posts using AstroPaper theme.\n\nHow to configure AstroPaper theme\nUpdated:\n3 Jun, 2026\n\nHow you can make AstroPaper theme absolutely yours.\n\nAstroPaper 6.0\n17 May, 2026\n\nAstroPaper v6: a from-scratch rewrite on Astro v6, Tailwind v4, and a new config system.\n\nRecent Posts\nDynamic OG image generation in AstroPaper blog posts\nUpdated:\n3 Jun, 2026\n\nNew feature in AstroPaper v1.4.0, introducing dynamic OG image generation for blog posts.\n\nCustomizing AstroPaper theme color schemes\nUpdated:\n17 May, 2026\n\nHow you can enable/disable light & dark mode; and customize color schemes of AstroPaper theme.\n\nPredefined color schemes\nUpdated:\n16 May, 2026\n\nSome of the well-crafted, updated predefined color schemes for AstroPaper.\n\nHow to add LaTeX Equations in Astro blog posts\nUpdated:\n22 Mar, 2025\n\nLearn how to add LaTeX equations in Astro blog posts using Markdown, KaTeX, and remark/rehype plugins.\n\nAll Posts\nAstroPaper on Github\nAstroPaper on X\nAstroPaper on Linkedin\nSend an email to AstroPaper\nCopyright © 2026\n | \nAll rights reserved.",
+      "fonts": [
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        }
+      ],
+      "width": 1280,
+      "height": 1672,
+      "errors": []
+    },
+    {
+      "file": "desktop-light-posts.png",
+      "name": "posts",
+      "route": "/posts/",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "theme": "light",
+      "sha256": "b3bff86d7b483f566068ff2810204389a3e3144a9fb35046fb98be8f4dc60d14",
+      "title": "Posts | AstroPaper",
+      "text": "Skip to content\nAstroPaper\nPosts\nTags\nAbout\nArchives\nSearch\nHome\n»\nPosts (Page 1)\nPosts\n\nAll the articles I've posted.\n\nAdding new posts in AstroPaper theme\nUpdated:\n3 Jun, 2026\n\nSome rules & recommendations for creating or adding new posts using AstroPaper theme.\n\nDynamic OG image generation in AstroPaper blog posts\nUpdated:\n3 Jun, 2026\n\nNew feature in AstroPaper v1.4.0, introducing dynamic OG image generation for blog posts.\n\nHow to configure AstroPaper theme\nUpdated:\n3 Jun, 2026\n\nHow you can make AstroPaper theme absolutely yours.\n\nAstroPaper 6.0\n17 May, 2026\n\nAstroPaper v6: a from-scratch rewrite on Astro v6, Tailwind v4, and a new config system.\n\nPrev\n1 / 5\nNext\nAstroPaper on Github\nAstroPaper on X\nAstroPaper on Linkedin\nSend an email to AstroPaper\nCopyright © 2026\n | \nAll rights reserved.",
+      "fonts": [
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        }
+      ],
+      "width": 1280,
+      "height": 900,
+      "errors": []
+    },
+    {
+      "file": "desktop-light-tags.png",
+      "name": "tags",
+      "route": "/tags/",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "theme": "light",
+      "sha256": "39e9761096617669fcc624816ff542c07dc80ac1fb6db2e9db4805bfc4eb7ab4",
+      "title": "Tags | AstroPaper",
+      "text": "Skip to content\nAstroPaper\nPosts\nTags\nAbout\nArchives\nSearch\nHome\n»\nTags\nTags\n\nAll the tags used in posts.\n\nAstro\nBlog\ncolor-schemes\nconfiguration\nContextAPI\ndocs\nFAQ\nHeadlessCMS\nJavaScript\nNextJS\nReactJS\nrelease\nStyled-Components\nTailwindCSS\nTypeScript\nAstroPaper on Github\nAstroPaper on X\nAstroPaper on Linkedin\nSend an email to AstroPaper\nCopyright © 2026\n | \nAll rights reserved.",
+      "fonts": [
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        }
+      ],
+      "width": 1280,
+      "height": 900,
+      "errors": []
+    },
+    {
+      "file": "desktop-light-archives.png",
+      "name": "archives",
+      "route": "/archives/",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "theme": "light",
+      "sha256": "38e61326dbaedc8c79e05699db1215859f3eaed39c9d5a9924abb14852171c93",
+      "title": "Archives | AstroPaper",
+      "text": "Skip to content\nAstroPaper\nPosts\nTags\nAbout\nArchives\nSearch\nHome\n»\nArchives\nArchives\n\nAll the articles I've archived.\n\n20261\nMay1\nAstroPaper 6.0\n17 May, 2026\n\nAstroPaper v6: a from-scratch rewrite on Astro v6, Tailwind v4, and a new config system.\n\n20251\nMarch1\nAstroPaper 5.0\n8 Mar, 2025\n\nAstroPaper v5: keep the clean look, updates under the hood.\n\n20244\nSeptember1\nHow to add LaTeX Equations in Astro blog posts\nUpdated:\n22 Mar, 2025\n\nLearn how to add LaTeX equations in Astro blog posts using Markdown, KaTeX, and remark/rehype plugins.\n\nJuly1\nHow to integrate Giscus comments into AstroPaper\nUpdated:\n12 Mar, 2025\n\nComment function on a static blog hosted on GitHub Pages with Giscus.\n\nJanuary2\nAstroPaper 4.0\n4 Jan, 2024\n\nAstroPaper v4: ensuring a smoother and more feature-rich blogging experience.\n\nHow to use Git Hooks to set Created and Modified Dates\nUpdated:\n9 Jan, 2024\n\nHow to use Git Hooks to set your Created and Modified Dates on AstroPaper\n\n20233\nSeptember1\nAstroPaper 3.0\n25 Sep, 2023\n\nAstroPaper Version 3: Elevating Your Web Experience with Astro v3 and Seamless View Transitions\n\nJuly1\nHow to update dependencies of AstroPaper\n20 Jul, 2023\n\nHow to update project dependencies and AstroPaper template.\n\nJanuary1\nAstroPaper 2.0\n30 Jan, 2023\n\nAstroPaper with the enhancements of Astro v2. Type-safe markdown contents, bug fixes and better dev experience etc.\n\n20228\nDecember1\nDynamic OG image generation in AstroPaper blog posts\nUpdated:\n3 Jun, 2026\n\nNew feature in AstroPaper v1.4.0, introducing dynamic OG image generation for blog posts.\n\nSeptember4\nPredefined color schemes\nUpdated:\n16 May, 2026\n\nSome of the well-crafted, updated predefined color schemes for AstroPaper.\n\nCustomizing AstroPaper theme color schemes\nUpdated:\n17 May, 2026\n\nHow you can enable/disable light & dark mode; and customize color schemes of AstroPaper theme.\n\nAdding new posts in AstroPaper theme\nUpdated:\n3 Jun, 2026\n\nSome rules & recommendations for creating or adding new posts using AstroPaper theme.\n\nHow to configure AstroPaper theme\nUpdated:\n3 Jun, 2026\n\nHow you can make AstroPaper theme absolutely yours.\n\nJuly1\nTailwind Typography Plugin\n5 Jul, 2022\n\nEXAMPLE POST: About Tailwind Typography Plugin and how you can use it effectively.\n\nJune1\nHow Do I Develop My Terminal Portfolio Website with React\n9 Jun, 2022\n\nEXAMPLE POST: Developing a terminal-like website using ReactJS, TypeScript and Styled-Components. Includes features like autocomplete, multiple themes, command hints etc.\n\nMarch1\nHow Do I Develop My Portfolio Website & Blog\n25 Mar, 2022\n\nEXAMPLE POST: My experience about developing my first portfolio website and a blog using NextJS and a headless CMS.\n\nAstroPaper on Github\nAstroPaper on X\nAstroPaper on Linkedin\nSend an email to AstroPaper\nCopyright © 2026\n | \nAll rights reserved.",
+      "fonts": [
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        }
+      ],
+      "width": 1280,
+      "height": 2882,
+      "errors": []
+    },
+    {
+      "file": "desktop-light-about.png",
+      "name": "about",
+      "route": "/about/",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "theme": "light",
+      "sha256": "d1f575630abcd6fe4bd68701901f90a6ed7a43cff39abffbbf8af0499b3b7d32",
+      "title": "About | AstroPaper",
+      "text": "Skip to content\nAstroPaper\nPosts\nTags\nAbout\nArchives\nSearch\nHome\n»\nAbout\nAbout\n\nAstroPaper is a minimal, accessible and SEO-friendly blog theme built with Astro and Tailwind CSS.\n\nAstroPaper provides a solid foundation for blogs, or even portfolios_ with full markdown support, built-in dark mode, and a clean layout that works out-of-the-box.\n\nThe blog posts in this theme also serve as guides, docs or example articles_ making AstroPaper a flexible starting point for your next content-driven site.\n\nFeatures\n\nAstroPaper comes with a set of useful features that make content publishing easy and effective:\n\nSEO-friendly\nFast performance\nLight & dark mode\nHighly customizable\nOrganizable blog posts\nResponsive & accessible\nStatic search with PageFind\nAutomatic social image generation\n\nand so much more.\n\nShow your support\n\nIf you like AstroPaper, consider giving it a star ⭐️.\n\nFound a bug 🐛 or have an improvement ✨ in mind? Feel free to open an issue, submit a pull request or start a discussion.\n\nIf you find this theme helpful, you can also sponsor me on GitHub or buy me a coffee to show your support — every penny counts.\n\nKyay zuu! 🙏🏼\n\nAstroPaper on Github\nAstroPaper on X\nAstroPaper on Linkedin\nSend an email to AstroPaper\nCopyright © 2026\n | \nAll rights reserved.",
+      "fonts": [
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        }
+      ],
+      "width": 1280,
+      "height": 1849,
+      "errors": []
+    },
+    {
+      "file": "desktop-light-search.png",
+      "name": "search",
+      "route": "/search/",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "theme": "light",
+      "sha256": "51c7d71f55ffd0d831b8ebcf00086f4a80242dd261f55a0b6b26633a73f1a877",
+      "title": "Search | AstroPaper",
+      "text": "Skip to content\nAstroPaper\nPosts\nTags\nAbout\nArchives\nSearch\nHome\n»\nSearch\nSearch\n\nSearch any article ...\n\nClear\nAstroPaper on Github\nAstroPaper on X\nAstroPaper on Linkedin\nSend an email to AstroPaper\nCopyright © 2026\n | \nAll rights reserved.",
+      "fonts": [
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        }
+      ],
+      "width": 1280,
+      "height": 900,
+      "errors": []
+    },
+    {
+      "file": "desktop-light-article.png",
+      "name": "article",
+      "route": "/posts/adding-new-posts-in-astropaper-theme/",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "theme": "light",
+      "sha256": "64d4aec8904bb6bb64c9da732b5d58ec8c7559e56932d8eba444a6fefb60b6fc",
+      "title": "Adding new posts in AstroPaper theme | AstroPaper",
+      "text": "Skip to content\nAstroPaper\nPosts\nTags\nAbout\nArchives\nSearch\nGo back\nAdding new posts in AstroPaper theme\nUpdated:\n3 Jun, 2026\n|\nEdit page\n\nThis guide covers the rules and conventions for creating new posts in AstroPaper — file placement, frontmatter fields, images, and syntax highlighting.\n\nPhoto by Pixabay\n\nTable of contents#\n\nOpen Table of contents\n\nCreating a Blog Post#\n\nTo write a new blog post, create a markdown (or MDX) file inside the src/content/posts/ directory.\n\nYou can organize posts into subdirectories to make content easier to manage. The subdirectory name becomes part of the post URL. For example, src/content/posts/2025/example-post.md will be available at /posts/2025/example-post.\n\nIf you want a subdirectory for organization only, without it affecting the URL, prefix the folder name with an underscore (_).\n\n# Example: post file paths and their URLs\nsrc/content/posts/very-first-post.md          -> mysite.com/posts/very-first-post\nsrc/content/posts/2025/example-post.md        -> mysite.com/posts/2025/example-post\nsrc/content/posts/_2026/another-post.md       -> mysite.com/posts/another-post\nsrc/content/posts/docs/_legacy/how-to.md      -> mysite.com/posts/docs/how-to\nsrc/content/posts/Example Dir/Dummy Post.md   -> mysite.com/posts/example-dir/dummy-post\nCopy\nTip\n\nFiles and directories prefixed with _ are excluded from routing. Use them for drafts, shared assets, or internal-only content.\n\nFrontmatter#\n\nFrontmatter is the main place to store metadata about a blog post. It lives at the top of the file in YAML format. Read more about frontmatter and its usage in Astro documentation.\n\nHere is the list of frontmatter properties for each post:\n\nProperty\tDescription\tRemark\ntitle\tTitle of the post. (h1)\trequired*\ndescription\tDescription of the post. Used in post excerpt and site description of the post.\trequired*\npubDatetime\tPublished datetime in ISO 8601 format.\trequired*\nmodDatetime\tModified datetime in ISO 8601 format. (only add this property when a blog post is modified)\toptional\nauthor\tAuthor of the post.\tdefault = site.author\nfeatured\tWhether or not to display this post in the featured section of the home page.\tdefault = false\ndraft\tMark this post as ‘unpublished’.\tdefault = false\ntags\tRelated keywords for this post. Written in array YAML format.\tdefault = others\nogImage\tOG image of the post. Useful for social media sharing and SEO. Can be a remote URL or an image path relative to the current folder.\tdefault = site.ogImage or generated OG image\ncanonicalURL\tCanonical URL (absolute), in case the article already exists on another source.\tdefault = Astro.site + Astro.url.pathname\nhideEditPost\tHide the edit-post button under the post title. Applies only to the current post.\tdefault = false\ntimezone\tSpecify a timezone in IANA format for the current post. Overrides the global site.timezone config for this post only.\tdefault = site.timezone\nTip\n\nYou can get an ISO 8601 datetime by running new Date().toISOString() in the console.\n\nOnly title, description, and pubDatetime fields in frontmatter must be specified.\n\nTitle and description (excerpt) are important for search engine optimization (SEO) and thus AstroPaper encourages you to include these in all blog posts.\n\nIf you omit tags in a blog post (in other words, if no tag is specified), the default tag others will be used as a tag for that post. You can set the default tag in src/content.config.ts:\n\n// ...\ntags: z.array(z.string()).default([\"others\"]), // replace \"others\" with whatever you want\n// ...\nsrc/content.config.ts\nCopy\nSample Frontmatter#\n\nHere is sample frontmatter for a post.\n\n---\ntitle: The title of the post\nauthor: your name\npubDatetime: 2022-09-21T05:17:19Z\nfeatured: true\ndraft: false\ntags:\n  - some\n  - example\n  - tags\nogImage: ../../assets/images/example.png # src/assets/images/example.png\n# ogImage: \"https://example.org/remote-image.png\" # remote URL\ndescription: This is the example description of the example post.\ncanonicalURL: https://example.org/my-article-was-already-posted-here\n---\nsrc/content/posts/sample-post.md\nCopy\nVS Code snippets (optional)#\n\nAstroPaper includes workspace snippets to speed up creating new posts:\n\nfrontmatter: inserts the recommended frontmatter block\ntemplate: inserts a basic post template (including ## Table of contents)\n\nThese snippets live in .vscode/astro-paper.code-snippets. If you use VS Code (or Cursor), they should be available automatically when you open the workspace.\n\nCallouts#\n\nAstroPaper started supporting callouts in AstroPaper v6.1. They use a simple blockquote syntax powered by rehype-callouts (Obsidian theme).\n\nHere are the most commonly used types:\n\nNote\n\nSupplementary information the reader should be aware of.\n\nTip\n\nHelpful advice, shortcuts, or best practices.\n\nWarning\n\nSomething that could go wrong or have unintended consequences.\n\nDanger\n\nSerious risk of failure, data loss, or incorrect behavior.\n\nInfo\n\nNeutral informational context — less urgent than a note.\n\nSuccess\n\nConfirmation that something worked or is correct.\n\nThe full list of supported types includes: NOTE, ABSTRACT, INFO, TODO, TIP, SUCCESS, QUESTION, WARNING, FAILURE, DANGER, BUG, EXAMPLE, QUOTE — each with its own icon and color. Many types also accept aliases (e.g. HINT and IMPORTANT for TIP, CAUTION for WARNING). See the rehype-callouts docs for the complete reference.\n\nCollapsible callouts#\n\nAdd - after the type to make the callout collapsed by default, or + to make it expanded but collapsible:\n\nRead before proceeding\nPro tip (expanded by default)\n\nThis starts open but can be collapsed. Great for optional detail you still want visible on first load.\n\nCustom titles#\n\nReplace the default type label with any title you like by adding text after the type:\n\nDid you know?\n\nThe text after the type becomes the callout’s heading. Leave it out and the type name is used automatically.\n\nSyntax summary#\n> [!NOTE]\n> Supplementary information.\n\n> [!WARNING]- Collapsed by default\n> Hidden until expanded.\n\n> [!TIP]+ Expanded, but collapsible\n> Starts open.\n\n> [!DANGER] Custom title\n> Replaces the default heading.\nCopy\nAdding table of contents#\n\nBy default, a post does not include any table of contents (TOC). To include one, write Table of contents as an h2 heading (## in Markdown) and place it where you want it to appear:\n\n---\n# frontmatter\n---\n\nHere are some recommendations, tips & tricks for creating new posts in AstroPaper blog theme.\n\n## Table of contents\n\n<!-- the rest of the post -->\nCopy\nHeadings#\n\nThere’s one thing to note about headings. AstroPaper blog posts use title (from frontmatter) as the main heading of the post. Therefore, the rest of the headings in the post should use h2 ~ h6.\n\nThis rule is not mandatory, but highly recommended for visual, accessibility, and SEO purposes.\n\nSyntax Highlighting#\n\nAstroPaper uses Shiki as the default syntax highlighter, with @shikijs/transformers for enhanced fenced code blocks. If you don’t want to use the transformers, you can remove them:\n\npnpm remove @shikijs/transformers\nCopy\n// ...\nimport {\n  transformerNotationDiff,\n  transformerNotationHighlight,\n  transformerNotationWordHighlight,\n} from \"@shikijs/transformers\";\n\nexport default defineConfig({\n  // ...\n  markdown: {\n    remarkPlugins: [remarkToc, [remarkCollapse, { test: \"Table of contents\" }]],\n    shikiConfig: {\n      themes: { light: \"min-light\", dark: \"night-owl\" },\n      defaultColor: false,\n      wrap: false,\n      transformers: [\n        transformerFileName(),\n        transformerNotationHighlight(),\n        transformerNotationWordHighlight(),\n        transformerNotationDiff({ matchAlgorithm: \"v3\" }),\n      ],\n    },\n  },\n  // ...\n});\nastro.config.ts\nCopy\nStoring Images for Blog Content#\n\nHere are two methods for storing images and using them inside a markdown file.\n\nImportant\n\nIf you need to style optimized images in markdown, you should use MDX.\n\nInside src/assets/ directory (recommended)#\n\nYou can store images inside the src/assets/ directory. These images will be automatically optimized by Astro through the Image Service API.\n\nYou can use a relative path or alias path (@/assets/) to reference these images.\n\nExample: suppose you want to display example.jpg whose path is src/assets/images/example.jpg.\n\n![something](@/assets/images/example.jpg)\n\n<!-- OR -->\n\n![something](../../assets/images/example.jpg)\n\n<!-- Using img tag or Image component won't work in markdown ❌ -->\n<img src=\"@/assets/images/example.jpg\" alt=\"something\">\n<!-- ^^ This is wrong -->\nCopy\nTip\n\nTechnically, you can store images inside any directory under src. src/assets is just a recommendation.\n\nInside public/ directory#\n\nYou can store images inside the public/ directory. Keep in mind that images stored in public/ remain untouched by Astro, meaning they will be unoptimized and you need to handle image optimization yourself.\n\nFor these images, use an absolute path. They can be displayed using markdown image syntax or an HTML img tag.\n\nExample: assume example.jpg is located at public/assets/images/example.jpg.\n\n![something](/assets/images/example.jpg)\n\n<!-- OR -->\n\n<img src=\"/assets/images/example.jpg\" alt=\"something\">\nCopy\nBonus#\nImage compression#\nWarning\n\nWhen putting images in a blog post (especially those in the public/ directory), compress them first. Unoptimized images significantly hurt page performance.\n\nRecommended image compression sites:\n\nTinyPng\nTinyJPG\nOG Image#\n\nThe default OG image will be used if a post does not specify one. Though not required, an OG image relevant to the post should be specified in the frontmatter. The recommended size for OG images is 1200 X 640 px.\n\nTip\n\nSince AstroPaper v1.4.0, OG images are generated automatically if not specified. Check out the announcement.\n\nBack to top\ndocs\nShare this post:\nShare this post on Whatsapp\nShare this post on Facebook\nShare this post on X\nShare this post on Telegram\nShare this post on Pinterest\nShare this post via email\nPrevious Post\nDynamic OG image generation in AstroPaper blog posts\nAstroPaper on Github\nAstroPaper on X\nAstroPaper on Linkedin\nSend an email to AstroPaper\nCopyright © 2026\n | \nAll rights reserved.",
+      "fonts": [
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        }
+      ],
+      "width": 1280,
+      "height": 10398,
+      "errors": []
+    },
+    {
+      "file": "desktop-light-search-results.png",
+      "name": "search-results",
+      "route": "/search/?q=theme",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "theme": "light",
+      "sha256": "73f8db5fe65d9bc5738b299c55083144fdd787c6d19a7ea4211b40b9211b3239",
+      "title": "Search | AstroPaper",
+      "text": "Skip to content\nAstroPaper\nPosts\nTags\nAbout\nArchives\nSearch\nHome\n»\nSearch\nSearch\n\nSearch any article ...\n\nClear\n\n13 results for theme\n\nCustomizing AstroPaper theme color schemes\n\nAstroPaper theme color schemes. Updated:17 May, 2026. |Edit page. This guide covers\n\nEnable/disable light & dark mode\n\ndark mode. AstroPaper theme includes light and dark mode by default. This\n\nCustomize color schemes\n\nAstroPaper theme are defined in src/styles/theme.css. /* Light theme values */ :root,\n\nHow to configure AstroPaper theme\n\nconfigure AstroPaper theme. Updated:3 Jun, 2026. |Edit page. This guide covers the\n\nConfiguring astro-paper.config.ts\n\nminimal, responsive and SEO-friendly Astro blog theme.\", author: \"Sat Naing\", profile: \"https://satnaing.dev\",\n\nCustomizing the font\n\nmapping in src/styles/theme.css: @theme inline { --font-app: var(--font-your-font); /* ... */ }src/styles/theme.css\n\nSee also\n\nAstroPaper theme color schemes — change or add color schemes via src/styles/theme.css.\n\nAdding new posts in AstroPaper theme\n\nposts in AstroPaper theme. Updated:3 Jun, 2026. |Edit page. This guide covers\n\nCallouts\n\nblockquote syntax powered by rehype-callouts (Obsidian theme). Here are the most commonly\n\nAdding table of contents\n\ncreating new posts in AstroPaper blog theme. ## Table of contents <!--\n\nSyntax Highlighting\n\n\"Table of contents\" }]], shikiConfig: { themes: { light: \"min-light\", dark: \"night-owl\"\n\nHow to integrate Giscus comments into AstroPaper\n\nTable of contents\n\nscript tag. React component with light/dark theme.\n\nSimple script tag\n\nHERE]\" data-mapping=\"pathname\" data-strict=\"0\" data-reactions-enabled=\"1\" data-emit-metadata=\"0\" data-input-position=\"bottom\" data-theme=\"preferred_color_scheme\" data-lang=\"en\" crossorigin=\"anonymous\" async ></script> Simply\n\nReact component with light/dark theme\n\nwith light/dark theme. The embedded script tag in the layout is quite\n\nHow Do I Develop My Terminal Portfolio Website with React\n\nof the project. Multiple Themes. Users can change multiple themes. At the\n\nTable of contents\n\ncontents Intro. Tech Stack. Features Multiple Themes. Command-line Completion. Previous Commands. View/Clear\n\nTech Stack\n\nContextAPI in this project for multiple theming and to avoid prop drilling.\n\nMultiple Themes\n\nMultiple Themes. Users can change multiple themes. At the time of writing\n\nLoad more results\nAstroPaper on Github\nAstroPaper on X\nAstroPaper on Linkedin\nSend an email to AstroPaper\nCopyright © 2026\n | \nAll rights reserved.",
+      "fonts": [
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        }
+      ],
+      "width": 1280,
+      "height": 1853,
+      "errors": []
+    },
+    {
+      "file": "desktop-dark-home.png",
+      "name": "home",
+      "route": "/",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "theme": "dark",
+      "sha256": "df9c1da7f8f02b1386cff2e221dd5359adfef0903ad9c4abb6f0b60202142415",
+      "title": "AstroPaper",
+      "text": "Skip to content\nAstroPaper\nPosts\nTags\nAbout\nArchives\nSearch\nMingalaba\nRSS Feed\n\nAstroPaper is a minimal, responsive, accessible and SEO-friendly Astro blog theme. This theme follows best practices and provides accessibility out of the box. Light and dark mode are supported by default. Moreover, additional color schemes can also be configured.\n\nRead the blog posts or check README for more info.\n\nSocial Links:\nAstroPaper on Github\nAstroPaper on X\nAstroPaper on Linkedin\nSend an email to AstroPaper\nFeatured\nAdding new posts in AstroPaper theme\nUpdated:\n3 Jun, 2026\n\nSome rules & recommendations for creating or adding new posts using AstroPaper theme.\n\nHow to configure AstroPaper theme\nUpdated:\n3 Jun, 2026\n\nHow you can make AstroPaper theme absolutely yours.\n\nAstroPaper 6.0\n17 May, 2026\n\nAstroPaper v6: a from-scratch rewrite on Astro v6, Tailwind v4, and a new config system.\n\nRecent Posts\nDynamic OG image generation in AstroPaper blog posts\nUpdated:\n3 Jun, 2026\n\nNew feature in AstroPaper v1.4.0, introducing dynamic OG image generation for blog posts.\n\nCustomizing AstroPaper theme color schemes\nUpdated:\n17 May, 2026\n\nHow you can enable/disable light & dark mode; and customize color schemes of AstroPaper theme.\n\nPredefined color schemes\nUpdated:\n16 May, 2026\n\nSome of the well-crafted, updated predefined color schemes for AstroPaper.\n\nHow to add LaTeX Equations in Astro blog posts\nUpdated:\n22 Mar, 2025\n\nLearn how to add LaTeX equations in Astro blog posts using Markdown, KaTeX, and remark/rehype plugins.\n\nAll Posts\nAstroPaper on Github\nAstroPaper on X\nAstroPaper on Linkedin\nSend an email to AstroPaper\nCopyright © 2026\n | \nAll rights reserved.",
+      "fonts": [
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        }
+      ],
+      "width": 1280,
+      "height": 1672,
+      "errors": []
+    },
+    {
+      "file": "desktop-dark-posts.png",
+      "name": "posts",
+      "route": "/posts/",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "theme": "dark",
+      "sha256": "5d47204acc92fcf6ee1b66066b286eedbe5b03fa39875d14d462a0777203d0db",
+      "title": "Posts | AstroPaper",
+      "text": "Skip to content\nAstroPaper\nPosts\nTags\nAbout\nArchives\nSearch\nHome\n»\nPosts (Page 1)\nPosts\n\nAll the articles I've posted.\n\nAdding new posts in AstroPaper theme\nUpdated:\n3 Jun, 2026\n\nSome rules & recommendations for creating or adding new posts using AstroPaper theme.\n\nDynamic OG image generation in AstroPaper blog posts\nUpdated:\n3 Jun, 2026\n\nNew feature in AstroPaper v1.4.0, introducing dynamic OG image generation for blog posts.\n\nHow to configure AstroPaper theme\nUpdated:\n3 Jun, 2026\n\nHow you can make AstroPaper theme absolutely yours.\n\nAstroPaper 6.0\n17 May, 2026\n\nAstroPaper v6: a from-scratch rewrite on Astro v6, Tailwind v4, and a new config system.\n\nPrev\n1 / 5\nNext\nAstroPaper on Github\nAstroPaper on X\nAstroPaper on Linkedin\nSend an email to AstroPaper\nCopyright © 2026\n | \nAll rights reserved.",
+      "fonts": [
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        }
+      ],
+      "width": 1280,
+      "height": 900,
+      "errors": []
+    },
+    {
+      "file": "desktop-dark-tags.png",
+      "name": "tags",
+      "route": "/tags/",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "theme": "dark",
+      "sha256": "4ba0c96d73ca21e25a9f8dc4b183ae07fe91957b3a5525e667ac69c32ac474a0",
+      "title": "Tags | AstroPaper",
+      "text": "Skip to content\nAstroPaper\nPosts\nTags\nAbout\nArchives\nSearch\nHome\n»\nTags\nTags\n\nAll the tags used in posts.\n\nAstro\nBlog\ncolor-schemes\nconfiguration\nContextAPI\ndocs\nFAQ\nHeadlessCMS\nJavaScript\nNextJS\nReactJS\nrelease\nStyled-Components\nTailwindCSS\nTypeScript\nAstroPaper on Github\nAstroPaper on X\nAstroPaper on Linkedin\nSend an email to AstroPaper\nCopyright © 2026\n | \nAll rights reserved.",
+      "fonts": [
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        }
+      ],
+      "width": 1280,
+      "height": 900,
+      "errors": []
+    },
+    {
+      "file": "desktop-dark-archives.png",
+      "name": "archives",
+      "route": "/archives/",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "theme": "dark",
+      "sha256": "23e83e048fbd5126d72fe646e448aa7012c355cf6c6887c9800e430c9c678b22",
+      "title": "Archives | AstroPaper",
+      "text": "Skip to content\nAstroPaper\nPosts\nTags\nAbout\nArchives\nSearch\nHome\n»\nArchives\nArchives\n\nAll the articles I've archived.\n\n20261\nMay1\nAstroPaper 6.0\n17 May, 2026\n\nAstroPaper v6: a from-scratch rewrite on Astro v6, Tailwind v4, and a new config system.\n\n20251\nMarch1\nAstroPaper 5.0\n8 Mar, 2025\n\nAstroPaper v5: keep the clean look, updates under the hood.\n\n20244\nSeptember1\nHow to add LaTeX Equations in Astro blog posts\nUpdated:\n22 Mar, 2025\n\nLearn how to add LaTeX equations in Astro blog posts using Markdown, KaTeX, and remark/rehype plugins.\n\nJuly1\nHow to integrate Giscus comments into AstroPaper\nUpdated:\n12 Mar, 2025\n\nComment function on a static blog hosted on GitHub Pages with Giscus.\n\nJanuary2\nAstroPaper 4.0\n4 Jan, 2024\n\nAstroPaper v4: ensuring a smoother and more feature-rich blogging experience.\n\nHow to use Git Hooks to set Created and Modified Dates\nUpdated:\n9 Jan, 2024\n\nHow to use Git Hooks to set your Created and Modified Dates on AstroPaper\n\n20233\nSeptember1\nAstroPaper 3.0\n25 Sep, 2023\n\nAstroPaper Version 3: Elevating Your Web Experience with Astro v3 and Seamless View Transitions\n\nJuly1\nHow to update dependencies of AstroPaper\n20 Jul, 2023\n\nHow to update project dependencies and AstroPaper template.\n\nJanuary1\nAstroPaper 2.0\n30 Jan, 2023\n\nAstroPaper with the enhancements of Astro v2. Type-safe markdown contents, bug fixes and better dev experience etc.\n\n20228\nDecember1\nDynamic OG image generation in AstroPaper blog posts\nUpdated:\n3 Jun, 2026\n\nNew feature in AstroPaper v1.4.0, introducing dynamic OG image generation for blog posts.\n\nSeptember4\nPredefined color schemes\nUpdated:\n16 May, 2026\n\nSome of the well-crafted, updated predefined color schemes for AstroPaper.\n\nCustomizing AstroPaper theme color schemes\nUpdated:\n17 May, 2026\n\nHow you can enable/disable light & dark mode; and customize color schemes of AstroPaper theme.\n\nAdding new posts in AstroPaper theme\nUpdated:\n3 Jun, 2026\n\nSome rules & recommendations for creating or adding new posts using AstroPaper theme.\n\nHow to configure AstroPaper theme\nUpdated:\n3 Jun, 2026\n\nHow you can make AstroPaper theme absolutely yours.\n\nJuly1\nTailwind Typography Plugin\n5 Jul, 2022\n\nEXAMPLE POST: About Tailwind Typography Plugin and how you can use it effectively.\n\nJune1\nHow Do I Develop My Terminal Portfolio Website with React\n9 Jun, 2022\n\nEXAMPLE POST: Developing a terminal-like website using ReactJS, TypeScript and Styled-Components. Includes features like autocomplete, multiple themes, command hints etc.\n\nMarch1\nHow Do I Develop My Portfolio Website & Blog\n25 Mar, 2022\n\nEXAMPLE POST: My experience about developing my first portfolio website and a blog using NextJS and a headless CMS.\n\nAstroPaper on Github\nAstroPaper on X\nAstroPaper on Linkedin\nSend an email to AstroPaper\nCopyright © 2026\n | \nAll rights reserved.",
+      "fonts": [
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        }
+      ],
+      "width": 1280,
+      "height": 2882,
+      "errors": []
+    },
+    {
+      "file": "desktop-dark-about.png",
+      "name": "about",
+      "route": "/about/",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "theme": "dark",
+      "sha256": "f83f88f3e11c3e400496527e8a8a2e6b13789247411774b1691c1349155c8500",
+      "title": "About | AstroPaper",
+      "text": "Skip to content\nAstroPaper\nPosts\nTags\nAbout\nArchives\nSearch\nHome\n»\nAbout\nAbout\n\nAstroPaper is a minimal, accessible and SEO-friendly blog theme built with Astro and Tailwind CSS.\n\nAstroPaper provides a solid foundation for blogs, or even portfolios_ with full markdown support, built-in dark mode, and a clean layout that works out-of-the-box.\n\nThe blog posts in this theme also serve as guides, docs or example articles_ making AstroPaper a flexible starting point for your next content-driven site.\n\nFeatures\n\nAstroPaper comes with a set of useful features that make content publishing easy and effective:\n\nSEO-friendly\nFast performance\nLight & dark mode\nHighly customizable\nOrganizable blog posts\nResponsive & accessible\nStatic search with PageFind\nAutomatic social image generation\n\nand so much more.\n\nShow your support\n\nIf you like AstroPaper, consider giving it a star ⭐️.\n\nFound a bug 🐛 or have an improvement ✨ in mind? Feel free to open an issue, submit a pull request or start a discussion.\n\nIf you find this theme helpful, you can also sponsor me on GitHub or buy me a coffee to show your support — every penny counts.\n\nKyay zuu! 🙏🏼\n\nAstroPaper on Github\nAstroPaper on X\nAstroPaper on Linkedin\nSend an email to AstroPaper\nCopyright © 2026\n | \nAll rights reserved.",
+      "fonts": [
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        }
+      ],
+      "width": 1280,
+      "height": 1849,
+      "errors": []
+    },
+    {
+      "file": "desktop-dark-search.png",
+      "name": "search",
+      "route": "/search/",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "theme": "dark",
+      "sha256": "8de4d4b49e94505832843521130b2f545b161c0f064b847935e56b2ccabcc81c",
+      "title": "Search | AstroPaper",
+      "text": "Skip to content\nAstroPaper\nPosts\nTags\nAbout\nArchives\nSearch\nHome\n»\nSearch\nSearch\n\nSearch any article ...\n\nClear\nAstroPaper on Github\nAstroPaper on X\nAstroPaper on Linkedin\nSend an email to AstroPaper\nCopyright © 2026\n | \nAll rights reserved.",
+      "fonts": [
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        }
+      ],
+      "width": 1280,
+      "height": 900,
+      "errors": []
+    },
+    {
+      "file": "desktop-dark-article.png",
+      "name": "article",
+      "route": "/posts/adding-new-posts-in-astropaper-theme/",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "theme": "dark",
+      "sha256": "007becc6f345c3d4c137aec27cb4ad4ec68dd90ff7464064abfb3224f8874481",
+      "title": "Adding new posts in AstroPaper theme | AstroPaper",
+      "text": "Skip to content\nAstroPaper\nPosts\nTags\nAbout\nArchives\nSearch\nGo back\nAdding new posts in AstroPaper theme\nUpdated:\n3 Jun, 2026\n|\nEdit page\n\nThis guide covers the rules and conventions for creating new posts in AstroPaper — file placement, frontmatter fields, images, and syntax highlighting.\n\nPhoto by Pixabay\n\nTable of contents#\n\nOpen Table of contents\n\nCreating a Blog Post#\n\nTo write a new blog post, create a markdown (or MDX) file inside the src/content/posts/ directory.\n\nYou can organize posts into subdirectories to make content easier to manage. The subdirectory name becomes part of the post URL. For example, src/content/posts/2025/example-post.md will be available at /posts/2025/example-post.\n\nIf you want a subdirectory for organization only, without it affecting the URL, prefix the folder name with an underscore (_).\n\n# Example: post file paths and their URLs\nsrc/content/posts/very-first-post.md          -> mysite.com/posts/very-first-post\nsrc/content/posts/2025/example-post.md        -> mysite.com/posts/2025/example-post\nsrc/content/posts/_2026/another-post.md       -> mysite.com/posts/another-post\nsrc/content/posts/docs/_legacy/how-to.md      -> mysite.com/posts/docs/how-to\nsrc/content/posts/Example Dir/Dummy Post.md   -> mysite.com/posts/example-dir/dummy-post\nCopy\nTip\n\nFiles and directories prefixed with _ are excluded from routing. Use them for drafts, shared assets, or internal-only content.\n\nFrontmatter#\n\nFrontmatter is the main place to store metadata about a blog post. It lives at the top of the file in YAML format. Read more about frontmatter and its usage in Astro documentation.\n\nHere is the list of frontmatter properties for each post:\n\nProperty\tDescription\tRemark\ntitle\tTitle of the post. (h1)\trequired*\ndescription\tDescription of the post. Used in post excerpt and site description of the post.\trequired*\npubDatetime\tPublished datetime in ISO 8601 format.\trequired*\nmodDatetime\tModified datetime in ISO 8601 format. (only add this property when a blog post is modified)\toptional\nauthor\tAuthor of the post.\tdefault = site.author\nfeatured\tWhether or not to display this post in the featured section of the home page.\tdefault = false\ndraft\tMark this post as ‘unpublished’.\tdefault = false\ntags\tRelated keywords for this post. Written in array YAML format.\tdefault = others\nogImage\tOG image of the post. Useful for social media sharing and SEO. Can be a remote URL or an image path relative to the current folder.\tdefault = site.ogImage or generated OG image\ncanonicalURL\tCanonical URL (absolute), in case the article already exists on another source.\tdefault = Astro.site + Astro.url.pathname\nhideEditPost\tHide the edit-post button under the post title. Applies only to the current post.\tdefault = false\ntimezone\tSpecify a timezone in IANA format for the current post. Overrides the global site.timezone config for this post only.\tdefault = site.timezone\nTip\n\nYou can get an ISO 8601 datetime by running new Date().toISOString() in the console.\n\nOnly title, description, and pubDatetime fields in frontmatter must be specified.\n\nTitle and description (excerpt) are important for search engine optimization (SEO) and thus AstroPaper encourages you to include these in all blog posts.\n\nIf you omit tags in a blog post (in other words, if no tag is specified), the default tag others will be used as a tag for that post. You can set the default tag in src/content.config.ts:\n\n// ...\ntags: z.array(z.string()).default([\"others\"]), // replace \"others\" with whatever you want\n// ...\nsrc/content.config.ts\nCopy\nSample Frontmatter#\n\nHere is sample frontmatter for a post.\n\n---\ntitle: The title of the post\nauthor: your name\npubDatetime: 2022-09-21T05:17:19Z\nfeatured: true\ndraft: false\ntags:\n  - some\n  - example\n  - tags\nogImage: ../../assets/images/example.png # src/assets/images/example.png\n# ogImage: \"https://example.org/remote-image.png\" # remote URL\ndescription: This is the example description of the example post.\ncanonicalURL: https://example.org/my-article-was-already-posted-here\n---\nsrc/content/posts/sample-post.md\nCopy\nVS Code snippets (optional)#\n\nAstroPaper includes workspace snippets to speed up creating new posts:\n\nfrontmatter: inserts the recommended frontmatter block\ntemplate: inserts a basic post template (including ## Table of contents)\n\nThese snippets live in .vscode/astro-paper.code-snippets. If you use VS Code (or Cursor), they should be available automatically when you open the workspace.\n\nCallouts#\n\nAstroPaper started supporting callouts in AstroPaper v6.1. They use a simple blockquote syntax powered by rehype-callouts (Obsidian theme).\n\nHere are the most commonly used types:\n\nNote\n\nSupplementary information the reader should be aware of.\n\nTip\n\nHelpful advice, shortcuts, or best practices.\n\nWarning\n\nSomething that could go wrong or have unintended consequences.\n\nDanger\n\nSerious risk of failure, data loss, or incorrect behavior.\n\nInfo\n\nNeutral informational context — less urgent than a note.\n\nSuccess\n\nConfirmation that something worked or is correct.\n\nThe full list of supported types includes: NOTE, ABSTRACT, INFO, TODO, TIP, SUCCESS, QUESTION, WARNING, FAILURE, DANGER, BUG, EXAMPLE, QUOTE — each with its own icon and color. Many types also accept aliases (e.g. HINT and IMPORTANT for TIP, CAUTION for WARNING). See the rehype-callouts docs for the complete reference.\n\nCollapsible callouts#\n\nAdd - after the type to make the callout collapsed by default, or + to make it expanded but collapsible:\n\nRead before proceeding\nPro tip (expanded by default)\n\nThis starts open but can be collapsed. Great for optional detail you still want visible on first load.\n\nCustom titles#\n\nReplace the default type label with any title you like by adding text after the type:\n\nDid you know?\n\nThe text after the type becomes the callout’s heading. Leave it out and the type name is used automatically.\n\nSyntax summary#\n> [!NOTE]\n> Supplementary information.\n\n> [!WARNING]- Collapsed by default\n> Hidden until expanded.\n\n> [!TIP]+ Expanded, but collapsible\n> Starts open.\n\n> [!DANGER] Custom title\n> Replaces the default heading.\nCopy\nAdding table of contents#\n\nBy default, a post does not include any table of contents (TOC). To include one, write Table of contents as an h2 heading (## in Markdown) and place it where you want it to appear:\n\n---\n# frontmatter\n---\n\nHere are some recommendations, tips & tricks for creating new posts in AstroPaper blog theme.\n\n## Table of contents\n\n<!-- the rest of the post -->\nCopy\nHeadings#\n\nThere’s one thing to note about headings. AstroPaper blog posts use title (from frontmatter) as the main heading of the post. Therefore, the rest of the headings in the post should use h2 ~ h6.\n\nThis rule is not mandatory, but highly recommended for visual, accessibility, and SEO purposes.\n\nSyntax Highlighting#\n\nAstroPaper uses Shiki as the default syntax highlighter, with @shikijs/transformers for enhanced fenced code blocks. If you don’t want to use the transformers, you can remove them:\n\npnpm remove @shikijs/transformers\nCopy\n// ...\nimport {\n  transformerNotationDiff,\n  transformerNotationHighlight,\n  transformerNotationWordHighlight,\n} from \"@shikijs/transformers\";\n\nexport default defineConfig({\n  // ...\n  markdown: {\n    remarkPlugins: [remarkToc, [remarkCollapse, { test: \"Table of contents\" }]],\n    shikiConfig: {\n      themes: { light: \"min-light\", dark: \"night-owl\" },\n      defaultColor: false,\n      wrap: false,\n      transformers: [\n        transformerFileName(),\n        transformerNotationHighlight(),\n        transformerNotationWordHighlight(),\n        transformerNotationDiff({ matchAlgorithm: \"v3\" }),\n      ],\n    },\n  },\n  // ...\n});\nastro.config.ts\nCopy\nStoring Images for Blog Content#\n\nHere are two methods for storing images and using them inside a markdown file.\n\nImportant\n\nIf you need to style optimized images in markdown, you should use MDX.\n\nInside src/assets/ directory (recommended)#\n\nYou can store images inside the src/assets/ directory. These images will be automatically optimized by Astro through the Image Service API.\n\nYou can use a relative path or alias path (@/assets/) to reference these images.\n\nExample: suppose you want to display example.jpg whose path is src/assets/images/example.jpg.\n\n![something](@/assets/images/example.jpg)\n\n<!-- OR -->\n\n![something](../../assets/images/example.jpg)\n\n<!-- Using img tag or Image component won't work in markdown ❌ -->\n<img src=\"@/assets/images/example.jpg\" alt=\"something\">\n<!-- ^^ This is wrong -->\nCopy\nTip\n\nTechnically, you can store images inside any directory under src. src/assets is just a recommendation.\n\nInside public/ directory#\n\nYou can store images inside the public/ directory. Keep in mind that images stored in public/ remain untouched by Astro, meaning they will be unoptimized and you need to handle image optimization yourself.\n\nFor these images, use an absolute path. They can be displayed using markdown image syntax or an HTML img tag.\n\nExample: assume example.jpg is located at public/assets/images/example.jpg.\n\n![something](/assets/images/example.jpg)\n\n<!-- OR -->\n\n<img src=\"/assets/images/example.jpg\" alt=\"something\">\nCopy\nBonus#\nImage compression#\nWarning\n\nWhen putting images in a blog post (especially those in the public/ directory), compress them first. Unoptimized images significantly hurt page performance.\n\nRecommended image compression sites:\n\nTinyPng\nTinyJPG\nOG Image#\n\nThe default OG image will be used if a post does not specify one. Though not required, an OG image relevant to the post should be specified in the frontmatter. The recommended size for OG images is 1200 X 640 px.\n\nTip\n\nSince AstroPaper v1.4.0, OG images are generated automatically if not specified. Check out the announcement.\n\nBack to top\ndocs\nShare this post:\nShare this post on Whatsapp\nShare this post on Facebook\nShare this post on X\nShare this post on Telegram\nShare this post on Pinterest\nShare this post via email\nPrevious Post\nDynamic OG image generation in AstroPaper blog posts\nAstroPaper on Github\nAstroPaper on X\nAstroPaper on Linkedin\nSend an email to AstroPaper\nCopyright © 2026\n | \nAll rights reserved.",
+      "fonts": [
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        }
+      ],
+      "width": 1280,
+      "height": 10398,
+      "errors": []
+    },
+    {
+      "file": "desktop-dark-search-results.png",
+      "name": "search-results",
+      "route": "/search/?q=theme",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "theme": "dark",
+      "sha256": "ee455f377b27ef6459e98470eae8a3825cc03a322940ebffbb91ffe0f0e798b4",
+      "title": "Search | AstroPaper",
+      "text": "Skip to content\nAstroPaper\nPosts\nTags\nAbout\nArchives\nSearch\nHome\n»\nSearch\nSearch\n\nSearch any article ...\n\nClear\n\n13 results for theme\n\nCustomizing AstroPaper theme color schemes\n\nAstroPaper theme color schemes. Updated:17 May, 2026. |Edit page. This guide covers\n\nEnable/disable light & dark mode\n\ndark mode. AstroPaper theme includes light and dark mode by default. This\n\nCustomize color schemes\n\nAstroPaper theme are defined in src/styles/theme.css. /* Light theme values */ :root,\n\nHow to configure AstroPaper theme\n\nconfigure AstroPaper theme. Updated:3 Jun, 2026. |Edit page. This guide covers the\n\nConfiguring astro-paper.config.ts\n\nminimal, responsive and SEO-friendly Astro blog theme.\", author: \"Sat Naing\", profile: \"https://satnaing.dev\",\n\nCustomizing the font\n\nmapping in src/styles/theme.css: @theme inline { --font-app: var(--font-your-font); /* ... */ }src/styles/theme.css\n\nSee also\n\nAstroPaper theme color schemes — change or add color schemes via src/styles/theme.css.\n\nAdding new posts in AstroPaper theme\n\nposts in AstroPaper theme. Updated:3 Jun, 2026. |Edit page. This guide covers\n\nCallouts\n\nblockquote syntax powered by rehype-callouts (Obsidian theme). Here are the most commonly\n\nAdding table of contents\n\ncreating new posts in AstroPaper blog theme. ## Table of contents <!--\n\nSyntax Highlighting\n\n\"Table of contents\" }]], shikiConfig: { themes: { light: \"min-light\", dark: \"night-owl\"\n\nHow to integrate Giscus comments into AstroPaper\n\nTable of contents\n\nscript tag. React component with light/dark theme.\n\nSimple script tag\n\nHERE]\" data-mapping=\"pathname\" data-strict=\"0\" data-reactions-enabled=\"1\" data-emit-metadata=\"0\" data-input-position=\"bottom\" data-theme=\"preferred_color_scheme\" data-lang=\"en\" crossorigin=\"anonymous\" async ></script> Simply\n\nReact component with light/dark theme\n\nwith light/dark theme. The embedded script tag in the layout is quite\n\nHow Do I Develop My Terminal Portfolio Website with React\n\nof the project. Multiple Themes. Users can change multiple themes. At the\n\nTable of contents\n\ncontents Intro. Tech Stack. Features Multiple Themes. Command-line Completion. Previous Commands. View/Clear\n\nTech Stack\n\nContextAPI in this project for multiple theming and to avoid prop drilling.\n\nMultiple Themes\n\nMultiple Themes. Users can change multiple themes. At the time of writing\n\nLoad more results\nAstroPaper on Github\nAstroPaper on X\nAstroPaper on Linkedin\nSend an email to AstroPaper\nCopyright © 2026\n | \nAll rights reserved.",
+      "fonts": [
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        }
+      ],
+      "width": 1280,
+      "height": 1853,
+      "errors": []
+    },
+    {
+      "file": "mobile-light-home.png",
+      "name": "home",
+      "route": "/",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "theme": "light",
+      "sha256": "778b16d0a3058b7740c8927070d28509f381efda5a7748bf3481e83ca571b505",
+      "title": "AstroPaper",
+      "text": "Skip to content\nAstroPaper\nMingalaba\nRSS Feed\n\nAstroPaper is a minimal, responsive, accessible and SEO-friendly Astro blog theme. This theme follows best practices and provides accessibility out of the box. Light and dark mode are supported by default. Moreover, additional color schemes can also be configured.\n\nRead the blog posts or check README for more info.\n\nSocial Links:\nAstroPaper on Github\nAstroPaper on X\nAstroPaper on Linkedin\nSend an email to AstroPaper\nFeatured\nAdding new posts in AstroPaper theme\nUpdated:\n3 Jun, 2026\n\nSome rules & recommendations for creating or adding new posts using AstroPaper theme.\n\nHow to configure AstroPaper theme\nUpdated:\n3 Jun, 2026\n\nHow you can make AstroPaper theme absolutely yours.\n\nAstroPaper 6.0\n17 May, 2026\n\nAstroPaper v6: a from-scratch rewrite on Astro v6, Tailwind v4, and a new config system.\n\nRecent Posts\nDynamic OG image generation in AstroPaper blog posts\nUpdated:\n3 Jun, 2026\n\nNew feature in AstroPaper v1.4.0, introducing dynamic OG image generation for blog posts.\n\nCustomizing AstroPaper theme color schemes\nUpdated:\n17 May, 2026\n\nHow you can enable/disable light & dark mode; and customize color schemes of AstroPaper theme.\n\nPredefined color schemes\nUpdated:\n16 May, 2026\n\nSome of the well-crafted, updated predefined color schemes for AstroPaper.\n\nHow to add LaTeX Equations in Astro blog posts\nUpdated:\n22 Mar, 2025\n\nLearn how to add LaTeX equations in Astro blog posts using Markdown, KaTeX, and remark/rehype plugins.\n\nAll Posts\nAstroPaper on Github\nAstroPaper on X\nAstroPaper on Linkedin\nSend an email to AstroPaper\nCopyright © 2026\nAll rights reserved.",
+      "fonts": [
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "loaded"
+        }
+      ],
+      "width": 390,
+      "height": 2164,
+      "errors": []
+    },
+    {
+      "file": "mobile-light-posts.png",
+      "name": "posts",
+      "route": "/posts/",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "theme": "light",
+      "sha256": "12d4d9296799b069d745a8906a1e4d696daf0a3b691e10399060333a78b9084f",
+      "title": "Posts | AstroPaper",
+      "text": "Skip to content\nAstroPaper\nHome\n»\nPosts (Page 1)\nPosts\n\nAll the articles I've posted.\n\nAdding new posts in AstroPaper theme\nUpdated:\n3 Jun, 2026\n\nSome rules & recommendations for creating or adding new posts using AstroPaper theme.\n\nDynamic OG image generation in AstroPaper blog posts\nUpdated:\n3 Jun, 2026\n\nNew feature in AstroPaper v1.4.0, introducing dynamic OG image generation for blog posts.\n\nHow to configure AstroPaper theme\nUpdated:\n3 Jun, 2026\n\nHow you can make AstroPaper theme absolutely yours.\n\nAstroPaper 6.0\n17 May, 2026\n\nAstroPaper v6: a from-scratch rewrite on Astro v6, Tailwind v4, and a new config system.\n\nPrev\n1 / 5\nNext\nAstroPaper on Github\nAstroPaper on X\nAstroPaper on Linkedin\nSend an email to AstroPaper\nCopyright © 2026\nAll rights reserved.",
+      "fonts": [
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        }
+      ],
+      "width": 390,
+      "height": 1070,
+      "errors": []
+    },
+    {
+      "file": "mobile-light-tags.png",
+      "name": "tags",
+      "route": "/tags/",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "theme": "light",
+      "sha256": "0bce406dba2440dbc9ddb335e13817660769d9eb30296260cbb86a56187e6d7f",
+      "title": "Tags | AstroPaper",
+      "text": "Skip to content\nAstroPaper\nHome\n»\nTags\nTags\n\nAll the tags used in posts.\n\nAstro\nBlog\ncolor-schemes\nconfiguration\nContextAPI\ndocs\nFAQ\nHeadlessCMS\nJavaScript\nNextJS\nReactJS\nrelease\nStyled-Components\nTailwindCSS\nTypeScript\nAstroPaper on Github\nAstroPaper on X\nAstroPaper on Linkedin\nSend an email to AstroPaper\nCopyright © 2026\nAll rights reserved.",
+      "fonts": [
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        }
+      ],
+      "width": 390,
+      "height": 844,
+      "errors": []
+    },
+    {
+      "file": "mobile-light-archives.png",
+      "name": "archives",
+      "route": "/archives/",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "theme": "light",
+      "sha256": "8cb97ea33125e901dbb0b32be2b24f8d0169007dce2557247a87361f0297405d",
+      "title": "Archives | AstroPaper",
+      "text": "Skip to content\nAstroPaper\nHome\n»\nArchives\nArchives\n\nAll the articles I've archived.\n\n20261\nMay1\nAstroPaper 6.0\n17 May, 2026\n\nAstroPaper v6: a from-scratch rewrite on Astro v6, Tailwind v4, and a new config system.\n\n20251\nMarch1\nAstroPaper 5.0\n8 Mar, 2025\n\nAstroPaper v5: keep the clean look, updates under the hood.\n\n20244\nSeptember1\nHow to add LaTeX Equations in Astro blog posts\nUpdated:\n22 Mar, 2025\n\nLearn how to add LaTeX equations in Astro blog posts using Markdown, KaTeX, and remark/rehype plugins.\n\nJuly1\nHow to integrate Giscus comments into AstroPaper\nUpdated:\n12 Mar, 2025\n\nComment function on a static blog hosted on GitHub Pages with Giscus.\n\nJanuary2\nAstroPaper 4.0\n4 Jan, 2024\n\nAstroPaper v4: ensuring a smoother and more feature-rich blogging experience.\n\nHow to use Git Hooks to set Created and Modified Dates\nUpdated:\n9 Jan, 2024\n\nHow to use Git Hooks to set your Created and Modified Dates on AstroPaper\n\n20233\nSeptember1\nAstroPaper 3.0\n25 Sep, 2023\n\nAstroPaper Version 3: Elevating Your Web Experience with Astro v3 and Seamless View Transitions\n\nJuly1\nHow to update dependencies of AstroPaper\n20 Jul, 2023\n\nHow to update project dependencies and AstroPaper template.\n\nJanuary1\nAstroPaper 2.0\n30 Jan, 2023\n\nAstroPaper with the enhancements of Astro v2. Type-safe markdown contents, bug fixes and better dev experience etc.\n\n20228\nDecember1\nDynamic OG image generation in AstroPaper blog posts\nUpdated:\n3 Jun, 2026\n\nNew feature in AstroPaper v1.4.0, introducing dynamic OG image generation for blog posts.\n\nSeptember4\nPredefined color schemes\nUpdated:\n16 May, 2026\n\nSome of the well-crafted, updated predefined color schemes for AstroPaper.\n\nCustomizing AstroPaper theme color schemes\nUpdated:\n17 May, 2026\n\nHow you can enable/disable light & dark mode; and customize color schemes of AstroPaper theme.\n\nAdding new posts in AstroPaper theme\nUpdated:\n3 Jun, 2026\n\nSome rules & recommendations for creating or adding new posts using AstroPaper theme.\n\nHow to configure AstroPaper theme\nUpdated:\n3 Jun, 2026\n\nHow you can make AstroPaper theme absolutely yours.\n\nJuly1\nTailwind Typography Plugin\n5 Jul, 2022\n\nEXAMPLE POST: About Tailwind Typography Plugin and how you can use it effectively.\n\nJune1\nHow Do I Develop My Terminal Portfolio Website with React\n9 Jun, 2022\n\nEXAMPLE POST: Developing a terminal-like website using ReactJS, TypeScript and Styled-Components. Includes features like autocomplete, multiple themes, command hints etc.\n\nMarch1\nHow Do I Develop My Portfolio Website & Blog\n25 Mar, 2022\n\nEXAMPLE POST: My experience about developing my first portfolio website and a blog using NextJS and a headless CMS.\n\nAstroPaper on Github\nAstroPaper on X\nAstroPaper on Linkedin\nSend an email to AstroPaper\nCopyright © 2026\nAll rights reserved.",
+      "fonts": [
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "loaded"
+        }
+      ],
+      "width": 390,
+      "height": 4306,
+      "errors": []
+    },
+    {
+      "file": "mobile-light-about.png",
+      "name": "about",
+      "route": "/about/",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "theme": "light",
+      "sha256": "149a47264b758ad4bad8d1e5afb67bc5e079fda0a8170b4a8f46e0ef8b7fe816",
+      "title": "About | AstroPaper",
+      "text": "Skip to content\nAstroPaper\nHome\n»\nAbout\nAbout\n\nAstroPaper is a minimal, accessible and SEO-friendly blog theme built with Astro and Tailwind CSS.\n\nAstroPaper provides a solid foundation for blogs, or even portfolios_ with full markdown support, built-in dark mode, and a clean layout that works out-of-the-box.\n\nThe blog posts in this theme also serve as guides, docs or example articles_ making AstroPaper a flexible starting point for your next content-driven site.\n\nFeatures\n\nAstroPaper comes with a set of useful features that make content publishing easy and effective:\n\nSEO-friendly\nFast performance\nLight & dark mode\nHighly customizable\nOrganizable blog posts\nResponsive & accessible\nStatic search with PageFind\nAutomatic social image generation\n\nand so much more.\n\nShow your support\n\nIf you like AstroPaper, consider giving it a star ⭐️.\n\nFound a bug 🐛 or have an improvement ✨ in mind? Feel free to open an issue, submit a pull request or start a discussion.\n\nIf you find this theme helpful, you can also sponsor me on GitHub or buy me a coffee to show your support — every penny counts.\n\nKyay zuu! 🙏🏼\n\nAstroPaper on Github\nAstroPaper on X\nAstroPaper on Linkedin\nSend an email to AstroPaper\nCopyright © 2026\nAll rights reserved.",
+      "fonts": [
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "loaded"
+        }
+      ],
+      "width": 390,
+      "height": 2040,
+      "errors": []
+    },
+    {
+      "file": "mobile-light-search.png",
+      "name": "search",
+      "route": "/search/",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "theme": "light",
+      "sha256": "f729445fab5a076ca2162da10fb9a5fa0c430c4aa7af9ed04d00b2219631344b",
+      "title": "Search | AstroPaper",
+      "text": "Skip to content\nAstroPaper\nHome\n»\nSearch\nSearch\n\nSearch any article ...\n\nClear\nAstroPaper on Github\nAstroPaper on X\nAstroPaper on Linkedin\nSend an email to AstroPaper\nCopyright © 2026\nAll rights reserved.",
+      "fonts": [
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        }
+      ],
+      "width": 390,
+      "height": 844,
+      "errors": []
+    },
+    {
+      "file": "mobile-light-article.png",
+      "name": "article",
+      "route": "/posts/adding-new-posts-in-astropaper-theme/",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "theme": "light",
+      "sha256": "44941e9e1b042810e893badb9328b4f02c6791db5ee071b6dac048ce02ecea49",
+      "title": "Adding new posts in AstroPaper theme | AstroPaper",
+      "text": "Skip to content\nAstroPaper\nGo back\nAdding new posts in AstroPaper theme\nUpdated:\n3 Jun, 2026\n\nThis guide covers the rules and conventions for creating new posts in AstroPaper — file placement, frontmatter fields, images, and syntax highlighting.\n\nPhoto by Pixabay\n\nTable of contents#\n\nOpen Table of contents\n\nCreating a Blog Post#\n\nTo write a new blog post, create a markdown (or MDX) file inside the src/content/posts/ directory.\n\nYou can organize posts into subdirectories to make content easier to manage. The subdirectory name becomes part of the post URL. For example, src/content/posts/2025/example-post.md will be available at /posts/2025/example-post.\n\nIf you want a subdirectory for organization only, without it affecting the URL, prefix the folder name with an underscore (_).\n\n# Example: post file paths and their URLs\nsrc/content/posts/very-first-post.md          -> mysite.com/posts/very-first-post\nsrc/content/posts/2025/example-post.md        -> mysite.com/posts/2025/example-post\nsrc/content/posts/_2026/another-post.md       -> mysite.com/posts/another-post\nsrc/content/posts/docs/_legacy/how-to.md      -> mysite.com/posts/docs/how-to\nsrc/content/posts/Example Dir/Dummy Post.md   -> mysite.com/posts/example-dir/dummy-post\nCopy\nTip\n\nFiles and directories prefixed with _ are excluded from routing. Use them for drafts, shared assets, or internal-only content.\n\nFrontmatter#\n\nFrontmatter is the main place to store metadata about a blog post. It lives at the top of the file in YAML format. Read more about frontmatter and its usage in Astro documentation.\n\nHere is the list of frontmatter properties for each post:\n\nProperty\tDescription\tRemark\ntitle\tTitle of the post. (h1)\trequired*\ndescription\tDescription of the post. Used in post excerpt and site description of the post.\trequired*\npubDatetime\tPublished datetime in ISO 8601 format.\trequired*\nmodDatetime\tModified datetime in ISO 8601 format. (only add this property when a blog post is modified)\toptional\nauthor\tAuthor of the post.\tdefault = site.author\nfeatured\tWhether or not to display this post in the featured section of the home page.\tdefault = false\ndraft\tMark this post as ‘unpublished’.\tdefault = false\ntags\tRelated keywords for this post. Written in array YAML format.\tdefault = others\nogImage\tOG image of the post. Useful for social media sharing and SEO. Can be a remote URL or an image path relative to the current folder.\tdefault = site.ogImage or generated OG image\ncanonicalURL\tCanonical URL (absolute), in case the article already exists on another source.\tdefault = Astro.site + Astro.url.pathname\nhideEditPost\tHide the edit-post button under the post title. Applies only to the current post.\tdefault = false\ntimezone\tSpecify a timezone in IANA format for the current post. Overrides the global site.timezone config for this post only.\tdefault = site.timezone\nTip\n\nYou can get an ISO 8601 datetime by running new Date().toISOString() in the console.\n\nOnly title, description, and pubDatetime fields in frontmatter must be specified.\n\nTitle and description (excerpt) are important for search engine optimization (SEO) and thus AstroPaper encourages you to include these in all blog posts.\n\nIf you omit tags in a blog post (in other words, if no tag is specified), the default tag others will be used as a tag for that post. You can set the default tag in src/content.config.ts:\n\n// ...\ntags: z.array(z.string()).default([\"others\"]), // replace \"others\" with whatever you want\n// ...\nsrc/content.config.ts\nCopy\nSample Frontmatter#\n\nHere is sample frontmatter for a post.\n\n---\ntitle: The title of the post\nauthor: your name\npubDatetime: 2022-09-21T05:17:19Z\nfeatured: true\ndraft: false\ntags:\n  - some\n  - example\n  - tags\nogImage: ../../assets/images/example.png # src/assets/images/example.png\n# ogImage: \"https://example.org/remote-image.png\" # remote URL\ndescription: This is the example description of the example post.\ncanonicalURL: https://example.org/my-article-was-already-posted-here\n---\nsrc/content/posts/sample-post.md\nCopy\nVS Code snippets (optional)#\n\nAstroPaper includes workspace snippets to speed up creating new posts:\n\nfrontmatter: inserts the recommended frontmatter block\ntemplate: inserts a basic post template (including ## Table of contents)\n\nThese snippets live in .vscode/astro-paper.code-snippets. If you use VS Code (or Cursor), they should be available automatically when you open the workspace.\n\nCallouts#\n\nAstroPaper started supporting callouts in AstroPaper v6.1. They use a simple blockquote syntax powered by rehype-callouts (Obsidian theme).\n\nHere are the most commonly used types:\n\nNote\n\nSupplementary information the reader should be aware of.\n\nTip\n\nHelpful advice, shortcuts, or best practices.\n\nWarning\n\nSomething that could go wrong or have unintended consequences.\n\nDanger\n\nSerious risk of failure, data loss, or incorrect behavior.\n\nInfo\n\nNeutral informational context — less urgent than a note.\n\nSuccess\n\nConfirmation that something worked or is correct.\n\nThe full list of supported types includes: NOTE, ABSTRACT, INFO, TODO, TIP, SUCCESS, QUESTION, WARNING, FAILURE, DANGER, BUG, EXAMPLE, QUOTE — each with its own icon and color. Many types also accept aliases (e.g. HINT and IMPORTANT for TIP, CAUTION for WARNING). See the rehype-callouts docs for the complete reference.\n\nCollapsible callouts#\n\nAdd - after the type to make the callout collapsed by default, or + to make it expanded but collapsible:\n\nRead before proceeding\nPro tip (expanded by default)\n\nThis starts open but can be collapsed. Great for optional detail you still want visible on first load.\n\nCustom titles#\n\nReplace the default type label with any title you like by adding text after the type:\n\nDid you know?\n\nThe text after the type becomes the callout’s heading. Leave it out and the type name is used automatically.\n\nSyntax summary#\n> [!NOTE]\n> Supplementary information.\n\n> [!WARNING]- Collapsed by default\n> Hidden until expanded.\n\n> [!TIP]+ Expanded, but collapsible\n> Starts open.\n\n> [!DANGER] Custom title\n> Replaces the default heading.\nCopy\nAdding table of contents#\n\nBy default, a post does not include any table of contents (TOC). To include one, write Table of contents as an h2 heading (## in Markdown) and place it where you want it to appear:\n\n---\n# frontmatter\n---\n\nHere are some recommendations, tips & tricks for creating new posts in AstroPaper blog theme.\n\n## Table of contents\n\n<!-- the rest of the post -->\nCopy\nHeadings#\n\nThere’s one thing to note about headings. AstroPaper blog posts use title (from frontmatter) as the main heading of the post. Therefore, the rest of the headings in the post should use h2 ~ h6.\n\nThis rule is not mandatory, but highly recommended for visual, accessibility, and SEO purposes.\n\nSyntax Highlighting#\n\nAstroPaper uses Shiki as the default syntax highlighter, with @shikijs/transformers for enhanced fenced code blocks. If you don’t want to use the transformers, you can remove them:\n\npnpm remove @shikijs/transformers\nCopy\n// ...\nimport {\n  transformerNotationDiff,\n  transformerNotationHighlight,\n  transformerNotationWordHighlight,\n} from \"@shikijs/transformers\";\n\nexport default defineConfig({\n  // ...\n  markdown: {\n    remarkPlugins: [remarkToc, [remarkCollapse, { test: \"Table of contents\" }]],\n    shikiConfig: {\n      themes: { light: \"min-light\", dark: \"night-owl\" },\n      defaultColor: false,\n      wrap: false,\n      transformers: [\n        transformerFileName(),\n        transformerNotationHighlight(),\n        transformerNotationWordHighlight(),\n        transformerNotationDiff({ matchAlgorithm: \"v3\" }),\n      ],\n    },\n  },\n  // ...\n});\nastro.config.ts\nCopy\nStoring Images for Blog Content#\n\nHere are two methods for storing images and using them inside a markdown file.\n\nImportant\n\nIf you need to style optimized images in markdown, you should use MDX.\n\nInside src/assets/ directory (recommended)#\n\nYou can store images inside the src/assets/ directory. These images will be automatically optimized by Astro through the Image Service API.\n\nYou can use a relative path or alias path (@/assets/) to reference these images.\n\nExample: suppose you want to display example.jpg whose path is src/assets/images/example.jpg.\n\n![something](@/assets/images/example.jpg)\n\n<!-- OR -->\n\n![something](../../assets/images/example.jpg)\n\n<!-- Using img tag or Image component won't work in markdown ❌ -->\n<img src=\"@/assets/images/example.jpg\" alt=\"something\">\n<!-- ^^ This is wrong -->\nCopy\nTip\n\nTechnically, you can store images inside any directory under src. src/assets is just a recommendation.\n\nInside public/ directory#\n\nYou can store images inside the public/ directory. Keep in mind that images stored in public/ remain untouched by Astro, meaning they will be unoptimized and you need to handle image optimization yourself.\n\nFor these images, use an absolute path. They can be displayed using markdown image syntax or an HTML img tag.\n\nExample: assume example.jpg is located at public/assets/images/example.jpg.\n\n![something](/assets/images/example.jpg)\n\n<!-- OR -->\n\n<img src=\"/assets/images/example.jpg\" alt=\"something\">\nCopy\nBonus#\nImage compression#\nWarning\n\nWhen putting images in a blog post (especially those in the public/ directory), compress them first. Unoptimized images significantly hurt page performance.\n\nRecommended image compression sites:\n\nTinyPng\nTinyJPG\nOG Image#\n\nThe default OG image will be used if a post does not specify one. Though not required, an OG image relevant to the post should be specified in the frontmatter. The recommended size for OG images is 1200 X 640 px.\n\nTip\n\nSince AstroPaper v1.4.0, OG images are generated automatically if not specified. Check out the announcement.\n\nEdit page\nBack to top\ndocs\nShare this post:\nShare this post on Whatsapp\nShare this post on Facebook\nShare this post on X\nShare this post on Telegram\nShare this post on Pinterest\nShare this post via email\nPrevious Post\nDynamic OG image generation in AstroPaper blog posts\nAstroPaper on Github\nAstroPaper on X\nAstroPaper on Linkedin\nSend an email to AstroPaper\nCopyright © 2026\nAll rights reserved.",
+      "fonts": [
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "loaded"
+        }
+      ],
+      "width": 390,
+      "height": 12883,
+      "errors": []
+    },
+    {
+      "file": "mobile-light-search-results.png",
+      "name": "search-results",
+      "route": "/search/?q=theme",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "theme": "light",
+      "sha256": "1b025140940bcbbdc22f20bf808468ab8c2efee642e868b06fbc0e8325e42c19",
+      "title": "Search | AstroPaper",
+      "text": "Skip to content\nAstroPaper\nHome\n»\nSearch\nSearch\n\nSearch any article ...\n\nClear\n\n13 results for theme\n\nCustomizing AstroPaper theme color schemes\n\nAstroPaper theme color schemes. Updated:17 May, 2026. |Edit page. This guide covers\n\nEnable/disable light & dark mode\n\ndark mode. AstroPaper theme includes light and dark mode by default. This\n\nCustomize color schemes\n\nAstroPaper theme are defined in src/styles/theme.css. /* Light theme values */ :root,\n\nHow to configure AstroPaper theme\n\nconfigure AstroPaper theme. Updated:3 Jun, 2026. |Edit page. This guide covers the\n\nConfiguring astro-paper.config.ts\n\nminimal, responsive and SEO-friendly Astro blog theme.\", author: \"Sat Naing\", profile: \"https://satnaing.dev\",\n\nCustomizing the font\n\nmapping in src/styles/theme.css: @theme inline { --font-app: var(--font-your-font); /* ... */ }src/styles/theme.css\n\nSee also\n\nAstroPaper theme color schemes — change or add color schemes via src/styles/theme.css.\n\nAdding new posts in AstroPaper theme\n\nposts in AstroPaper theme. Updated:3 Jun, 2026. |Edit page. This guide covers\n\nCallouts\n\nblockquote syntax powered by rehype-callouts (Obsidian theme). Here are the most commonly\n\nAdding table of contents\n\ncreating new posts in AstroPaper blog theme. ## Table of contents <!--\n\nSyntax Highlighting\n\n\"Table of contents\" }]], shikiConfig: { themes: { light: \"min-light\", dark: \"night-owl\"\n\nHow to integrate Giscus comments into AstroPaper\n\nTable of contents\n\nscript tag. React component with light/dark theme.\n\nSimple script tag\n\nHERE]\" data-mapping=\"pathname\" data-strict=\"0\" data-reactions-enabled=\"1\" data-emit-metadata=\"0\" data-input-position=\"bottom\" data-theme=\"preferred_color_scheme\" data-lang=\"en\" crossorigin=\"anonymous\" async ></script> Simply\n\nReact component with light/dark theme\n\nwith light/dark theme. The embedded script tag in the layout is quite\n\nHow Do I Develop My Terminal Portfolio Website with React\n\nof the project. Multiple Themes. Users can change multiple themes. At the\n\nTable of contents\n\ncontents Intro. Tech Stack. Features Multiple Themes. Command-line Completion. Previous Commands. View/Clear\n\nTech Stack\n\nContextAPI in this project for multiple theming and to avoid prop drilling.\n\nMultiple Themes\n\nMultiple Themes. Users can change multiple themes. At the time of writing\n\nLoad more results\nAstroPaper on Github\nAstroPaper on X\nAstroPaper on Linkedin\nSend an email to AstroPaper\nCopyright © 2026\nAll rights reserved.",
+      "fonts": [
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "loaded"
+        }
+      ],
+      "width": 390,
+      "height": 2463,
+      "errors": []
+    },
+    {
+      "file": "mobile-light-mobile-menu.png",
+      "name": "mobile-menu",
+      "route": "/",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "theme": "light",
+      "sha256": "d38bc5be63da0b1cff8e637cc5f33796ee85cdd264ee8cfaab2c03cd463f7bea",
+      "title": "AstroPaper",
+      "text": "Skip to content\nAstroPaper\nPosts\nTags\nAbout\nArchives\nSearch\nMingalaba\nRSS Feed\n\nAstroPaper is a minimal, responsive, accessible and SEO-friendly Astro blog theme. This theme follows best practices and provides accessibility out of the box. Light and dark mode are supported by default. Moreover, additional color schemes can also be configured.\n\nRead the blog posts or check README for more info.\n\nSocial Links:\nAstroPaper on Github\nAstroPaper on X\nAstroPaper on Linkedin\nSend an email to AstroPaper\nFeatured\nAdding new posts in AstroPaper theme\nUpdated:\n3 Jun, 2026\n\nSome rules & recommendations for creating or adding new posts using AstroPaper theme.\n\nHow to configure AstroPaper theme\nUpdated:\n3 Jun, 2026\n\nHow you can make AstroPaper theme absolutely yours.\n\nAstroPaper 6.0\n17 May, 2026\n\nAstroPaper v6: a from-scratch rewrite on Astro v6, Tailwind v4, and a new config system.\n\nRecent Posts\nDynamic OG image generation in AstroPaper blog posts\nUpdated:\n3 Jun, 2026\n\nNew feature in AstroPaper v1.4.0, introducing dynamic OG image generation for blog posts.\n\nCustomizing AstroPaper theme color schemes\nUpdated:\n17 May, 2026\n\nHow you can enable/disable light & dark mode; and customize color schemes of AstroPaper theme.\n\nPredefined color schemes\nUpdated:\n16 May, 2026\n\nSome of the well-crafted, updated predefined color schemes for AstroPaper.\n\nHow to add LaTeX Equations in Astro blog posts\nUpdated:\n22 Mar, 2025\n\nLearn how to add LaTeX equations in Astro blog posts using Markdown, KaTeX, and remark/rehype plugins.\n\nAll Posts\nAstroPaper on Github\nAstroPaper on X\nAstroPaper on Linkedin\nSend an email to AstroPaper\nCopyright © 2026\nAll rights reserved.",
+      "fonts": [
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "loaded"
+        }
+      ],
+      "width": 390,
+      "height": 2452,
+      "errors": []
+    },
+    {
+      "file": "mobile-dark-home.png",
+      "name": "home",
+      "route": "/",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "theme": "dark",
+      "sha256": "47bd16396bbf52f43674dae42ce055956d2ef0f129db9860fa3518102539b5c3",
+      "title": "AstroPaper",
+      "text": "Skip to content\nAstroPaper\nMingalaba\nRSS Feed\n\nAstroPaper is a minimal, responsive, accessible and SEO-friendly Astro blog theme. This theme follows best practices and provides accessibility out of the box. Light and dark mode are supported by default. Moreover, additional color schemes can also be configured.\n\nRead the blog posts or check README for more info.\n\nSocial Links:\nAstroPaper on Github\nAstroPaper on X\nAstroPaper on Linkedin\nSend an email to AstroPaper\nFeatured\nAdding new posts in AstroPaper theme\nUpdated:\n3 Jun, 2026\n\nSome rules & recommendations for creating or adding new posts using AstroPaper theme.\n\nHow to configure AstroPaper theme\nUpdated:\n3 Jun, 2026\n\nHow you can make AstroPaper theme absolutely yours.\n\nAstroPaper 6.0\n17 May, 2026\n\nAstroPaper v6: a from-scratch rewrite on Astro v6, Tailwind v4, and a new config system.\n\nRecent Posts\nDynamic OG image generation in AstroPaper blog posts\nUpdated:\n3 Jun, 2026\n\nNew feature in AstroPaper v1.4.0, introducing dynamic OG image generation for blog posts.\n\nCustomizing AstroPaper theme color schemes\nUpdated:\n17 May, 2026\n\nHow you can enable/disable light & dark mode; and customize color schemes of AstroPaper theme.\n\nPredefined color schemes\nUpdated:\n16 May, 2026\n\nSome of the well-crafted, updated predefined color schemes for AstroPaper.\n\nHow to add LaTeX Equations in Astro blog posts\nUpdated:\n22 Mar, 2025\n\nLearn how to add LaTeX equations in Astro blog posts using Markdown, KaTeX, and remark/rehype plugins.\n\nAll Posts\nAstroPaper on Github\nAstroPaper on X\nAstroPaper on Linkedin\nSend an email to AstroPaper\nCopyright © 2026\nAll rights reserved.",
+      "fonts": [
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "loaded"
+        }
+      ],
+      "width": 390,
+      "height": 2164,
+      "errors": []
+    },
+    {
+      "file": "mobile-dark-posts.png",
+      "name": "posts",
+      "route": "/posts/",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "theme": "dark",
+      "sha256": "6ffe327893ae7ba954d4faba986e87d278c59b3c40ff9a81eb9a01ae76bc7441",
+      "title": "Posts | AstroPaper",
+      "text": "Skip to content\nAstroPaper\nHome\n»\nPosts (Page 1)\nPosts\n\nAll the articles I've posted.\n\nAdding new posts in AstroPaper theme\nUpdated:\n3 Jun, 2026\n\nSome rules & recommendations for creating or adding new posts using AstroPaper theme.\n\nDynamic OG image generation in AstroPaper blog posts\nUpdated:\n3 Jun, 2026\n\nNew feature in AstroPaper v1.4.0, introducing dynamic OG image generation for blog posts.\n\nHow to configure AstroPaper theme\nUpdated:\n3 Jun, 2026\n\nHow you can make AstroPaper theme absolutely yours.\n\nAstroPaper 6.0\n17 May, 2026\n\nAstroPaper v6: a from-scratch rewrite on Astro v6, Tailwind v4, and a new config system.\n\nPrev\n1 / 5\nNext\nAstroPaper on Github\nAstroPaper on X\nAstroPaper on Linkedin\nSend an email to AstroPaper\nCopyright © 2026\nAll rights reserved.",
+      "fonts": [
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        }
+      ],
+      "width": 390,
+      "height": 1070,
+      "errors": []
+    },
+    {
+      "file": "mobile-dark-tags.png",
+      "name": "tags",
+      "route": "/tags/",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "theme": "dark",
+      "sha256": "d01d585a2d2e628901fe1892566561099651f9b42f0b4eba2eb20e6dc2d88fc1",
+      "title": "Tags | AstroPaper",
+      "text": "Skip to content\nAstroPaper\nHome\n»\nTags\nTags\n\nAll the tags used in posts.\n\nAstro\nBlog\ncolor-schemes\nconfiguration\nContextAPI\ndocs\nFAQ\nHeadlessCMS\nJavaScript\nNextJS\nReactJS\nrelease\nStyled-Components\nTailwindCSS\nTypeScript\nAstroPaper on Github\nAstroPaper on X\nAstroPaper on Linkedin\nSend an email to AstroPaper\nCopyright © 2026\nAll rights reserved.",
+      "fonts": [
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        }
+      ],
+      "width": 390,
+      "height": 844,
+      "errors": []
+    },
+    {
+      "file": "mobile-dark-archives.png",
+      "name": "archives",
+      "route": "/archives/",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "theme": "dark",
+      "sha256": "f698dc8f2e7ad5dbead80d435a816cadf37ddcf0b8e7ab948f0a66cfa9d457b3",
+      "title": "Archives | AstroPaper",
+      "text": "Skip to content\nAstroPaper\nHome\n»\nArchives\nArchives\n\nAll the articles I've archived.\n\n20261\nMay1\nAstroPaper 6.0\n17 May, 2026\n\nAstroPaper v6: a from-scratch rewrite on Astro v6, Tailwind v4, and a new config system.\n\n20251\nMarch1\nAstroPaper 5.0\n8 Mar, 2025\n\nAstroPaper v5: keep the clean look, updates under the hood.\n\n20244\nSeptember1\nHow to add LaTeX Equations in Astro blog posts\nUpdated:\n22 Mar, 2025\n\nLearn how to add LaTeX equations in Astro blog posts using Markdown, KaTeX, and remark/rehype plugins.\n\nJuly1\nHow to integrate Giscus comments into AstroPaper\nUpdated:\n12 Mar, 2025\n\nComment function on a static blog hosted on GitHub Pages with Giscus.\n\nJanuary2\nAstroPaper 4.0\n4 Jan, 2024\n\nAstroPaper v4: ensuring a smoother and more feature-rich blogging experience.\n\nHow to use Git Hooks to set Created and Modified Dates\nUpdated:\n9 Jan, 2024\n\nHow to use Git Hooks to set your Created and Modified Dates on AstroPaper\n\n20233\nSeptember1\nAstroPaper 3.0\n25 Sep, 2023\n\nAstroPaper Version 3: Elevating Your Web Experience with Astro v3 and Seamless View Transitions\n\nJuly1\nHow to update dependencies of AstroPaper\n20 Jul, 2023\n\nHow to update project dependencies and AstroPaper template.\n\nJanuary1\nAstroPaper 2.0\n30 Jan, 2023\n\nAstroPaper with the enhancements of Astro v2. Type-safe markdown contents, bug fixes and better dev experience etc.\n\n20228\nDecember1\nDynamic OG image generation in AstroPaper blog posts\nUpdated:\n3 Jun, 2026\n\nNew feature in AstroPaper v1.4.0, introducing dynamic OG image generation for blog posts.\n\nSeptember4\nPredefined color schemes\nUpdated:\n16 May, 2026\n\nSome of the well-crafted, updated predefined color schemes for AstroPaper.\n\nCustomizing AstroPaper theme color schemes\nUpdated:\n17 May, 2026\n\nHow you can enable/disable light & dark mode; and customize color schemes of AstroPaper theme.\n\nAdding new posts in AstroPaper theme\nUpdated:\n3 Jun, 2026\n\nSome rules & recommendations for creating or adding new posts using AstroPaper theme.\n\nHow to configure AstroPaper theme\nUpdated:\n3 Jun, 2026\n\nHow you can make AstroPaper theme absolutely yours.\n\nJuly1\nTailwind Typography Plugin\n5 Jul, 2022\n\nEXAMPLE POST: About Tailwind Typography Plugin and how you can use it effectively.\n\nJune1\nHow Do I Develop My Terminal Portfolio Website with React\n9 Jun, 2022\n\nEXAMPLE POST: Developing a terminal-like website using ReactJS, TypeScript and Styled-Components. Includes features like autocomplete, multiple themes, command hints etc.\n\nMarch1\nHow Do I Develop My Portfolio Website & Blog\n25 Mar, 2022\n\nEXAMPLE POST: My experience about developing my first portfolio website and a blog using NextJS and a headless CMS.\n\nAstroPaper on Github\nAstroPaper on X\nAstroPaper on Linkedin\nSend an email to AstroPaper\nCopyright © 2026\nAll rights reserved.",
+      "fonts": [
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "loaded"
+        }
+      ],
+      "width": 390,
+      "height": 4306,
+      "errors": []
+    },
+    {
+      "file": "mobile-dark-about.png",
+      "name": "about",
+      "route": "/about/",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "theme": "dark",
+      "sha256": "c9d59fe0dca8a4b76b8801feb7bcc31168b3a19f9e7d0f8d80ed960dafd2f5d0",
+      "title": "About | AstroPaper",
+      "text": "Skip to content\nAstroPaper\nHome\n»\nAbout\nAbout\n\nAstroPaper is a minimal, accessible and SEO-friendly blog theme built with Astro and Tailwind CSS.\n\nAstroPaper provides a solid foundation for blogs, or even portfolios_ with full markdown support, built-in dark mode, and a clean layout that works out-of-the-box.\n\nThe blog posts in this theme also serve as guides, docs or example articles_ making AstroPaper a flexible starting point for your next content-driven site.\n\nFeatures\n\nAstroPaper comes with a set of useful features that make content publishing easy and effective:\n\nSEO-friendly\nFast performance\nLight & dark mode\nHighly customizable\nOrganizable blog posts\nResponsive & accessible\nStatic search with PageFind\nAutomatic social image generation\n\nand so much more.\n\nShow your support\n\nIf you like AstroPaper, consider giving it a star ⭐️.\n\nFound a bug 🐛 or have an improvement ✨ in mind? Feel free to open an issue, submit a pull request or start a discussion.\n\nIf you find this theme helpful, you can also sponsor me on GitHub or buy me a coffee to show your support — every penny counts.\n\nKyay zuu! 🙏🏼\n\nAstroPaper on Github\nAstroPaper on X\nAstroPaper on Linkedin\nSend an email to AstroPaper\nCopyright © 2026\nAll rights reserved.",
+      "fonts": [
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "loaded"
+        }
+      ],
+      "width": 390,
+      "height": 2040,
+      "errors": []
+    },
+    {
+      "file": "mobile-dark-search.png",
+      "name": "search",
+      "route": "/search/",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "theme": "dark",
+      "sha256": "702527af18d35ea347e4175ca3fb49d55d21da34649d921cded4179253dc8b3f",
+      "title": "Search | AstroPaper",
+      "text": "Skip to content\nAstroPaper\nHome\n»\nSearch\nSearch\n\nSearch any article ...\n\nClear\nAstroPaper on Github\nAstroPaper on X\nAstroPaper on Linkedin\nSend an email to AstroPaper\nCopyright © 2026\nAll rights reserved.",
+      "fonts": [
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        }
+      ],
+      "width": 390,
+      "height": 844,
+      "errors": []
+    },
+    {
+      "file": "mobile-dark-article.png",
+      "name": "article",
+      "route": "/posts/adding-new-posts-in-astropaper-theme/",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "theme": "dark",
+      "sha256": "781c2394ed77150dbb368ed05a8fff60044746e50396794f25a7338f3c2e6a4f",
+      "title": "Adding new posts in AstroPaper theme | AstroPaper",
+      "text": "Skip to content\nAstroPaper\nGo back\nAdding new posts in AstroPaper theme\nUpdated:\n3 Jun, 2026\n\nThis guide covers the rules and conventions for creating new posts in AstroPaper — file placement, frontmatter fields, images, and syntax highlighting.\n\nPhoto by Pixabay\n\nTable of contents#\n\nOpen Table of contents\n\nCreating a Blog Post#\n\nTo write a new blog post, create a markdown (or MDX) file inside the src/content/posts/ directory.\n\nYou can organize posts into subdirectories to make content easier to manage. The subdirectory name becomes part of the post URL. For example, src/content/posts/2025/example-post.md will be available at /posts/2025/example-post.\n\nIf you want a subdirectory for organization only, without it affecting the URL, prefix the folder name with an underscore (_).\n\n# Example: post file paths and their URLs\nsrc/content/posts/very-first-post.md          -> mysite.com/posts/very-first-post\nsrc/content/posts/2025/example-post.md        -> mysite.com/posts/2025/example-post\nsrc/content/posts/_2026/another-post.md       -> mysite.com/posts/another-post\nsrc/content/posts/docs/_legacy/how-to.md      -> mysite.com/posts/docs/how-to\nsrc/content/posts/Example Dir/Dummy Post.md   -> mysite.com/posts/example-dir/dummy-post\nCopy\nTip\n\nFiles and directories prefixed with _ are excluded from routing. Use them for drafts, shared assets, or internal-only content.\n\nFrontmatter#\n\nFrontmatter is the main place to store metadata about a blog post. It lives at the top of the file in YAML format. Read more about frontmatter and its usage in Astro documentation.\n\nHere is the list of frontmatter properties for each post:\n\nProperty\tDescription\tRemark\ntitle\tTitle of the post. (h1)\trequired*\ndescription\tDescription of the post. Used in post excerpt and site description of the post.\trequired*\npubDatetime\tPublished datetime in ISO 8601 format.\trequired*\nmodDatetime\tModified datetime in ISO 8601 format. (only add this property when a blog post is modified)\toptional\nauthor\tAuthor of the post.\tdefault = site.author\nfeatured\tWhether or not to display this post in the featured section of the home page.\tdefault = false\ndraft\tMark this post as ‘unpublished’.\tdefault = false\ntags\tRelated keywords for this post. Written in array YAML format.\tdefault = others\nogImage\tOG image of the post. Useful for social media sharing and SEO. Can be a remote URL or an image path relative to the current folder.\tdefault = site.ogImage or generated OG image\ncanonicalURL\tCanonical URL (absolute), in case the article already exists on another source.\tdefault = Astro.site + Astro.url.pathname\nhideEditPost\tHide the edit-post button under the post title. Applies only to the current post.\tdefault = false\ntimezone\tSpecify a timezone in IANA format for the current post. Overrides the global site.timezone config for this post only.\tdefault = site.timezone\nTip\n\nYou can get an ISO 8601 datetime by running new Date().toISOString() in the console.\n\nOnly title, description, and pubDatetime fields in frontmatter must be specified.\n\nTitle and description (excerpt) are important for search engine optimization (SEO) and thus AstroPaper encourages you to include these in all blog posts.\n\nIf you omit tags in a blog post (in other words, if no tag is specified), the default tag others will be used as a tag for that post. You can set the default tag in src/content.config.ts:\n\n// ...\ntags: z.array(z.string()).default([\"others\"]), // replace \"others\" with whatever you want\n// ...\nsrc/content.config.ts\nCopy\nSample Frontmatter#\n\nHere is sample frontmatter for a post.\n\n---\ntitle: The title of the post\nauthor: your name\npubDatetime: 2022-09-21T05:17:19Z\nfeatured: true\ndraft: false\ntags:\n  - some\n  - example\n  - tags\nogImage: ../../assets/images/example.png # src/assets/images/example.png\n# ogImage: \"https://example.org/remote-image.png\" # remote URL\ndescription: This is the example description of the example post.\ncanonicalURL: https://example.org/my-article-was-already-posted-here\n---\nsrc/content/posts/sample-post.md\nCopy\nVS Code snippets (optional)#\n\nAstroPaper includes workspace snippets to speed up creating new posts:\n\nfrontmatter: inserts the recommended frontmatter block\ntemplate: inserts a basic post template (including ## Table of contents)\n\nThese snippets live in .vscode/astro-paper.code-snippets. If you use VS Code (or Cursor), they should be available automatically when you open the workspace.\n\nCallouts#\n\nAstroPaper started supporting callouts in AstroPaper v6.1. They use a simple blockquote syntax powered by rehype-callouts (Obsidian theme).\n\nHere are the most commonly used types:\n\nNote\n\nSupplementary information the reader should be aware of.\n\nTip\n\nHelpful advice, shortcuts, or best practices.\n\nWarning\n\nSomething that could go wrong or have unintended consequences.\n\nDanger\n\nSerious risk of failure, data loss, or incorrect behavior.\n\nInfo\n\nNeutral informational context — less urgent than a note.\n\nSuccess\n\nConfirmation that something worked or is correct.\n\nThe full list of supported types includes: NOTE, ABSTRACT, INFO, TODO, TIP, SUCCESS, QUESTION, WARNING, FAILURE, DANGER, BUG, EXAMPLE, QUOTE — each with its own icon and color. Many types also accept aliases (e.g. HINT and IMPORTANT for TIP, CAUTION for WARNING). See the rehype-callouts docs for the complete reference.\n\nCollapsible callouts#\n\nAdd - after the type to make the callout collapsed by default, or + to make it expanded but collapsible:\n\nRead before proceeding\nPro tip (expanded by default)\n\nThis starts open but can be collapsed. Great for optional detail you still want visible on first load.\n\nCustom titles#\n\nReplace the default type label with any title you like by adding text after the type:\n\nDid you know?\n\nThe text after the type becomes the callout’s heading. Leave it out and the type name is used automatically.\n\nSyntax summary#\n> [!NOTE]\n> Supplementary information.\n\n> [!WARNING]- Collapsed by default\n> Hidden until expanded.\n\n> [!TIP]+ Expanded, but collapsible\n> Starts open.\n\n> [!DANGER] Custom title\n> Replaces the default heading.\nCopy\nAdding table of contents#\n\nBy default, a post does not include any table of contents (TOC). To include one, write Table of contents as an h2 heading (## in Markdown) and place it where you want it to appear:\n\n---\n# frontmatter\n---\n\nHere are some recommendations, tips & tricks for creating new posts in AstroPaper blog theme.\n\n## Table of contents\n\n<!-- the rest of the post -->\nCopy\nHeadings#\n\nThere’s one thing to note about headings. AstroPaper blog posts use title (from frontmatter) as the main heading of the post. Therefore, the rest of the headings in the post should use h2 ~ h6.\n\nThis rule is not mandatory, but highly recommended for visual, accessibility, and SEO purposes.\n\nSyntax Highlighting#\n\nAstroPaper uses Shiki as the default syntax highlighter, with @shikijs/transformers for enhanced fenced code blocks. If you don’t want to use the transformers, you can remove them:\n\npnpm remove @shikijs/transformers\nCopy\n// ...\nimport {\n  transformerNotationDiff,\n  transformerNotationHighlight,\n  transformerNotationWordHighlight,\n} from \"@shikijs/transformers\";\n\nexport default defineConfig({\n  // ...\n  markdown: {\n    remarkPlugins: [remarkToc, [remarkCollapse, { test: \"Table of contents\" }]],\n    shikiConfig: {\n      themes: { light: \"min-light\", dark: \"night-owl\" },\n      defaultColor: false,\n      wrap: false,\n      transformers: [\n        transformerFileName(),\n        transformerNotationHighlight(),\n        transformerNotationWordHighlight(),\n        transformerNotationDiff({ matchAlgorithm: \"v3\" }),\n      ],\n    },\n  },\n  // ...\n});\nastro.config.ts\nCopy\nStoring Images for Blog Content#\n\nHere are two methods for storing images and using them inside a markdown file.\n\nImportant\n\nIf you need to style optimized images in markdown, you should use MDX.\n\nInside src/assets/ directory (recommended)#\n\nYou can store images inside the src/assets/ directory. These images will be automatically optimized by Astro through the Image Service API.\n\nYou can use a relative path or alias path (@/assets/) to reference these images.\n\nExample: suppose you want to display example.jpg whose path is src/assets/images/example.jpg.\n\n![something](@/assets/images/example.jpg)\n\n<!-- OR -->\n\n![something](../../assets/images/example.jpg)\n\n<!-- Using img tag or Image component won't work in markdown ❌ -->\n<img src=\"@/assets/images/example.jpg\" alt=\"something\">\n<!-- ^^ This is wrong -->\nCopy\nTip\n\nTechnically, you can store images inside any directory under src. src/assets is just a recommendation.\n\nInside public/ directory#\n\nYou can store images inside the public/ directory. Keep in mind that images stored in public/ remain untouched by Astro, meaning they will be unoptimized and you need to handle image optimization yourself.\n\nFor these images, use an absolute path. They can be displayed using markdown image syntax or an HTML img tag.\n\nExample: assume example.jpg is located at public/assets/images/example.jpg.\n\n![something](/assets/images/example.jpg)\n\n<!-- OR -->\n\n<img src=\"/assets/images/example.jpg\" alt=\"something\">\nCopy\nBonus#\nImage compression#\nWarning\n\nWhen putting images in a blog post (especially those in the public/ directory), compress them first. Unoptimized images significantly hurt page performance.\n\nRecommended image compression sites:\n\nTinyPng\nTinyJPG\nOG Image#\n\nThe default OG image will be used if a post does not specify one. Though not required, an OG image relevant to the post should be specified in the frontmatter. The recommended size for OG images is 1200 X 640 px.\n\nTip\n\nSince AstroPaper v1.4.0, OG images are generated automatically if not specified. Check out the announcement.\n\nEdit page\nBack to top\ndocs\nShare this post:\nShare this post on Whatsapp\nShare this post on Facebook\nShare this post on X\nShare this post on Telegram\nShare this post on Pinterest\nShare this post via email\nPrevious Post\nDynamic OG image generation in AstroPaper blog posts\nAstroPaper on Github\nAstroPaper on X\nAstroPaper on Linkedin\nSend an email to AstroPaper\nCopyright © 2026\nAll rights reserved.",
+      "fonts": [
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "loaded"
+        }
+      ],
+      "width": 390,
+      "height": 12883,
+      "errors": []
+    },
+    {
+      "file": "mobile-dark-search-results.png",
+      "name": "search-results",
+      "route": "/search/?q=theme",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "theme": "dark",
+      "sha256": "45430707bee00bd45adbfad3f77663000e85a0356b5457fdbf7c2e8a394d3534",
+      "title": "Search | AstroPaper",
+      "text": "Skip to content\nAstroPaper\nHome\n»\nSearch\nSearch\n\nSearch any article ...\n\nClear\n\n13 results for theme\n\nCustomizing AstroPaper theme color schemes\n\nAstroPaper theme color schemes. Updated:17 May, 2026. |Edit page. This guide covers\n\nEnable/disable light & dark mode\n\ndark mode. AstroPaper theme includes light and dark mode by default. This\n\nCustomize color schemes\n\nAstroPaper theme are defined in src/styles/theme.css. /* Light theme values */ :root,\n\nHow to configure AstroPaper theme\n\nconfigure AstroPaper theme. Updated:3 Jun, 2026. |Edit page. This guide covers the\n\nConfiguring astro-paper.config.ts\n\nminimal, responsive and SEO-friendly Astro blog theme.\", author: \"Sat Naing\", profile: \"https://satnaing.dev\",\n\nCustomizing the font\n\nmapping in src/styles/theme.css: @theme inline { --font-app: var(--font-your-font); /* ... */ }src/styles/theme.css\n\nSee also\n\nAstroPaper theme color schemes — change or add color schemes via src/styles/theme.css.\n\nAdding new posts in AstroPaper theme\n\nposts in AstroPaper theme. Updated:3 Jun, 2026. |Edit page. This guide covers\n\nCallouts\n\nblockquote syntax powered by rehype-callouts (Obsidian theme). Here are the most commonly\n\nAdding table of contents\n\ncreating new posts in AstroPaper blog theme. ## Table of contents <!--\n\nSyntax Highlighting\n\n\"Table of contents\" }]], shikiConfig: { themes: { light: \"min-light\", dark: \"night-owl\"\n\nHow to integrate Giscus comments into AstroPaper\n\nTable of contents\n\nscript tag. React component with light/dark theme.\n\nSimple script tag\n\nHERE]\" data-mapping=\"pathname\" data-strict=\"0\" data-reactions-enabled=\"1\" data-emit-metadata=\"0\" data-input-position=\"bottom\" data-theme=\"preferred_color_scheme\" data-lang=\"en\" crossorigin=\"anonymous\" async ></script> Simply\n\nReact component with light/dark theme\n\nwith light/dark theme. The embedded script tag in the layout is quite\n\nHow Do I Develop My Terminal Portfolio Website with React\n\nof the project. Multiple Themes. Users can change multiple themes. At the\n\nTable of contents\n\ncontents Intro. Tech Stack. Features Multiple Themes. Command-line Completion. Previous Commands. View/Clear\n\nTech Stack\n\nContextAPI in this project for multiple theming and to avoid prop drilling.\n\nMultiple Themes\n\nMultiple Themes. Users can change multiple themes. At the time of writing\n\nLoad more results\nAstroPaper on Github\nAstroPaper on X\nAstroPaper on Linkedin\nSend an email to AstroPaper\nCopyright © 2026\nAll rights reserved.",
+      "fonts": [
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "loaded"
+        }
+      ],
+      "width": 390,
+      "height": 2463,
+      "errors": []
+    },
+    {
+      "file": "mobile-dark-mobile-menu.png",
+      "name": "mobile-menu",
+      "route": "/",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "theme": "dark",
+      "sha256": "8ea9226acc537a9bda983b1f78d45e1719ce1b1e00ddb50709196883115dd53c",
+      "title": "AstroPaper",
+      "text": "Skip to content\nAstroPaper\nPosts\nTags\nAbout\nArchives\nSearch\nMingalaba\nRSS Feed\n\nAstroPaper is a minimal, responsive, accessible and SEO-friendly Astro blog theme. This theme follows best practices and provides accessibility out of the box. Light and dark mode are supported by default. Moreover, additional color schemes can also be configured.\n\nRead the blog posts or check README for more info.\n\nSocial Links:\nAstroPaper on Github\nAstroPaper on X\nAstroPaper on Linkedin\nSend an email to AstroPaper\nFeatured\nAdding new posts in AstroPaper theme\nUpdated:\n3 Jun, 2026\n\nSome rules & recommendations for creating or adding new posts using AstroPaper theme.\n\nHow to configure AstroPaper theme\nUpdated:\n3 Jun, 2026\n\nHow you can make AstroPaper theme absolutely yours.\n\nAstroPaper 6.0\n17 May, 2026\n\nAstroPaper v6: a from-scratch rewrite on Astro v6, Tailwind v4, and a new config system.\n\nRecent Posts\nDynamic OG image generation in AstroPaper blog posts\nUpdated:\n3 Jun, 2026\n\nNew feature in AstroPaper v1.4.0, introducing dynamic OG image generation for blog posts.\n\nCustomizing AstroPaper theme color schemes\nUpdated:\n17 May, 2026\n\nHow you can enable/disable light & dark mode; and customize color schemes of AstroPaper theme.\n\nPredefined color schemes\nUpdated:\n16 May, 2026\n\nSome of the well-crafted, updated predefined color schemes for AstroPaper.\n\nHow to add LaTeX Equations in Astro blog posts\nUpdated:\n22 Mar, 2025\n\nLearn how to add LaTeX equations in Astro blog posts using Markdown, KaTeX, and remark/rehype plugins.\n\nAll Posts\nAstroPaper on Github\nAstroPaper on X\nAstroPaper on Linkedin\nSend an email to AstroPaper\nCopyright © 2026\nAll rights reserved.",
+      "fonts": [
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "unloaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "loaded"
+        },
+        {
+          "family": "Google Sans Code-1a30c214885cb404 fallback: Courier New",
+          "status": "loaded"
+        }
+      ],
+      "width": 390,
+      "height": 2452,
+      "errors": []
+    }
+  ]
+}

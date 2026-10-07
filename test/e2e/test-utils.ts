@@ -23,9 +23,10 @@ export const test = base.extend<{ hydrationErrors: string[] }>({
         if (HYDRATION_PATTERN.test(text)) errors.push(text);
       });
       page.on("pageerror", (err) => {
-        if (HYDRATION_PATTERN.test(err.message)) errors.push(err.message);
+        errors.push(err.message);
       });
       await use(errors);
+      expect(errors, "No hydration or runtime errors").toEqual([]);
     },
     { auto: true },
   ],

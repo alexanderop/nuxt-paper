@@ -4,7 +4,7 @@
  * DOM-based because the images come from rendered markdown, not Vue.
  * Binds to `#article img` (skipping images already inside an `<a>`), opens an
  * `role="dialog" aria-modal="true"` overlay, and supports zoom up to 4x,
- * mouse-drag pan, pinch-to-zoom, double-tap zoom, Escape to close, a Tab focus
+ * touch panning, pinch-to-zoom, double-tap zoom, Escape to close, a Tab focus
  * trap, focus restoration to the trigger, and `prefers-reduced-motion`.
  */
 const prefersReducedMotion = () =>
@@ -20,7 +20,7 @@ export function useImageLightbox() {
 
     // Defer attribute mutations so they don't push the LCP timestamp.
     // Event listeners below use delegation and don't need the attributes yet.
-    requestAnimationFrame(() => {
+    const prepareImages = () => {
       const images = Array.from(article.querySelectorAll("img"));
       for (const image of images) {
         if (image.closest("a")) continue;
@@ -32,7 +32,10 @@ export function useImageLightbox() {
           image.alt ? `Zoom image: ${image.alt}` : "Zoom image"
         );
       }
-    });
+    };
+    const frame = requestAnimationFrame(prepareImages);
+    const observer = new MutationObserver(prepareImages);
+    observer.observe(article, { childList: true, subtree: true });
 
     function open(src: string, alt: string, trigger: HTMLElement) {
       if (overlay) return;
@@ -267,6 +270,8 @@ export function useImageLightbox() {
     article.addEventListener("keydown", onArticleKeyDown);
 
     onUnmounted(() => {
+      cancelAnimationFrame(frame);
+      observer.disconnect();
       close();
       article.removeEventListener("click", onArticleClick);
       article.removeEventListener("keydown", onArticleKeyDown);

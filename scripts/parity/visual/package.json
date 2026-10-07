@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "pixelmatch": "^8.0.0",
+    "playwright": "^1.63.0",
+    "pngjs": "^7.0.0"
+  },
+  "name": "nuxt-paper-visual-verification",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@10.28.2"
+}

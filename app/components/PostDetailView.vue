@@ -2,12 +2,13 @@
 import type { Ref } from "vue";
 
 const props = defineProps<{ path: string }>();
+provide("articleHeadingLinks", true);
 
 const { data } = await useAsyncData(`post-${props.path}`, () =>
   queryCollection("posts").path(props.path).first()
 );
 
-if (!data.value || !postFilter(data.value)) {
+if (!data.value || !postFilter(data.value, useRuntimeConfig().public.publication)) {
   throw createError({ statusCode: 404, statusMessage: "Page Not Found" });
 }
 
@@ -32,9 +33,10 @@ useImageLightbox();
 
   <main
     id="main-content"
+    data-pagefind-body
     :class="['app-layout', { 'mt-8': !FEATURES.showBackButton }]"
   >
-    <h1 class="text-accent inline-block text-2xl font-bold sm:text-3xl">
+    <h1 :style="{ viewTransitionName: toTransitionName(post.path) }" class="text-accent inline-block text-2xl font-bold sm:text-3xl">
       {{ post.title }}
     </h1>
 
@@ -46,10 +48,7 @@ useImageLightbox();
           'text-muted-foreground max-sm:hidden',
           { hidden: !FEATURES.editPost.enabled || post.hideEditPost },
         ]"
-      >
-        |
-      </span>
-      <PostEditLink :post="post" class="max-sm:hidden" />
+      >|</span><PostEditLink :post="post" class="max-sm:hidden" />
     </div>
 
     <article id="article" class="app-prose max-w-app mt-8 w-full">
@@ -76,7 +75,7 @@ useImageLightbox();
 
     <hr class="my-8 border-dashed" />
 
-    <PostAdjacentNav :prev-post="prevPost" :next-post="nextPost" />
+    <PostAdjacentNav data-pagefind-ignore :prev-post="prevPost" :next-post="nextPost" />
 
     <template v-if="FEATURES.giscus">
       <hr class="my-8 border-dashed" />

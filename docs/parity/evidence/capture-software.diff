@@ -1,0 +1,11 @@
+--- visual/capture.mjs
++++ visual-stability/capture-software.mjs
+@@ -12,7 +12,7 @@
+ ];
+ const viewports = { desktop: { width: 1280, height: 900 }, mobile: { width: 390, height: 844 } };
+ await mkdir(output, { recursive: true });
+-const browser = await chromium.launch({ channel: 'chrome', headless: true });
++const browser = await chromium.launch({ channel: 'chrome', headless: true, args: ['--disable-gpu'] });
+ const manifest = { baseURL, revision, capturedAt: new Date().toISOString(), browser: browser.version(), settings: { deviceScaleFactor: 1, locale: 'en-US', timezoneId: 'Europe/Berlin', animations: 'disabled', fullPage: true, clock: 'real', masks: [] }, captures: [] };
+ try {
+   for (const [viewportName, viewport] of Object.entries(viewports)) {

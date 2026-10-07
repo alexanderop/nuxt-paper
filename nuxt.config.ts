@@ -1,9 +1,22 @@
+import { createHash } from "node:crypto";
+import { existsSync, readFileSync } from "node:fs";
+import { resolve } from "node:path";
+import { fileURLToPath } from "node:url";
 import tailwindcss from "@tailwindcss/vite";
 import { joinURL } from "ufo";
-import { SITE } from "./shared/utils/site";
+import { publicationContext } from "./build/content-source";
+import { postPath } from "./shared/utils/publication";
+import { SITE, FEATURES } from "./shared/utils/site";
 
-// e.g. "/nuxt-paper/" when deploying to GitHub Pages project sites
+const rendererVersion = createHash("sha256")
+  .update(readFileSync(new URL("./app/mdc.config.ts", import.meta.url)))
+  .update(readFileSync(new URL("./build/rehype-svg.mjs", import.meta.url)))
+  .digest("hex");
 const baseURL = process.env.NUXT_APP_BASE_URL || "/";
+const defaultOgImage = /^https?:\/\//.test(SITE.ogImage) || existsSync(resolve("public", SITE.ogImage.replace(/^\/+/, ""))) ? SITE.ogImage : "";
+if (!FEATURES.dynamicOgImage && !defaultOgImage) {
+  throw new Error("Set SITE.ogImage to an existing public image or enable FEATURES.dynamicOgImage.");
+}
 
 // Inline FOUC-prevention script: sets data-theme on <html> before the
 // browser paints. Mirrors AstroPaper's inline theme script.
@@ -19,6 +32,17 @@ const themeInitScript = `
 `;
 
 export default defineNuxtConfig({
+  runtimeConfig: { public: { publication: publicationContext, defaultOgImage } },
+  hooks: {
+    "content:file:afterParse"({ file, content, collection }) {
+      if (collection.name !== "posts") return;
+      const sourcePath = file.id.replace(/^posts\//, "");
+      content.sourcePath = sourcePath;
+      content.pubDatetime = new Date(content.pubDatetime as string | Date).toISOString();
+      if (content.modDatetime) content.modDatetime = new Date(content.modDatetime as string | Date).toISOString();
+      content.path = postPath(sourcePath, typeof content.slug === "string" ? content.slug : undefined);
+    },
+  },
   compatibilityDate: "2026-06-10",
   devtools: { enabled: true },
   modules: ["@nuxt/content", "@nuxt/fonts", "nuxt-og-image"],
@@ -26,17 +50,20 @@ export default defineNuxtConfig({
   // Used by nuxt-og-image to build absolute og:image URLs.
   // The GitHub Pages subpath comes from NUXT_APP_BASE_URL at build time.
   site: {
-    url: "https://alexanderop.github.io",
-    name: "NuxtPaper",
+    url: new URL(SITE.url).origin,
+    name: SITE.title,
   },
 
   ogImage: {
     // Static site: generate all images at build time, ship no runtime endpoints.
     // Fonts are extracted automatically from @nuxt/fonts.
     zeroRuntime: true,
+    defaults: { width: 1200, height: 630 },
   },
 
-  css: ["~/assets/css/global.css", "katex/dist/katex.min.css"],
+  css: ["@pagefind/default-ui/css/ui.css", "~/assets/css/fonts.css", "~/assets/css/global.css", "katex/dist/katex.min.css"],
+
+  postcss: { plugins: { cssnano: false } },
 
   vite: {
     plugins: [tailwindcss()],
@@ -68,7 +95,7 @@ export default defineNuxtConfig({
         {
           rel: "alternate",
           type: "application/rss+xml",
-          title: "NuxtPaper",
+          title: SITE.title,
           href: joinURL(baseURL, "rss.xml"),
         },
       ],
@@ -78,15 +105,14 @@ export default defineNuxtConfig({
   },
 
   fonts: {
-    families: [
-      {
-        name: "Google Sans Code",
-        provider: "google",
-        weights: [300, 400, 500, 600, 700],
-        styles: ["normal", "italic"],
-        global: true,
-      },
-    ],
+    families: [{ name: "Google Sans Code", provider: "none" }, ...[400, 700].map(weight => ({
+      name: "Google Sans Code OG",
+      src: `/fonts/google-sans-code-${weight}-normal.ttf`,
+      weight,
+      style: "normal" as const,
+      global: true,
+      fallbacks: [],
+    }))],
   },
 
   content: {
@@ -94,12 +120,15 @@ export default defineNuxtConfig({
       markdown: {
         remarkPlugins: {
           "remark-toc": {},
+          "remark-smartypants": {},
           "remark-math": {},
           "remark-collapse": { options: { test: "Table of contents" } },
         },
         rehypePlugins: {
           "rehype-callouts": { options: { theme: "obsidian" } },
           "rehype-katex": {},
+          // Content hashes plugin options, but not the custom transformer files.
+          [fileURLToPath(new URL("./build/rehype-svg.mjs", import.meta.url))]: { options: { rendererVersion } },
         },
         highlight: {
           theme: {
@@ -113,7 +142,7 @@ export default defineNuxtConfig({
 
   nitro: {
     prerender: {
-      routes: ["/rss.xml", "/sitemap.xml"],
+      routes: ["/rss.xml", "/sitemap.xml", "/robots.txt"],
     },
   },
 });
