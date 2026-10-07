@@ -6,6 +6,16 @@ export default defineConfig({
     transformers: [
       transformerNotationWordHighlight(),
       {
+        name: "paper:readable-colors",
+        preprocess(_code, options) {
+          options.colorReplacements = {
+            ...options.colorReplacements,
+            "#c2c3c5": "#59616e",
+            "#637777": "#8b9b9b",
+          };
+        },
+      },
+      {
         name: "paper:code-lines",
         code(node) {
           node.children = node.children.map(child =>
