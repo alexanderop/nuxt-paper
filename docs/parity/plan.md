@@ -14,8 +14,8 @@
 - [x] Smallest safe decomposition. One app owner keeps shared markup and content coherent.
 - [x] Verify static output, behavior, accessibility, and pixel diffs; repair defects.
 - [x] Independent review, no-comments, available deslop equivalent, and audit review.
-- [ ] Preserve existing public alexanderop/nuxt-paper; publish verified changes and inspect CI.
+- [x] Preserve existing public alexanderop/nuxt-paper; publish verified changes and inspect CI.
 - [x] Phase D: Keep the audit trail
-- [ ] Phase E: Verify and hand back
+- [x] Phase E: Verify and hand back
 
-The selected architecture held through verification; no architecture reset was required. Browser parity passed all 34 states with zero changed bytes. Final CI and deployment remain shipping gates.
+The selected architecture held through verification; no architecture reset was required. Browser parity passed all 34 states with zero changed bytes. PR #14 passed CI and independent review, merged, and deployed successfully. Actual Chrome live-site smoke passed; delivery evidence is in verification.md.
