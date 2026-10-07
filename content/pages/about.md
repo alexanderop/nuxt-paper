@@ -1,37 +1,27 @@
 ---
 title: "About"
-description: "A bit about me and this blog."
+description: "About NuxtPaper, a port of AstroPaper to Nuxt 4 and Nuxt Content 3."
 ---
 
-AstroPaper is a minimal, accessible and SEO-friendly blog theme built with [Astro](https://astro.build/) and [Tailwind CSS](https://tailwindcss.com/).
+NuxtPaper is a blog theme built with Nuxt 4, Nuxt Content 3, and Tailwind CSS. It ports [AstroPaper](https://github.com/satnaing/astro-paper), the original Astro theme by [Sat Naing](https://satna.ing), to Nuxt.
 
-![Astro Paper](/images/astropaper-og.jpg)
-
-AstroPaper provides a solid foundation for blogs, or even portfolios\_ with full markdown support, built-in dark mode, and a clean layout that works out-of-the-box.
-
-The blog posts in this theme also serve as guides, docs or example articles\_ making AstroPaper a flexible starting point for your next content-driven site.
+Nuxt Content renders the Markdown posts. The theme includes light and dark modes, tag and archive pages, and static search with [Pagefind](https://pagefind.app/).
 
 ## Features
 
-AstroPaper comes with a set of useful features that make content publishing easy and effective:
+NuxtPaper includes these publishing tools:
 
-- SEO-friendly
-- Fast performance
-- Light & dark mode
-- Highly customizable
-- Organizable blog posts
-- Responsive & accessible
-- Static search with [PageFind](https://pagefind.app/)
+- Markdown posts with syntax highlighting
+- Light and dark modes
+- Tags and date-based archives
+- Static search with Pagefind
+- RSS feeds and SEO metadata
 - Automatic social image generation
 
-and so much more.
+## Contribute
 
-## Show your support
+Visit the [NuxtPaper repository](https://github.com/alexanderop/nuxt-paper) for the source code. To report a bug in this port, open an [issue](https://github.com/alexanderop/nuxt-paper/issues). You can also submit a [pull request](https://github.com/alexanderop/nuxt-paper/pulls).
 
-If you like [AstroPaper](https://github.com/satnaing/astro-paper), consider giving it a star ⭐️.
+## Credits
 
-Found a bug 🐛 or have an improvement ✨ in mind? Feel free to open an [issue](https://github.com/satnaing/astro-paper/issues), submit a [pull request](https://github.com/satnaing/astro-paper/pulls) or start a [discussion](https://github.com/satnaing/astro-paper/discussions).
-
-If you find this theme helpful, you can also [sponsor me on GitHub](https://github.com/sponsors/satnaing) or [buy me a coffee](https://buymeacoffee.com/satnaing) to show your support — every penny counts.
-
-Kyay zuu! 🙏🏼
+NuxtPaper preserves the design of [AstroPaper](https://github.com/satnaing/astro-paper). Credit for the original theme belongs to Sat Naing and the AstroPaper contributors.

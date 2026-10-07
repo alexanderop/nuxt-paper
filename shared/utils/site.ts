@@ -60,10 +60,7 @@ export interface SocialLink {
 }
 
 export const SOCIALS: SocialLink[] = [
-  { name: "github", url: "https://github.com/satnaing/astro-paper" },
-  { name: "x", url: "https://x.com/username" },
-  { name: "linkedin", url: "https://www.linkedin.com/in/username/" },
-  { name: "mail", url: "mailto:yourmail@gmail.com" },
+  { name: "github", url: "https://github.com/alexanderop/nuxt-paper" },
 ];
 
 export const SHARE_LINKS: SocialLink[] = [

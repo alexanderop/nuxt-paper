@@ -15,22 +15,22 @@ defineProps<{
     <NuxtLink
       v-if="prevPost"
       :to="prevPost.path"
-      class="flex w-full gap-1 hover:opacity-75"
+      class="flex w-full gap-1 hover:underline"
     >
       <IconArrowLeft class="inline-block flex-none rtl:rotate-180" />
       <div>
         <span>{{ t.post.previousPost }}</span>
-        <div class="text-accent/85 text-sm">{{ prevPost.title }}</div>
+        <div class="text-accent text-sm">{{ prevPost.title }}</div>
       </div>
     </NuxtLink>
     <NuxtLink
       v-if="nextPost"
       :to="nextPost.path"
-      class="flex w-full justify-end gap-1 text-end hover:opacity-75 sm:col-start-2"
+      class="flex w-full justify-end gap-1 text-end hover:underline sm:col-start-2"
     >
       <div>
         <span>{{ t.post.nextPost }}</span>
-        <div class="text-accent/85 text-sm">{{ nextPost.title }}</div>
+        <div class="text-accent text-sm">{{ nextPost.title }}</div>
       </div>
       <IconArrowRight class="inline-block flex-none rtl:rotate-180" />
     </NuxtLink>

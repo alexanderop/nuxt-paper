@@ -132,3 +132,11 @@ html .app-prose pre.shiki code span {
   font-weight: inherit !important;
   text-decoration: none !important;
 }
+
+html .app-prose .callout {
+  mix-blend-mode: normal;
+}
+
+html .app-prose .callout-title-text {
+  color: var(--color-foreground);
+}
